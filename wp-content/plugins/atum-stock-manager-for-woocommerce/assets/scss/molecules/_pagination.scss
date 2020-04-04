@@ -1,0 +1,113 @@
+//
+// Pagination
+//-------------
+
+.atum-list-wrapper, #posts-filter {
+	
+	.displaying-num {
+		color: var(--atum-text-color-var1);
+	}
+	
+	.pagination-links {
+		color: var(--atum-text-color-var1);
+		
+		.tablenav-pages-navspan, .tablenav-current-page, #current-page-selector {
+			border-radius: 5px;
+			border: none;
+			color: var(--atum-pagination-text);
+			padding: 0;
+			width: 30px;
+			height: 30px;
+			line-height: 27px;
+			text-decoration: none;
+			
+			@include tablet-max-wp {
+				width: 35px;
+				height: 35px;
+			}
+		}
+		
+		a {
+			box-shadow: none;
+			line-height: 27px !important;
+		}
+		
+		#current-page-selector {
+			border: 1px solid var(--main-border);
+			vertical-align: 0;
+			background-color: var(--main-border);
+			box-shadow: none;
+			
+			&:focus {
+				outline: 0;
+				box-shadow: none;
+			}
+			
+			@include tablet-max-wp {
+				font-size: 13px;
+			}
+		}
+		
+		.tablenav-pages-navspan {
+			background-color: var(--atum-table-bg2);
+			border: 1px solid var(--atum-pagination-border-disabled);
+			color: var(--atum-pagination-disabled);
+		}
+		
+		.tablenav-current-page {
+			background-color: var(--atum-pagination-bg);
+			padding: 8px 12px 6px;
+			
+			@include tablet-max-wp {
+				padding: 8px 15px 11px;
+			}
+		}
+		
+		.paging-input, .table-paging {
+			width: 30px;
+			height: 30px;
+			line-height: 30px;
+			
+			@include tablet-max-wp {
+				margin: 0;
+			}
+		}
+		
+		@include tablet-max-wp {
+			font-size: 13px;
+		}
+		
+		.tablenav-paging-text {
+			@include mobile-max{
+				width: auto;
+				float: none;
+				padding: 0;
+				margin-left: auto;
+			}
+		}
+	}
+	
+	.tablenav-pages {
+		a {
+			border-radius: 5px;
+			color: var(--atum-pagination-text);
+			padding: 0;
+			line-height: 30px;
+			width: 30px;
+			height: 30px;
+			text-decoration: none;
+			background-color: var(--atum-pagination-bg);
+			
+			&:hover, &:focus {
+				background-color: var(--atum-pagination-bg);
+				color: var(--gray-500);
+			}
+			
+			@include tablet-max-wp{
+				width: 35px;
+				height: 35px;
+			}
+		}
+		
+	}
+}

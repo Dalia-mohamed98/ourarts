@@ -1,0 +1,281 @@
+2019/11/01 08:45:59|INFO|3.0.6|BG: Enabled|#13119|reprint order
+2019/11/01 08:45:59|INFO|3.0.6|BG: Enabled|#13119|init print
+2019/11/01 08:46:01|INFO|3.0.6|BG: Enabled|#13119|print
+2019/11/01 08:46:01|INFO|3.0.6|BG: Enabled|#13119|raw print
+2019/11/01 08:46:03|INFO|3.0.6|BG: Enabled|Order 13119|DONE|c6c0a8ca-772d-88a6-7220-fa21bfe75150
+2019/11/02 04:04:10|INFO|3.0.6|BG: Enabled|#13451|reprint order
+2019/11/02 04:04:10|INFO|3.0.6|BG: Enabled|#13451|init print
+2019/11/02 04:04:12|INFO|3.0.6|BG: Enabled|#13451|print
+2019/11/02 04:04:12|INFO|3.0.6|BG: Enabled|#13451|raw print
+2019/11/02 04:04:14|INFO|3.0.6|BG: Enabled|Order 13451|DONE|eab91d1a-b7c7-1d9f-dac1-f19af9394095
+2019/11/03 10:12:16|INFO|3.0.6|BG: Enabled|#13451|reprint order
+2019/11/03 10:12:16|INFO|3.0.6|BG: Enabled|#13451|init print
+2019/11/03 10:12:18|INFO|3.0.6|BG: Enabled|#13451|print
+2019/11/03 10:12:18|INFO|3.0.6|BG: Enabled|#13451|raw print
+2019/11/03 10:12:20|INFO|3.0.6|BG: Enabled|Order 13451|QUEUED|42dcae60-bbc4-93d9-e8d6-ee18abea2a74
+2019/11/03 10:13:05|INFO|3.0.6|BG: Enabled|#13404|reprint order
+2019/11/03 10:13:05|INFO|3.0.6|BG: Enabled|#13404|init print
+2019/11/03 10:13:06|INFO|3.0.6|BG: Enabled|#13404|print
+2019/11/03 10:13:06|INFO|3.0.6|BG: Enabled|#13404|raw print
+2019/11/03 10:13:08|INFO|3.0.6|BG: Enabled|Order 13404|QUEUED|6dab5de3-f98d-9d83-ca2c-916226100788
+2019/11/06 12:38:59|INFO|3.0.6|BG: Enabled|#13453|reprint order
+2019/11/06 12:38:59|INFO|3.0.6|BG: Enabled|#13453|init print
+2019/11/06 12:39:01|INFO|3.0.6|BG: Enabled|#13453|print
+2019/11/06 12:39:01|INFO|3.0.6|BG: Enabled|#13453|raw print
+2019/11/06 12:39:02|INFO|3.0.6|BG: Enabled|Order 13453|QUEUED|45076cf5-e8d9-f663-9f7f-c29f0d9a6ec2
+2019/11/06 12:49:39|INFO|3.0.6|BG: Enabled|#13453|reprint order
+2019/11/06 12:49:39|INFO|3.0.6|BG: Enabled|#13453|init print
+2019/11/06 12:49:41|INFO|3.0.6|BG: Enabled|#13453|print
+2019/11/06 12:49:41|INFO|3.0.6|BG: Enabled|#13453|raw print
+2019/11/06 12:49:42|INFO|3.0.6|BG: Enabled|Order 13453|QUEUED|d1f4365f-1ce6-34dd-6c2b-b7185943b0c0
+2019/11/07 12:26:01|INFO|3.0.6|BG: Enabled|#13925|reprint order
+2019/11/07 12:26:01|INFO|3.0.6|BG: Enabled|#13925|init print
+2019/11/07 12:26:03|INFO|3.0.6|BG: Enabled|#13925|print
+2019/11/07 12:26:03|INFO|3.0.6|BG: Enabled|#13925|raw print
+2019/11/07 12:26:04|INFO|3.0.6|BG: Enabled|Order 13925|QUEUED|9d289935-d73b-54da-166d-788c495e0d63
+2019/11/09 01:23:09|INFO|3.0.6|BG: Enabled|#14147|reprint order
+2019/11/09 01:23:09|INFO|3.0.6|BG: Enabled|#14147|init print
+2019/11/09 01:23:12|INFO|3.0.6|BG: Enabled|#14147|print
+2019/11/09 01:23:12|INFO|3.0.6|BG: Enabled|#14147|raw print
+2019/11/09 01:23:13|INFO|3.0.6|BG: Enabled|Order 14147|QUEUED|9a650566-d028-ae96-06c1-7a4e3ec7f568
+2019/11/09 01:23:16|INFO|3.0.6|BG: Enabled|#14147|reprint order
+2019/11/09 01:23:16|INFO|3.0.6|BG: Enabled|#14147|init print
+2019/11/09 01:23:18|INFO|3.0.6|BG: Enabled|#14147|print
+2019/11/09 01:23:18|INFO|3.0.6|BG: Enabled|#14147|raw print
+2019/11/09 01:23:21|INFO|3.0.6|BG: Enabled|Order 14147|QUEUED|a0598d3e-db2a-87f8-3aea-2ff43de4843b
+2019/11/09 01:29:50|INFO|3.0.6|BG: Enabled|#14147|reprint order
+2019/11/09 01:29:50|INFO|3.0.6|BG: Enabled|#14147|init print
+2019/11/09 01:29:53|INFO|3.0.6|BG: Enabled|#14147|print
+2019/11/09 01:29:53|INFO|3.0.6|BG: Enabled|#14147|raw print
+2019/11/09 01:29:55|INFO|3.0.6|BG: Enabled|Order 14147|DONE|ef3f2227-0338-8f6b-e337-e4155bb968f8
+2019/11/12 03:08:41|INFO|3.0.6|BG: Enabled|#14795|reprint order
+2019/11/12 03:08:41|INFO|3.0.6|BG: Enabled|#14795|init print
+2019/11/12 03:08:45|INFO|3.0.6|BG: Enabled|#14795|print
+2019/11/12 03:08:45|INFO|3.0.6|BG: Enabled|#14795|raw print
+2019/11/12 03:08:49|INFO|3.0.6|BG: Enabled|Order 14795|QUEUED|934243c4-97af-666b-30cf-773dc2641d25
+2019/11/12 03:09:53|INFO|3.0.6|BG: Enabled|#14798|reprint order
+2019/11/12 03:09:53|INFO|3.0.6|BG: Enabled|#14798|init print
+2019/11/12 03:09:57|INFO|3.0.6|BG: Enabled|#14798|print
+2019/11/12 03:09:57|INFO|3.0.6|BG: Enabled|#14798|raw print
+2019/11/12 03:10:01|INFO|3.0.6|BG: Enabled|Order 14798|QUEUED|0da7f4fa-bb2d-8190-fe86-70ace1d3d356
+2019/11/12 03:11:01|INFO|3.0.6|BG: Enabled|#14801|reprint order
+2019/11/12 03:11:01|INFO|3.0.6|BG: Enabled|#14801|init print
+2019/11/12 03:11:04|INFO|3.0.6|BG: Enabled|#14801|print
+2019/11/12 03:11:04|INFO|3.0.6|BG: Enabled|#14801|raw print
+2019/11/12 03:11:10|INFO|3.0.6|BG: Enabled|Order 14801|QUEUED|d51e2335-db61-4385-41e8-1db84c828916
+2019/11/12 03:11:25|INFO|3.0.6|BG: Enabled|#14801|reprint order
+2019/11/12 03:11:25|INFO|3.0.6|BG: Enabled|#14801|init print
+2019/11/12 03:11:31|INFO|3.0.6|BG: Enabled|#14801|print
+2019/11/12 03:11:31|INFO|3.0.6|BG: Enabled|#14801|raw print
+2019/11/12 03:11:36|INFO|3.0.6|BG: Enabled|Order 14801|QUEUED|b3d60649-599a-bb67-5435-9944cf713870
+2019/11/12 03:26:17|INFO|3.0.6|BG: Enabled|#14792|reprint order
+2019/11/12 03:26:17|INFO|3.0.6|BG: Enabled|#14792|init print
+2019/11/12 03:26:20|INFO|3.0.6|BG: Enabled|#14792|print
+2019/11/12 03:26:20|INFO|3.0.6|BG: Enabled|#14792|raw print
+2019/11/12 03:26:23|INFO|3.0.6|BG: Enabled|Order 14792|QUEUED|e07f12d2-2a29-c6ca-06f5-33bba3eb7993
+2019/11/12 03:35:36|INFO|3.0.6|BG: Enabled|#14795|reprint order
+2019/11/12 03:35:36|INFO|3.0.6|BG: Enabled|#14795|init print
+2019/11/12 03:35:39|INFO|3.0.6|BG: Enabled|#14795|print
+2019/11/12 03:35:39|INFO|3.0.6|BG: Enabled|#14795|raw print
+2019/11/12 03:35:44|INFO|3.0.6|BG: Enabled|Order 14795|QUEUED|65da606f-3ee5-e0f6-dd9a-81afc23f3da5
+2019/11/12 04:09:24|INFO|3.0.6|BG: Enabled|#14795|reprint order
+2019/11/12 04:09:24|INFO|3.0.6|BG: Enabled|#14795|init print
+2019/11/12 04:09:27|INFO|3.0.6|BG: Enabled|#14795|print
+2019/11/12 04:09:27|INFO|3.0.6|BG: Enabled|#14795|raw print
+2019/11/12 04:09:30|INFO|3.0.6|BG: Enabled|Order 14795|QUEUED|8bf899dd-2d2c-d886-1f24-497df4a1004a
+2019/11/12 10:18:26|INFO|3.0.6|BG: Enabled|#14834|reprint order
+2019/11/12 10:18:26|INFO|3.0.6|BG: Enabled|#14834|init print
+2019/11/12 10:18:29|INFO|3.0.6|BG: Enabled|#14834|print
+2019/11/12 10:18:29|INFO|3.0.6|BG: Enabled|#14834|raw print
+2019/11/12 10:18:31|INFO|3.0.6|BG: Enabled|Order 14834|QUEUED|31c5f1b2-f2af-a571-882e-96b39f22268f
+2019/11/13 09:30:23|INFO|3.0.6|BG: Enabled|#14834|reprint order
+2019/11/13 09:30:23|INFO|3.0.6|BG: Enabled|#14834|init print
+2019/11/13 09:30:25|INFO|3.0.6|BG: Enabled|#14834|print
+2019/11/13 09:30:25|INFO|3.0.6|BG: Enabled|#14834|raw print
+2019/11/13 09:30:30|INFO|3.0.6|BG: Enabled|Order 14834|QUEUED|a159ac2d-3d2a-566d-268a-7d8dce8614d5
+2019/11/17 12:26:53|INFO|3.0.6|BG: Enabled|#15139|reprint order
+2019/11/17 12:26:53|INFO|3.0.6|BG: Enabled|#15139|init print
+2019/11/17 12:26:56|INFO|3.0.6|BG: Enabled|#15139|print
+2019/11/17 12:26:56|INFO|3.0.6|BG: Enabled|#15139|raw print
+2019/11/17 12:32:44|INFO|3.0.6|BG: Enabled|#15114|reprint order
+2019/11/17 12:32:44|INFO|3.0.6|BG: Enabled|#15114|init print
+2019/11/17 01:13:40|INFO|3.0.6|BG: Enabled|#15204|reprint order
+2019/11/17 01:13:41|INFO|3.0.6|BG: Enabled|#15204|init print
+2019/11/17 01:13:42|INFO|3.0.6|BG: Enabled|#15204|print
+2019/11/17 01:13:42|INFO|3.0.6|BG: Enabled|#15204|raw print
+2019/11/17 01:14:09|INFO|3.0.6|BG: Enabled|Order 15204|QUEUED|6fd0f6bd-0350-88e7-c1c5-a0b1375b14b3
+2019/11/17 04:38:02|INFO|3.0.6|BG: Enabled|#15204|reprint order
+2019/11/17 04:38:02|INFO|3.0.6|BG: Enabled|#15204|init print
+2019/11/17 04:38:04|INFO|3.0.6|BG: Enabled|#15204|print
+2019/11/17 04:38:04|INFO|3.0.6|BG: Enabled|#15204|raw print
+2019/11/17 04:38:07|INFO|3.0.6|BG: Enabled|Order 15204|QUEUED|f87c2c43-8410-f837-dc69-42a2ac3874c2
+2019/11/17 04:40:28|INFO|3.0.6|BG: Enabled|#15114|reprint order
+2019/11/17 04:40:28|INFO|3.0.6|BG: Enabled|#15114|init print
+2019/11/17 04:40:30|INFO|3.0.6|BG: Enabled|#15114|print
+2019/11/17 04:40:30|INFO|3.0.6|BG: Enabled|#15114|raw print
+2019/11/17 04:40:31|INFO|3.0.6|BG: Enabled|Order 15114|QUEUED|ae756a41-fe0f-e455-2779-8031e96a9665
+2019/11/17 05:08:13|INFO|3.0.6|BG: Enabled|#15226|reprint order
+2019/11/17 05:08:13|INFO|3.0.6|BG: Enabled|#15226|init print
+2019/11/17 05:08:15|INFO|3.0.6|BG: Enabled|#15226|print
+2019/11/17 05:08:15|INFO|3.0.6|BG: Enabled|#15226|raw print
+2019/11/17 05:08:16|INFO|3.0.6|BG: Enabled|Order 15226|QUEUED|fdc6f14a-9b29-da6c-3b06-96c55daaf8e9
+2019/11/17 09:09:33|INFO|3.0.6|BG: Enabled|#15220|reprint order
+2019/11/17 09:09:33|INFO|3.0.6|BG: Enabled|#15220|init print
+2019/11/17 09:09:35|INFO|3.0.6|BG: Enabled|#15220|print
+2019/11/17 09:09:35|INFO|3.0.6|BG: Enabled|#15220|raw print
+2019/11/17 09:09:36|INFO|3.0.6|BG: Enabled|Order 15220|QUEUED|4661f0f1-aa09-a931-1dd4-800e86263dd7
+2019/11/17 09:18:04|INFO|3.0.6|BG: Enabled|#15260|reprint order
+2019/11/17 09:18:04|INFO|3.0.6|BG: Enabled|#15260|init print
+2019/11/17 09:18:06|INFO|3.0.6|BG: Enabled|#15260|print
+2019/11/17 09:18:07|INFO|3.0.6|BG: Enabled|#15260|raw print
+2019/11/17 09:18:08|INFO|3.0.6|BG: Enabled|Order 15260|QUEUED|b29b3283-9aa9-2aea-0293-f45b511822b4
+2019/11/18 02:16:02|INFO|3.0.6|BG: Enabled|#15223|reprint order
+2019/11/18 02:16:02|INFO|3.0.6|BG: Enabled|#15223|init print
+2019/11/18 02:16:04|INFO|3.0.6|BG: Enabled|#15223|print
+2019/11/18 02:16:04|INFO|3.0.6|BG: Enabled|#15223|raw print
+2019/11/18 02:16:08|INFO|3.0.6|BG: Enabled|Order 15223|QUEUED|f8457a34-4c6e-fe36-5300-3e9881e4bd33
+2019/11/30 12:51:58|INFO|3.0.6|BG: Enabled|#16043|reprint order
+2019/11/30 12:51:58|INFO|3.0.6|BG: Enabled|#16043|init print
+2019/11/30 12:52:01|INFO|3.0.6|BG: Enabled|#16043|print
+2019/11/30 12:52:01|INFO|3.0.6|BG: Enabled|#16043|raw print
+2019/11/30 12:52:03|INFO|3.0.6|BG: Enabled|Order 16043|QUEUED|b651aa9b-3de7-3b84-e006-7b6b76bcceb8
+2019/12/12 01:13:16|INFO|3.0.6|BG: Enabled|#14795|reprint order
+2019/12/12 01:13:16|INFO|3.0.6|BG: Enabled|#14795|init print
+2019/12/12 01:13:20|INFO|3.0.6|BG: Enabled|#14795|print
+2019/12/12 01:13:20|INFO|3.0.6|BG: Enabled|#14795|raw print
+2019/12/12 01:13:28|INFO|3.0.6|BG: Enabled|Order 14795|DONE|422ebd05-ddd9-a9a6-1814-2cb879083afc
+2019/12/14 03:39:59|INFO|3.0.6|BG: Enabled|#16964|reprint order
+2019/12/14 03:39:59|INFO|3.0.6|BG: Enabled|#16964|init print
+2019/12/14 03:40:01|INFO|3.0.6|BG: Enabled|#16964|print
+2019/12/14 03:40:01|INFO|3.0.6|BG: Enabled|#16964|raw print
+2019/12/14 03:40:03|INFO|3.0.6|BG: Enabled|Order 16964|QUEUED|0a7e6cb0-a6c8-3657-af3f-0c9522aa094f
+2019/12/29 09:50:36|INFO|3.0.6|BG: Enabled|#18230|reprint order
+2019/12/29 09:50:36|INFO|3.0.6|BG: Enabled|#18230|init print
+2019/12/29 09:50:38|INFO|3.0.6|BG: Enabled|#18230|print
+2019/12/29 09:50:38|INFO|3.0.6|BG: Enabled|#18230|raw print
+2019/12/29 09:50:40|INFO|3.0.6|BG: Enabled|Order 18230|QUEUED|1f2f117a-11f2-c6ac-52f6-389f1019e1f8
+2019/12/31 09:13:58|INFO|3.0.6|BG: Enabled|#18979|reprint order
+2019/12/31 09:13:58|INFO|3.0.6|BG: Enabled|#18979|init print
+2019/12/31 09:14:01|INFO|3.0.6|BG: Enabled|#18979|print
+2019/12/31 09:14:01|INFO|3.0.6|BG: Enabled|#18979|raw print
+2019/12/31 09:14:03|INFO|3.0.6|BG: Enabled|Order 18979|QUEUED|64d406bb-5b15-5b02-0931-1c36dfc4c09b
+2019/12/31 09:14:42|INFO|3.0.6|BG: Enabled|#18981|reprint order
+2019/12/31 09:14:42|INFO|3.0.6|BG: Enabled|#18981|init print
+2019/12/31 09:14:44|INFO|3.0.6|BG: Enabled|#18981|print
+2019/12/31 09:14:44|INFO|3.0.6|BG: Enabled|#18981|raw print
+2019/12/31 09:14:45|INFO|3.0.6|BG: Enabled|Order 18981|QUEUED|a33ef367-010d-107a-6108-baec5ed12b68
+2019/12/31 09:15:36|INFO|3.0.6|BG: Enabled|#18983|reprint order
+2019/12/31 09:15:36|INFO|3.0.6|BG: Enabled|#18983|init print
+2019/12/31 09:15:39|INFO|3.0.6|BG: Enabled|#18983|print
+2019/12/31 09:15:39|INFO|3.0.6|BG: Enabled|#18983|raw print
+2019/12/31 09:15:41|INFO|3.0.6|BG: Enabled|Order 18983|QUEUED|95759600-a9f5-bf9c-72ba-58bb8d00ec35
+2019/12/31 03:19:18|INFO|3.0.6|BG: Enabled|#19038|reprint order
+2019/12/31 03:19:18|INFO|3.0.6|BG: Enabled|#19038|init print
+2019/12/31 03:19:21|INFO|3.0.6|BG: Enabled|#19038|print
+2019/12/31 03:19:21|INFO|3.0.6|BG: Enabled|#19038|raw print
+2019/12/31 03:19:22|INFO|3.0.6|BG: Enabled|Order 19038|QUEUED|1d630067-35f8-ea86-0e05-55c1a14e7e51
+2020/01/01 12:42:41|INFO|3.0.6|BG: Enabled|#18983|reprint order
+2020/01/01 12:42:41|INFO|3.0.6|BG: Enabled|#18983|init print
+2020/01/01 12:42:44|INFO|3.0.6|BG: Enabled|#18983|print
+2020/01/01 12:42:44|INFO|3.0.6|BG: Enabled|#18983|raw print
+2020/01/01 12:42:47|INFO|3.0.6|BG: Enabled|Order 18983|QUEUED|d5a79aa2-1c75-ab0a-4fab-0f978b7d3d15
+2020/01/01 12:43:04|INFO|3.0.6|BG: Enabled|#18983|reprint order
+2020/01/01 12:43:04|INFO|3.0.6|BG: Enabled|#18983|init print
+2020/01/01 12:43:09|INFO|3.0.6|BG: Enabled|#18983|print
+2020/01/01 12:43:09|INFO|3.0.6|BG: Enabled|#18983|raw print
+2020/01/01 12:43:11|INFO|3.0.6|BG: Enabled|Order 18983|QUEUED|102f7fb2-cfa7-853d-ce8c-b21668ce3980
+2020/01/01 12:43:29|INFO|3.0.6|BG: Enabled|#18983|reprint order
+2020/01/01 12:43:29|INFO|3.0.6|BG: Enabled|#18983|init print
+2020/01/01 12:43:32|INFO|3.0.6|BG: Enabled|#18983|print
+2020/01/01 12:43:32|INFO|3.0.6|BG: Enabled|#18983|raw print
+2020/01/01 12:43:34|INFO|3.0.6|BG: Enabled|Order 18983|QUEUED|3d63e0cc-e0f3-9a17-8d44-7d451a842b6f
+2020/01/01 12:43:35|INFO|3.0.6|BG: Enabled|#19038|reprint order
+2020/01/01 12:43:35|INFO|3.0.6|BG: Enabled|#19038|init print
+2020/01/01 12:43:37|INFO|3.0.6|BG: Enabled|#19038|print
+2020/01/01 12:43:37|INFO|3.0.6|BG: Enabled|#19038|raw print
+2020/01/01 12:43:39|INFO|3.0.6|BG: Enabled|Order 19038|QUEUED|814f9c30-64b6-8520-3c2c-b5307437fc10
+2020/01/01 12:44:29|INFO|3.0.6|BG: Enabled|#19038|reprint order
+2020/01/01 12:44:29|INFO|3.0.6|BG: Enabled|#19038|init print
+2020/01/01 12:44:31|INFO|3.0.6|BG: Enabled|#19038|print
+2020/01/01 12:44:31|INFO|3.0.6|BG: Enabled|#19038|raw print
+2020/01/01 12:44:33|INFO|3.0.6|BG: Enabled|Order 19038|QUEUED|e0a1e8d5-6303-3beb-cab1-995fbe6f3142
+2020/01/04 04:40:44|INFO|3.0.6|BG: Enabled|#19640|reprint order
+2020/01/04 04:40:44|INFO|3.0.6|BG: Enabled|#19640|init print
+2020/01/04 04:40:48|INFO|3.0.6|BG: Enabled|#19640|print
+2020/01/04 04:40:48|INFO|3.0.6|BG: Enabled|#19640|raw print
+2020/01/04 04:40:50|INFO|3.0.6|BG: Enabled|Order 19640|DONE|3bdaa178-8528-656e-7562-d5d2089eca9a
+2020/01/06 11:02:56|INFO|3.0.6|BG: Enabled|#19640|reprint order
+2020/01/06 11:02:56|INFO|3.0.6|BG: Enabled|#19640|init print
+2020/01/06 11:02:59|INFO|3.0.6|BG: Enabled|#19640|print
+2020/01/06 11:02:59|INFO|3.0.6|BG: Enabled|#19640|raw print
+2020/01/06 11:03:00|INFO|3.0.6|BG: Enabled|Order 19640|QUEUED|eef403b4-214b-c1e8-def8-e81287c413d6
+2020/01/06 11:07:04|INFO|3.0.6|BG: Enabled|#19650|reprint order
+2020/01/06 11:07:04|INFO|3.0.6|BG: Enabled|#19650|init print
+2020/01/06 11:07:07|INFO|3.0.6|BG: Enabled|#19650|print
+2020/01/06 11:07:07|INFO|3.0.6|BG: Enabled|#19650|raw print
+2020/01/06 11:07:08|INFO|3.0.6|BG: Enabled|Order 19650|QUEUED|bd566cfa-ab65-57ee-9cbf-8ad4231763b1
+2020/01/07 06:38:11|INFO|3.0.6|BG: Enabled|#19871|reprint order
+2020/01/07 06:38:11|INFO|3.0.6|BG: Enabled|#19871|init print
+2020/01/07 06:38:15|INFO|3.0.6|BG: Enabled|#19871|print
+2020/01/07 06:38:15|INFO|3.0.6|BG: Enabled|#19871|raw print
+2020/01/07 06:38:18|INFO|3.0.6|BG: Enabled|Order 19871|DONE|d04c7051-35b0-39bd-910b-d28587412fba
+2020/01/10 03:07:26|INFO|3.0.6|BG: Enabled|#22978|reprint order
+2020/01/10 03:07:26|INFO|3.0.6|BG: Enabled|#22978|init print
+2020/01/10 03:07:28|INFO|3.0.6|BG: Enabled|#22978|print
+2020/01/10 03:07:28|INFO|3.0.6|BG: Enabled|#22978|raw print
+2020/01/10 03:07:30|INFO|3.0.6|BG: Enabled|Order 22978|DONE|20961c6c-64ba-2691-3aa0-f5a87f9ec4a0
+2020/01/10 03:08:34|INFO|3.0.6|BG: Enabled|#22846|reprint order
+2020/01/10 03:08:34|INFO|3.0.6|BG: Enabled|#22846|init print
+2020/01/10 03:08:36|INFO|3.0.6|BG: Enabled|#22846|print
+2020/01/10 03:08:36|INFO|3.0.6|BG: Enabled|#22846|raw print
+2020/01/10 03:08:38|INFO|3.0.6|BG: Enabled|Order 22846|DONE|d07a5e2d-1bbd-5318-2475-b547c688e2e4
+2020/01/11 07:27:18|INFO|3.0.6|BG: Enabled|#19871|reprint order
+2020/01/11 07:27:18|INFO|3.0.6|BG: Enabled|#19871|init print
+2020/01/11 07:27:20|INFO|3.0.6|BG: Enabled|#19871|print
+2020/01/11 07:27:20|INFO|3.0.6|BG: Enabled|#19871|raw print
+2020/01/11 07:27:21|INFO|3.0.6|BG: Enabled|Order 19871|QUEUED|051433fe-2694-472f-fb51-d7589f3eb418
+2020/01/12 12:12:58|INFO|3.0.6|BG: Enabled|#23189|reprint order
+2020/01/12 12:12:58|INFO|3.0.6|BG: Enabled|#23189|init print
+2020/01/12 12:13:00|INFO|3.0.6|BG: Enabled|#23189|print
+2020/01/12 12:13:00|INFO|3.0.6|BG: Enabled|#23189|raw print
+2020/01/12 12:13:01|INFO|3.0.6|BG: Enabled|Order 23189|QUEUED|5aefe10b-3a1f-12ea-e6c6-2b7954958a81
+2020/01/12 12:13:28|INFO|3.0.6|BG: Enabled|#22982|reprint order
+2020/01/12 12:13:28|INFO|3.0.6|BG: Enabled|#22982|init print
+2020/01/12 12:13:30|INFO|3.0.6|BG: Enabled|#22982|print
+2020/01/12 12:13:30|INFO|3.0.6|BG: Enabled|#22982|raw print
+2020/01/12 12:13:31|INFO|3.0.6|BG: Enabled|Order 22982|QUEUED|166e87f2-a2c5-86c0-b869-93c2178ee61d
+2020/01/13 12:37:06|INFO|3.0.6|BG: Enabled|#23284|reprint order
+2020/01/13 12:37:06|INFO|3.0.6|BG: Enabled|#23284|init print
+2020/01/13 12:37:07|INFO|3.0.6|BG: Enabled|#23284|print
+2020/01/13 12:37:07|INFO|3.0.6|BG: Enabled|#23284|raw print
+2020/01/13 12:37:09|INFO|3.0.6|BG: Enabled|Order 23284|DONE|f46aec38-c8cc-be76-ed8c-9b970ff2434c
+2020/01/13 12:51:33|INFO|3.0.6|BG: Enabled|#23285|reprint order
+2020/01/13 12:51:33|INFO|3.0.6|BG: Enabled|#23285|init print
+2020/01/13 12:51:35|INFO|3.0.6|BG: Enabled|#23285|print
+2020/01/13 12:51:35|INFO|3.0.6|BG: Enabled|#23285|raw print
+2020/01/13 12:51:37|INFO|3.0.6|BG: Enabled|Order 23285|QUEUED|2c513f25-5f0c-2108-2be0-64c1824245c4
+2020/01/13 01:29:53|INFO|3.0.6|BG: Enabled|#23234|reprint order
+2020/01/13 01:29:53|INFO|3.0.6|BG: Enabled|#23234|init print
+2020/01/13 01:29:54|INFO|3.0.6|BG: Enabled|#23234|print
+2020/01/13 01:29:54|INFO|3.0.6|BG: Enabled|#23234|raw print
+2020/01/13 01:29:56|INFO|3.0.6|BG: Enabled|Order 23234|QUEUED|ef9d1b50-659a-27a9-c9ad-7594d622ce28
+2020/01/13 01:30:43|INFO|3.0.6|BG: Enabled|#23234|reprint order
+2020/01/13 01:30:43|INFO|3.0.6|BG: Enabled|#23234|init print
+2020/01/13 01:30:45|INFO|3.0.6|BG: Enabled|#23234|print
+2020/01/13 01:30:45|INFO|3.0.6|BG: Enabled|#23234|raw print
+2020/01/13 01:30:46|INFO|3.0.6|BG: Enabled|Order 23234|QUEUED|dedf2535-c2dd-51c6-5b9a-a9f11b64c359
+2020/01/14 10:30:30|INFO|3.0.6|BG: Enabled|#23189|reprint order
+2020/01/14 10:30:30|INFO|3.0.6|BG: Enabled|#23189|init print
+2020/01/14 10:30:33|INFO|3.0.6|BG: Enabled|#23189|print
+2020/01/14 10:30:33|INFO|3.0.6|BG: Enabled|#23189|raw print
+2020/01/14 10:30:34|INFO|3.0.6|BG: Enabled|Order 23189|QUEUED|e4bae2eb-6fd7-63dc-b8c5-8a4f5c863617
+2020/01/19 01:38:02|INFO|3.0.6|BG: Enabled|#23483|reprint order
+2020/01/19 01:38:02|INFO|3.0.6|BG: Enabled|#23483|init print
+2020/01/19 01:38:05|INFO|3.0.6|BG: Enabled|#23483|print
+2020/01/19 01:38:05|INFO|3.0.6|BG: Enabled|#23483|raw print
+2020/01/19 01:38:06|INFO|3.0.6|BG: Enabled|Order 23483|QUEUED|beb8a7aa-68ae-33f6-2cce-6696e7ce26e9
+2020/01/19 05:21:23|INFO|3.0.6|BG: Enabled|#23483|reprint order
+2020/01/19 05:21:23|INFO|3.0.6|BG: Enabled|#23483|init print
+2020/01/19 05:21:24|INFO|3.0.6|BG: Enabled|#23483|print
+2020/01/19 05:21:24|INFO|3.0.6|BG: Enabled|#23483|raw print
+2020/01/19 05:21:26|INFO|3.0.6|BG: Enabled|Order 23483|QUEUED|0ecaac4b-e2de-09df-00b4-45ea285aae16

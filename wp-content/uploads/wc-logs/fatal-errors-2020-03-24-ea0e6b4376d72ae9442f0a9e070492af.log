@@ -1,0 +1,194 @@
+2020-03-24T00:29:50+00:00 CRITICAL Maximum execution time of 30 seconds exceeded في D:\xampp\htdocs\ourarts\wp-includes\wp-db.php في السطر 2030
+
+2020-03-24T00:30:49+00:00 CRITICAL Maximum execution time of 30 seconds exceeded في D:\xampp\htdocs\ourarts\wp-content\plugins\mosaic_img\index.php في السطر 174
+
+2020-03-24T00:32:09+00:00 CRITICAL Maximum execution time of 30 seconds exceeded في D:\xampp\htdocs\ourarts\wp-content\plugins\mosaic_img\index.php في السطر 172
+
+2020-03-24T00:32:44+00:00 CRITICAL Maximum execution time of 30 seconds exceeded في D:\xampp\htdocs\ourarts\wp-includes\wp-db.php في السطر 2030
+
+2020-03-24T00:33:20+00:00 CRITICAL Maximum execution time of 30 seconds exceeded في D:\xampp\htdocs\ourarts\wp-content\plugins\mosaic_img\index.php في السطر 29
+
+2020-03-24T00:35:52+00:00 CRITICAL Maximum execution time of 30 seconds exceeded في D:\xampp\htdocs\ourarts\wp-content\themes\flatsome\inc\functions\function-fonts.php في السطر 8
+
+2020-03-24T00:35:56+00:00 CRITICAL Maximum execution time of 30 seconds exceeded في D:\xampp\htdocs\ourarts\wp-content\themes\flatsome-child\functions.php في السطر 127
+
+2020-03-24T00:35:57+00:00 CRITICAL Maximum execution time of 30 seconds exceeded في D:\xampp\htdocs\ourarts\wp-content\plugins\woocommerce-admin\src\API\Init.php في السطر 10
+
+2020-03-24T00:36:36+00:00 CRITICAL Maximum execution time of 30 seconds exceeded في D:\xampp\htdocs\ourarts\wp-content\plugins\mosaic_img\index.php في السطر 27
+
+2020-03-24T00:37:39+00:00 CRITICAL Maximum execution time of 30 seconds exceeded في D:\xampp\htdocs\ourarts\wp-includes\kses.php في السطر 1668
+
+2020-03-24T00:51:28+00:00 CRITICAL Maximum execution time of 30 seconds exceeded في D:\xampp\htdocs\ourarts\wp-includes\wp-db.php في السطر 2030
+
+2020-03-24T00:53:21+00:00 CRITICAL Maximum execution time of 30 seconds exceeded في D:\xampp\htdocs\ourarts\wp-includes\wp-db.php في السطر 2030
+
+2020-03-24T00:54:15+00:00 CRITICAL Maximum execution time of 30 seconds exceeded في D:\xampp\htdocs\ourarts\wp-includes\class-wp-hook.php في السطر 103
+
+2020-03-24T00:55:56+00:00 CRITICAL Maximum execution time of 30 seconds exceeded في D:\xampp\htdocs\ourarts\wp-includes\pomo\entry.php في السطر 86
+
+2020-03-24T00:55:57+00:00 CRITICAL Maximum execution time of 30 seconds exceeded في D:\xampp\htdocs\ourarts\wp-content\plugins\yith-woocommerce-wishlist\plugin-fw\lib\yit-metabox.php في السطر 12
+
+2020-03-24T00:55:57+00:00 CRITICAL Maximum execution time of 30 seconds exceeded في D:\xampp\htdocs\ourarts\wp-content\plugins\print-google-cloud-print-gcp-woocommerce\setting\general.php في السطر 81
+
+2020-03-24T00:56:16+00:00 CRITICAL Maximum execution time of 30 seconds exceeded في D:\xampp\htdocs\ourarts\wp-includes\wp-db.php في السطر 2030
+
+2020-03-24T01:23:07+00:00 CRITICAL Maximum execution time of 30 seconds exceeded في D:\xampp\htdocs\ourarts\wp-includes\wp-db.php في السطر 2030
+
+2020-03-24T01:29:22+00:00 CRITICAL Maximum execution time of 30 seconds exceeded في D:\xampp\htdocs\ourarts\wp-includes\class-wp-roles.php في السطر 272
+
+2020-03-24T01:35:26+00:00 CRITICAL Maximum execution time of 30 seconds exceeded في D:\xampp\htdocs\ourarts\wp-includes\wp-db.php في السطر 2030
+
+2020-03-24T01:37:47+00:00 CRITICAL Maximum execution time of 30 seconds exceeded في D:\xampp\htdocs\ourarts\wp-includes\l10n.php في السطر 1224
+
+2020-03-24T01:37:57+00:00 CRITICAL Maximum execution time of 30 seconds exceeded في D:\xampp\htdocs\ourarts\wp-content\plugins\woocommerce\includes\shipping\flat-rate\includes\settings-flat-rate.php في السطر 10
+
+2020-03-24T01:38:09+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in D:\xampp\htdocs\ourarts\wp-content\plugins\woocommerce-admin\src\PageController.php on line 10
+
+2020-03-24T01:38:53+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in D:\xampp\htdocs\ourarts\wp-includes\l10n.php on line 1223
+
+2020-03-24T01:41:40+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in D:\xampp\htdocs\ourarts\wp-includes\wp-db.php on line 2030
+
+2020-03-24T01:42:43+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in D:\xampp\htdocs\ourarts\wp-includes\wp-db.php on line 2030
+
+2020-03-24T01:43:58+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in D:\xampp\htdocs\ourarts\wp-includes\wp-db.php on line 2030
+
+2020-03-24T01:45:38+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in D:\xampp\htdocs\ourarts\wp-includes\wp-db.php on line 2030
+
+2020-03-24T01:46:33+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in D:\xampp\htdocs\ourarts\wp-includes\wp-db.php on line 2030
+
+2020-03-24T01:47:21+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in D:\xampp\htdocs\ourarts\wp-includes\wp-db.php on line 2030
+
+2020-03-24T01:48:44+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in D:\xampp\htdocs\ourarts\wp-includes\wp-db.php on line 2030
+
+2020-03-24T01:54:59+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in D:\xampp\htdocs\ourarts\wp-includes\wp-db.php on line 2030
+
+2020-03-24T01:54:59+00:00 CRITICAL Maximum execution time of 30 seconds exceeded في D:\xampp\htdocs\ourarts\wp-content\plugins\print-google-cloud-print-gcp-woocommerce\setting\general.php في السطر 81
+
+2020-03-24T01:56:20+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in D:\xampp\htdocs\ourarts\wp-includes\wp-db.php on line 2030
+
+2020-03-24T01:56:20+00:00 CRITICAL Maximum execution time of 30 seconds exceeded في D:\xampp\htdocs\ourarts\wp-content\plugins\print-google-cloud-print-gcp-woocommerce\setting\general.php في السطر 81
+
+2020-03-24T10:07:18+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in D:\xampp\htdocs\ourarts\wp-includes\wp-db.php on line 2030
+
+2020-03-24T10:08:30+00:00 CRITICAL Maximum execution time of 30 seconds exceeded في D:\xampp\htdocs\ourarts\wp-includes\Requests\Transport\cURL.php في السطر 163
+
+2020-03-24T13:49:14+00:00 CRITICAL Uncaught Error: Call to a member function get_image() on null in D:\xampp\htdocs\ourarts\wp-content\plugins\mosaic_img\index.php:257
+Stack trace:
+#0 D:\xampp\htdocs\ourarts\wp-includes\shortcodes.php(325): Upload_img('', '', 'mosaic_view')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 D:\xampp\htdocs\ourarts\wp-includes\shortcodes.php(199): preg_replace_callback('/\\[(\\[?)(mosaic...', 'do_shortcode_ta...', '\n<link rel="sty...')
+#3 D:\xampp\htdocs\ourarts\wp-content\themes\flatsome\inc\helpers\helpers-shortcode.php(203): do_shortcode('\n<link rel="sty...')
+#4 D:\xampp\htdocs\ourarts\wp-includes\class-wp-hook.php(288): flatsome_contentfix('\n<link rel="sty...')
+#5 D:\xampp\htdocs\ourarts\wp-includes\plugin.php(206): WP_Hook->apply_filters('\n<link rel="sty...', Array)
+#6 D:\xampp\htdocs\ourarts\wp-includes\post-template.php(253): apply_filters('the_content', '<!-- wp:html --...')
+#7 D:\xampp\htdocs\ourarts\wp-content\themes\flatsome\page.php(33): the_content()
+#8 D:\xampp\htdocs\ourarts\wp-includes\templ في D:\xampp\htdocs\ourarts\wp-content\plugins\mosaic_img\index.php في السطر 257
+
+2020-03-24T13:49:40+00:00 CRITICAL Uncaught Error: Call to a member function get_image() on null in D:\xampp\htdocs\ourarts\wp-content\plugins\mosaic_img\index.php:257
+Stack trace:
+#0 D:\xampp\htdocs\ourarts\wp-includes\shortcodes.php(325): Upload_img('', '', 'mosaic_view')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 D:\xampp\htdocs\ourarts\wp-includes\shortcodes.php(199): preg_replace_callback('/\\[(\\[?)(mosaic...', 'do_shortcode_ta...', '\n<link rel="sty...')
+#3 D:\xampp\htdocs\ourarts\wp-content\themes\flatsome\inc\helpers\helpers-shortcode.php(203): do_shortcode('\n<link rel="sty...')
+#4 D:\xampp\htdocs\ourarts\wp-includes\class-wp-hook.php(288): flatsome_contentfix('\n<link rel="sty...')
+#5 D:\xampp\htdocs\ourarts\wp-includes\plugin.php(206): WP_Hook->apply_filters('\n<link rel="sty...', Array)
+#6 D:\xampp\htdocs\ourarts\wp-includes\post-template.php(253): apply_filters('the_content', '<!-- wp:html --...')
+#7 D:\xampp\htdocs\ourarts\wp-content\themes\flatsome\page.php(33): the_content()
+#8 D:\xampp\htdocs\ourarts\wp-includes\templ في D:\xampp\htdocs\ourarts\wp-content\plugins\mosaic_img\index.php في السطر 257
+
+2020-03-24T13:52:28+00:00 CRITICAL Uncaught Error: Call to a member function get_image() on null in D:\xampp\htdocs\ourarts\wp-content\plugins\mosaic_img\index.php:257
+Stack trace:
+#0 D:\xampp\htdocs\ourarts\wp-includes\shortcodes.php(325): Upload_img('', '', 'mosaic_view')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 D:\xampp\htdocs\ourarts\wp-includes\shortcodes.php(199): preg_replace_callback('/\\[(\\[?)(mosaic...', 'do_shortcode_ta...', '\n<link rel="sty...')
+#3 D:\xampp\htdocs\ourarts\wp-content\themes\flatsome\inc\helpers\helpers-shortcode.php(203): do_shortcode('\n<link rel="sty...')
+#4 D:\xampp\htdocs\ourarts\wp-includes\class-wp-hook.php(288): flatsome_contentfix('\n<link rel="sty...')
+#5 D:\xampp\htdocs\ourarts\wp-includes\plugin.php(206): WP_Hook->apply_filters('\n<link rel="sty...', Array)
+#6 D:\xampp\htdocs\ourarts\wp-includes\post-template.php(253): apply_filters('the_content', '<!-- wp:html --...')
+#7 D:\xampp\htdocs\ourarts\wp-content\themes\flatsome\page.php(33): the_content()
+#8 D:\xampp\htdocs\ourarts\wp-includes\templ في D:\xampp\htdocs\ourarts\wp-content\plugins\mosaic_img\index.php في السطر 257
+
+2020-03-24T13:53:14+00:00 CRITICAL Uncaught Error: Call to a member function get_image() on null in D:\xampp\htdocs\ourarts\wp-content\plugins\mosaic_img\index.php:257
+Stack trace:
+#0 D:\xampp\htdocs\ourarts\wp-includes\shortcodes.php(325): Upload_img('', '', 'mosaic_view')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 D:\xampp\htdocs\ourarts\wp-includes\shortcodes.php(199): preg_replace_callback('/\\[(\\[?)(mosaic...', 'do_shortcode_ta...', '\n<link rel="sty...')
+#3 D:\xampp\htdocs\ourarts\wp-content\themes\flatsome\inc\helpers\helpers-shortcode.php(203): do_shortcode('\n<link rel="sty...')
+#4 D:\xampp\htdocs\ourarts\wp-includes\class-wp-hook.php(288): flatsome_contentfix('\n<link rel="sty...')
+#5 D:\xampp\htdocs\ourarts\wp-includes\plugin.php(206): WP_Hook->apply_filters('\n<link rel="sty...', Array)
+#6 D:\xampp\htdocs\ourarts\wp-includes\post-template.php(253): apply_filters('the_content', '<!-- wp:html --...')
+#7 D:\xampp\htdocs\ourarts\wp-content\themes\flatsome\page.php(33): the_content()
+#8 D:\xampp\htdocs\ourarts\wp-includes\templ في D:\xampp\htdocs\ourarts\wp-content\plugins\mosaic_img\index.php في السطر 257
+
+2020-03-24T13:53:40+00:00 CRITICAL Uncaught Error: Call to a member function get_image() on null in D:\xampp\htdocs\ourarts\wp-content\plugins\mosaic_img\index.php:257
+Stack trace:
+#0 D:\xampp\htdocs\ourarts\wp-includes\shortcodes.php(325): Upload_img('', '', 'mosaic_view')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 D:\xampp\htdocs\ourarts\wp-includes\shortcodes.php(199): preg_replace_callback('/\\[(\\[?)(mosaic...', 'do_shortcode_ta...', '\n<link rel="sty...')
+#3 D:\xampp\htdocs\ourarts\wp-content\themes\flatsome\inc\helpers\helpers-shortcode.php(203): do_shortcode('\n<link rel="sty...')
+#4 D:\xampp\htdocs\ourarts\wp-includes\class-wp-hook.php(288): flatsome_contentfix('\n<link rel="sty...')
+#5 D:\xampp\htdocs\ourarts\wp-includes\plugin.php(206): WP_Hook->apply_filters('\n<link rel="sty...', Array)
+#6 D:\xampp\htdocs\ourarts\wp-includes\post-template.php(253): apply_filters('the_content', '<!-- wp:html --...')
+#7 D:\xampp\htdocs\ourarts\wp-content\themes\flatsome\page.php(33): the_content()
+#8 D:\xampp\htdocs\ourarts\wp-includes\templ في D:\xampp\htdocs\ourarts\wp-content\plugins\mosaic_img\index.php في السطر 257
+
+2020-03-24T14:08:23+00:00 CRITICAL Uncaught Error: Call to a member function get_image() on null in D:\xampp\htdocs\ourarts\wp-content\plugins\mosaic_img\index.php:257
+Stack trace:
+#0 D:\xampp\htdocs\ourarts\wp-includes\shortcodes.php(325): Upload_img('', '', 'mosaic_view')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 D:\xampp\htdocs\ourarts\wp-includes\shortcodes.php(199): preg_replace_callback('/\\[(\\[?)(mosaic...', 'do_shortcode_ta...', '\n<link rel="sty...')
+#3 D:\xampp\htdocs\ourarts\wp-content\themes\flatsome\inc\helpers\helpers-shortcode.php(203): do_shortcode('\n<link rel="sty...')
+#4 D:\xampp\htdocs\ourarts\wp-includes\class-wp-hook.php(288): flatsome_contentfix('\n<link rel="sty...')
+#5 D:\xampp\htdocs\ourarts\wp-includes\plugin.php(206): WP_Hook->apply_filters('\n<link rel="sty...', Array)
+#6 D:\xampp\htdocs\ourarts\wp-includes\post-template.php(253): apply_filters('the_content', '<!-- wp:html --...')
+#7 D:\xampp\htdocs\ourarts\wp-content\themes\flatsome\page.php(33): the_content()
+#8 D:\xampp\htdocs\ourarts\wp-includes\templ في D:\xampp\htdocs\ourarts\wp-content\plugins\mosaic_img\index.php في السطر 257
+
+2020-03-24T14:14:34+00:00 CRITICAL Uncaught Error: Call to a member function get_image() on null in D:\xampp\htdocs\ourarts\wp-content\plugins\mosaic_img\index.php:257
+Stack trace:
+#0 D:\xampp\htdocs\ourarts\wp-includes\shortcodes.php(325): Upload_img('', '', 'mosaic_view')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 D:\xampp\htdocs\ourarts\wp-includes\shortcodes.php(199): preg_replace_callback('/\\[(\\[?)(mosaic...', 'do_shortcode_ta...', '\n<link rel="sty...')
+#3 D:\xampp\htdocs\ourarts\wp-content\themes\flatsome\inc\helpers\helpers-shortcode.php(203): do_shortcode('\n<link rel="sty...')
+#4 D:\xampp\htdocs\ourarts\wp-includes\class-wp-hook.php(288): flatsome_contentfix('\n<link rel="sty...')
+#5 D:\xampp\htdocs\ourarts\wp-includes\plugin.php(206): WP_Hook->apply_filters('\n<link rel="sty...', Array)
+#6 D:\xampp\htdocs\ourarts\wp-includes\post-template.php(253): apply_filters('the_content', '<!-- wp:html --...')
+#7 D:\xampp\htdocs\ourarts\wp-content\themes\flatsome\page.php(33): the_content()
+#8 D:\xampp\htdocs\ourarts\wp-includes\templ في D:\xampp\htdocs\ourarts\wp-content\plugins\mosaic_img\index.php في السطر 257
+
+2020-03-24T14:22:48+00:00 CRITICAL Uncaught Error: Call to a member function get_image() on null in D:\xampp\htdocs\ourarts\wp-content\plugins\mosaic_img\index.php:257
+Stack trace:
+#0 D:\xampp\htdocs\ourarts\wp-includes\shortcodes.php(325): Upload_img('', '', 'mosaic_view')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 D:\xampp\htdocs\ourarts\wp-includes\shortcodes.php(199): preg_replace_callback('/\\[(\\[?)(mosaic...', 'do_shortcode_ta...', '\n<link rel="sty...')
+#3 D:\xampp\htdocs\ourarts\wp-content\themes\flatsome\inc\helpers\helpers-shortcode.php(203): do_shortcode('\n<link rel="sty...')
+#4 D:\xampp\htdocs\ourarts\wp-includes\class-wp-hook.php(288): flatsome_contentfix('\n<link rel="sty...')
+#5 D:\xampp\htdocs\ourarts\wp-includes\plugin.php(206): WP_Hook->apply_filters('\n<link rel="sty...', Array)
+#6 D:\xampp\htdocs\ourarts\wp-includes\post-template.php(253): apply_filters('the_content', '<!-- wp:html --...')
+#7 D:\xampp\htdocs\ourarts\wp-content\themes\flatsome\page.php(33): the_content()
+#8 D:\xampp\htdocs\ourarts\wp-includes\templ في D:\xampp\htdocs\ourarts\wp-content\plugins\mosaic_img\index.php في السطر 257
+
+2020-03-24T14:30:07+00:00 CRITICAL Uncaught Error: Call to a member function get_image() on null in D:\xampp\htdocs\ourarts\wp-content\plugins\mosaic_img\index.php:257
+Stack trace:
+#0 D:\xampp\htdocs\ourarts\wp-includes\shortcodes.php(325): Upload_img('', '', 'mosaic_view')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 D:\xampp\htdocs\ourarts\wp-includes\shortcodes.php(199): preg_replace_callback('/\\[(\\[?)(mosaic...', 'do_shortcode_ta...', '\n<link rel="sty...')
+#3 D:\xampp\htdocs\ourarts\wp-content\themes\flatsome\inc\helpers\helpers-shortcode.php(203): do_shortcode('\n<link rel="sty...')
+#4 D:\xampp\htdocs\ourarts\wp-includes\class-wp-hook.php(288): flatsome_contentfix('\n<link rel="sty...')
+#5 D:\xampp\htdocs\ourarts\wp-includes\plugin.php(206): WP_Hook->apply_filters('\n<link rel="sty...', Array)
+#6 D:\xampp\htdocs\ourarts\wp-includes\post-template.php(253): apply_filters('the_content', '<!-- wp:html --...')
+#7 D:\xampp\htdocs\ourarts\wp-content\themes\flatsome\page.php(33): the_content()
+#8 D:\xampp\htdocs\ourarts\wp-includes\templ في D:\xampp\htdocs\ourarts\wp-content\plugins\mosaic_img\index.php في السطر 257
+
+2020-03-24T14:30:57+00:00 CRITICAL Uncaught Error: Call to a member function get_image() on null in D:\xampp\htdocs\ourarts\wp-content\plugins\mosaic_img\index.php:257
+Stack trace:
+#0 D:\xampp\htdocs\ourarts\wp-includes\shortcodes.php(325): Upload_img('', '', 'mosaic_view')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 D:\xampp\htdocs\ourarts\wp-includes\shortcodes.php(199): preg_replace_callback('/\\[(\\[?)(mosaic...', 'do_shortcode_ta...', '\n<link rel="sty...')
+#3 D:\xampp\htdocs\ourarts\wp-content\themes\flatsome\inc\helpers\helpers-shortcode.php(203): do_shortcode('\n<link rel="sty...')
+#4 D:\xampp\htdocs\ourarts\wp-includes\class-wp-hook.php(288): flatsome_contentfix('\n<link rel="sty...')
+#5 D:\xampp\htdocs\ourarts\wp-includes\plugin.php(206): WP_Hook->apply_filters('\n<link rel="sty...', Array)
+#6 D:\xampp\htdocs\ourarts\wp-includes\post-template.php(253): apply_filters('the_content', '<!-- wp:html --...')
+#7 D:\xampp\htdocs\ourarts\wp-content\themes\flatsome\page.php(33): the_content()
+#8 D:\xampp\htdocs\ourarts\wp-includes\templ في D:\xampp\htdocs\ourarts\wp-content\plugins\mosaic_img\index.php في السطر 257
+

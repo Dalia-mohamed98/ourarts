@@ -1,0 +1,8 @@
+
+
+   .woocommerce ul#shipping_method {
+
+
+      /*  opacity: 0.01;*/
+      display:none ;
+    }

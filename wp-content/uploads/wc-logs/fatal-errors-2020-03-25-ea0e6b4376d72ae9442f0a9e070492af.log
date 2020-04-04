@@ -1,0 +1,8 @@
+2020-03-25T21:02:55+00:00 CRITICAL Maximum execution time of 30 seconds exceeded في D:\xampp\htdocs\ourarts\wp-includes\template.php في السطر 661
+
+2020-03-25T21:03:25+00:00 CRITICAL Maximum execution time of 30 seconds exceeded في D:\xampp\htdocs\ourarts\wp-includes\Requests\Transport\cURL.php في السطر 463
+
+2020-03-25T21:04:21+00:00 CRITICAL Maximum execution time of 30 seconds exceeded في D:\xampp\htdocs\ourarts\wp-includes\wp-db.php في السطر 2030
+
+2020-03-25T22:10:22+00:00 CRITICAL Maximum execution time of 30 seconds exceeded في D:\xampp\htdocs\ourarts\wp-includes\Requests\Transport\cURL.php في السطر 463
+
