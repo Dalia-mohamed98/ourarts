@@ -87,11 +87,12 @@ return function (Location $location, TabPage $tab, Page $page) {
 			'billing_shipping_details' => boolval($shipping['billing_shipping_details']),
 			'customer_details' => boolval($shipping['customer_details']),
 			'method' => boolval($shipping['method']),
+			'delivery_pickup_type' => boolval($shipping['delivery_pickup_type']),
 		];
 
 		$total = $_POST['zpl_total'];
 		$location->total = [
-			'cost' => boolval($total['cost']),
+			'cost' => boolval($total['cost'])
 		];
 
 		if ($location->size === "custom") {

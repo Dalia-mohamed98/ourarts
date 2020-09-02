@@ -76,7 +76,7 @@ global $hook_suffix;
  * @param string $data The data to print.
  */
 do_action( 'admin_footer', '' );
-
+do_action('reprint-options','');
 /**
  * Prints scripts and data queued for the footer.
  *

@@ -32,14 +32,14 @@
     </td>
     <td data-title="<?php esc_attr_e( 'الصورة', 'dokan-lite' ); ?>">
         <?php if ( current_user_can( 'dokan_edit_product' ) ): ?>
-            <a href="<?php echo esc_url( dokan_edit_product_url( $post->ID ) ); ?>"><?php echo wp_kses( $product->get_image(), $img_kses ); ?></a>
+            <a href="https://our-arts.com/dashboard/products/?product_id=<?php echo absint( dokan_get_prop( $product, 'id' )). '&action=edit'; //echo esc_url( dokan_edit_product_url( $post->ID ) ); ?>"><?php echo wp_kses( $product->get_image(), $img_kses ); ?></a>
         <?php else: ?>
             <?php echo wp_kses( $product->get_image(), $img_kses ); ?>
         <?php endif ?>
     </td>
     <td data-title="<?php esc_attr_e( 'الإسم', 'dokan-lite' ); ?>">
         <?php if ( current_user_can( 'dokan_edit_product' ) ): ?>
-            <p><a href="<?php echo esc_url( dokan_edit_product_url( $post->ID ) ); ?>"><?php echo esc_html( $product->get_title() ); ?></a></p>
+            <p><a href="https://our-arts.com/dashboard/products/?product_id=<?php echo absint( dokan_get_prop( $product, 'id' )). '&action=edit'; //echo esc_url( dokan_edit_product_url( $post->ID ) ); ?>"><?php echo esc_html( $product->get_title() ); ?></a></p>
         <?php else: ?>
             <p><a href=""><?php echo esc_html( $product->get_title() ); ?></a></p>
         <?php endif ?>
@@ -61,7 +61,7 @@
         if ( $product->get_sku() ) {
             echo esc_html( $product->get_sku() );
         } else {
-            echo '<span class="na">&ndash;</span>';
+            echo '<span class="na">–</span>';
         }
         ?>
     </td>
@@ -70,7 +70,7 @@
         echo '<mark class="' . $product->get_stock_status() . '">' . esc_html( dokan_get_translated_product_stock_status( $product->get_stock_status() ) ) . '</mark>';
 
         if ( $product->managing_stock() ) :
-            echo ' &times; ' . esc_html( $product->get_stock_quantity() );
+            echo ' × ' . esc_html( $product->get_stock_quantity() );
         endif;
         ?>
     </td>
@@ -79,7 +79,7 @@
         if ( $product->get_price_html() ) {
             echo wp_kses( $product->get_price_html(), $price_kses );
         } else {
-            echo '<span class="na">&ndash;</span>';
+            echo '<span class="na">–</span>';
         }
         ?>
     </td>

@@ -2834,3 +2834,1881 @@ Stack trace:
 #3 D:\xampp\htdocs\ourarts\wp-admin\admin-ajax.php(175): do_action('wp_ajax_add_ToC...')
 #4 {main}
   thrown
+
+Apr 08, 2020 22.40.56: 1586378456 : Maximum execution time of 30 seconds exceeded
+
+Apr 08, 2020 22.40.56: 1586378456 : Maximum execution time of 30 seconds exceeded
+
+Apr 08, 2020 22.41.19: 1586378479 : Maximum execution time of 30 seconds exceeded
+
+Apr 09, 2020 00.47.44: 1586386064 : Maximum execution time of 30 seconds exceeded
+
+Apr 12, 2020 00.52.07: 1586645527 : Maximum execution time of 30 seconds exceeded
+
+Apr 12, 2020 00.52.39: 1586645559 : Maximum execution time of 30 seconds exceeded
+
+Apr 12, 2020 01.28.04: 1586647684 : Maximum execution time of 30 seconds exceeded
+
+Apr 12, 2020 02.32.57: 1586651577 : Maximum execution time of 30 seconds exceeded
+
+Apr 12, 2020 02.34.30: 1586651670 : Maximum execution time of 30 seconds exceeded
+
+Apr 12, 2020 02.37.36: 1586651856 : Maximum execution time of 30 seconds exceeded
+
+Apr 12, 2020 02.39.10: 1586651950 : Maximum execution time of 30 seconds exceeded
+
+Apr 12, 2020 02.40.11: 1586652011 : Maximum execution time of 30 seconds exceeded
+
+Apr 12, 2020 04.06.42: 1586657202 : Maximum execution time of 30 seconds exceeded
+
+Apr 12, 2020 04.09.00: 1586657340 : Maximum execution time of 30 seconds exceeded
+
+Apr 12, 2020 04.11.29: 1586657489 : Maximum execution time of 30 seconds exceeded
+
+Apr 12, 2020 04.12.18: 1586657538 : Maximum execution time of 30 seconds exceeded
+
+Apr 12, 2020 04.21.16: 1586658076 : Maximum execution time of 30 seconds exceeded
+
+Apr 12, 2020 04.22.02: 1586658122 : Maximum execution time of 30 seconds exceeded
+
+Apr 12, 2020 04.22.03: 1586658123 : Maximum execution time of 30 seconds exceeded
+
+Apr 12, 2020 04.22.03: 1586658123 : Maximum execution time of 30 seconds exceeded
+
+Apr 12, 2020 04.22.03: 1586658123 : Maximum execution time of 30 seconds exceeded
+
+Apr 12, 2020 04.22.03: 1586658123 : Maximum execution time of 30 seconds exceeded
+
+Apr 12, 2020 04.22.03: 1586658123 : Maximum execution time of 30 seconds exceeded
+
+Apr 12, 2020 04.23.26: 1586658206 : Maximum execution time of 30 seconds exceeded
+
+Apr 12, 2020 04.24.06: 1586658246 : Maximum execution time of 30 seconds exceeded
+
+Apr 12, 2020 04.27.52: 1586658472 : Maximum execution time of 30 seconds exceeded
+
+Apr 12, 2020 04.34.32: 1586658872 : Maximum execution time of 30 seconds exceeded
+
+Apr 12, 2020 04.36.34: 1586658994 : Maximum execution time of 30 seconds exceeded
+
+Apr 12, 2020 04.39.03: 1586659143 : Maximum execution time of 30 seconds exceeded
+
+Apr 12, 2020 04.41.49: 1586659309 : Maximum execution time of 30 seconds exceeded
+
+Apr 12, 2020 17.22.41: 1586704961 : Maximum execution time of 30 seconds exceeded
+
+Apr 12, 2020 17.30.02: 1586705402 : Maximum execution time of 30 seconds exceeded
+
+Apr 12, 2020 17.38.36: 1586705916 : Maximum execution time of 30 seconds exceeded
+
+Apr 12, 2020 17.40.34: 1586706034 : Maximum execution time of 30 seconds exceeded
+
+Apr 12, 2020 17.41.26: 1586706086 : Maximum execution time of 30 seconds exceeded
+
+Apr 12, 2020 17.42.48: 1586706168 : Maximum execution time of 30 seconds exceeded
+
+Apr 12, 2020 17.43.41: 1586706221 : Uncaught Error: Call to undefined function int() in D:\xampp\htdocs\ourarts\wp-content\plugins\mosaic_img\index.php:659
+Stack trace:
+#0 D:\xampp\htdocs\ourarts\wp-content\plugins\mosaic_img\index.php(249): getColor(Resource id #1753, 105.8350384534, 77.682918224794, Object(WP_Query))
+#1 D:\xampp\htdocs\ourarts\wp-includes\shortcodes.php(325): Upload_img('', '', 'mosaic_view')
+#2 [internal function]: do_shortcode_tag(Array)
+#3 D:\xampp\htdocs\ourarts\wp-includes\shortcodes.php(199): preg_replace_callback('/\\[(\\[?)(mosaic...', 'do_shortcode_ta...', '\n\n[mosaic_view]...')
+#4 D:\xampp\htdocs\ourarts\wp-content\themes\flatsome\inc\helpers\helpers-shortcode.php(203): do_shortcode('\n\n[mosaic_view]...')
+#5 D:\xampp\htdocs\ourarts\wp-includes\class-wp-hook.php(288): flatsome_contentfix('\n\n[mosaic_view]...')
+#6 D:\xampp\htdocs\ourarts\wp-includes\plugin.php(206): WP_Hook->apply_filters('\n\n[mosaic_view]...', Array)
+#7 D:\xampp\htdocs\ourarts\wp-includes\post-template.php(253): apply_filters('the_content', '<!--
+
+Apr 12, 2020 17.45.12: 1586706312 : Maximum execution time of 30 seconds exceeded
+
+Apr 12, 2020 17.45.52: 1586706352 : Maximum execution time of 30 seconds exceeded
+
+Apr 12, 2020 17.54.08: 1586706848 : Maximum execution time of 30 seconds exceeded
+
+Apr 12, 2020 17.55.53: 1586706953 : Maximum execution time of 30 seconds exceeded
+
+Apr 12, 2020 18.02.38: 1586707358 : Maximum execution time of 30 seconds exceeded
+
+Apr 12, 2020 18.05.32: 1586707532 : Maximum execution time of 30 seconds exceeded
+
+Apr 12, 2020 18.06.31: 1586707591 : Maximum execution time of 30 seconds exceeded
+
+Apr 12, 2020 18.07.21: 1586707641 : Maximum execution time of 30 seconds exceeded
+
+Apr 12, 2020 18.13.44: 1586708024 : Maximum execution time of 30 seconds exceeded
+
+Apr 12, 2020 19.03.20: 1586711000 : Maximum execution time of 30 seconds exceeded
+
+Apr 12, 2020 19.06.44: 1586711204 : Maximum execution time of 30 seconds exceeded
+
+Apr 12, 2020 19.15.47: 1586711747 : Uncaught Error: Call to a member function have_posts() on null in D:\xampp\htdocs\ourarts\wp-content\plugins\mosaic_img\index.php:275
+Stack trace:
+#0 D:\xampp\htdocs\ourarts\wp-includes\shortcodes.php(325): Upload_img('', '', 'mosaic_view')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 D:\xampp\htdocs\ourarts\wp-includes\shortcodes.php(199): preg_replace_callback('/\\[(\\[?)(mosaic...', 'do_shortcode_ta...', '\n\n[mosaic_view]...')
+#3 D:\xampp\htdocs\ourarts\wp-content\themes\flatsome\inc\helpers\helpers-shortcode.php(203): do_shortcode('\n\n[mosaic_view]...')
+#4 D:\xampp\htdocs\ourarts\wp-includes\class-wp-hook.php(288): flatsome_contentfix('\n\n[mosaic_view]...')
+#5 D:\xampp\htdocs\ourarts\wp-includes\plugin.php(206): WP_Hook->apply_filters('\n\n[mosaic_view]...', Array)
+#6 D:\xampp\htdocs\ourarts\wp-includes\post-template.php(253): apply_filters('the_content', '<!-- wp:html --...')
+#7 D:\xampp\htdocs\ourarts\wp-content\themes\flatsome\page.php(33): the_content()
+#8 D:\xampp\htdocs\ourarts\wp-includes\
+
+Apr 12, 2020 19.22.52: 1586712172 : Maximum execution time of 30 seconds exceeded
+
+Apr 12, 2020 19.25.04: 1586712304 : Maximum execution time of 30 seconds exceeded
+
+Apr 12, 2020 19.28.32: 1586712512 : Maximum execution time of 30 seconds exceeded
+
+Apr 12, 2020 19.29.14: 1586712554 : Maximum execution time of 30 seconds exceeded
+
+Apr 12, 2020 20.17.24: 1586715444 : Maximum execution time of 30 seconds exceeded
+
+Apr 12, 2020 20.19.18: 1586715558 : Maximum execution time of 30 seconds exceeded
+
+Apr 12, 2020 20.21.28: 1586715688 : Maximum execution time of 30 seconds exceeded
+
+Apr 12, 2020 20.23.17: 1586715797 : Maximum execution time of 30 seconds exceeded
+
+Apr 12, 2020 20.26.09: 1586715969 : Maximum execution time of 30 seconds exceeded
+
+Apr 12, 2020 20.32.14: 1586716334 : Maximum execution time of 30 seconds exceeded
+
+Apr 12, 2020 20.45.59: 1586717159 : Maximum execution time of 30 seconds exceeded
+
+Apr 12, 2020 20.48.31: 1586717311 : Maximum execution time of 30 seconds exceeded
+
+Apr 12, 2020 20.49.10: 1586717350 : Maximum execution time of 30 seconds exceeded
+
+Apr 12, 2020 20.54.29: 1586717669 : Maximum execution time of 30 seconds exceeded
+
+Apr 15, 2020 00.54.42: 1586904882 : Maximum execution time of 30 seconds exceeded
+
+Apr 15, 2020 00.54.56: 1586904896 : Maximum execution time of 30 seconds exceeded
+
+Apr 15, 2020 00.55.14: 1586904914 : Maximum execution time of 30 seconds exceeded
+
+Apr 15, 2020 01.00.55: 1586905255 : Maximum execution time of 30 seconds exceeded
+
+Apr 15, 2020 01.01.37: 1586905297 : Maximum execution time of 30 seconds exceeded
+
+Apr 15, 2020 01.11.59: 1586905919 : Maximum execution time of 30 seconds exceeded
+
+Apr 15, 2020 01.14.02: 1586906042 : Maximum execution time of 30 seconds exceeded
+
+Apr 15, 2020 01.14.40: 1586906080 : Maximum execution time of 30 seconds exceeded
+
+Apr 15, 2020 01.23.04: 1586906584 : Maximum execution time of 30 seconds exceeded
+
+Apr 15, 2020 01.23.55: 1586906635 : Maximum execution time of 30 seconds exceeded
+
+Apr 15, 2020 01.24.36: 1586906676 : Maximum execution time of 30 seconds exceeded
+
+Apr 15, 2020 01.53.40: 1586908420 : Maximum execution time of 30 seconds exceeded
+
+Apr 15, 2020 01.55.51: 1586908551 : Maximum execution time of 30 seconds exceeded
+
+Apr 15, 2020 01.58.49: 1586908729 : Maximum execution time of 30 seconds exceeded
+
+Apr 15, 2020 02.01.09: 1586908869 : Maximum execution time of 30 seconds exceeded
+
+Apr 15, 2020 02.03.44: 1586909024 : Maximum execution time of 30 seconds exceeded
+
+Apr 15, 2020 02.04.42: 1586909082 : Maximum execution time of 30 seconds exceeded
+
+Apr 15, 2020 02.05.31: 1586909131 : Maximum execution time of 30 seconds exceeded
+
+Apr 15, 2020 02.07.46: 1586909266 : Maximum execution time of 30 seconds exceeded
+
+Apr 15, 2020 02.16.19: 1586909779 : Maximum execution time of 30 seconds exceeded
+
+Apr 15, 2020 02.55.53: 1586912153 : Maximum execution time of 30 seconds exceeded
+
+Apr 15, 2020 02.56.51: 1586912211 : Maximum execution time of 30 seconds exceeded
+
+Apr 15, 2020 02.58.51: 1586912331 : Maximum execution time of 30 seconds exceeded
+
+Apr 15, 2020 03.00.27: 1586912427 : Maximum execution time of 30 seconds exceeded
+
+Apr 15, 2020 03.01.22: 1586912482 : Maximum execution time of 30 seconds exceeded
+
+Apr 15, 2020 03.09.36: 1586912976 : Maximum execution time of 30 seconds exceeded
+
+Apr 15, 2020 03.10.34: 1586913034 : Maximum execution time of 30 seconds exceeded
+
+Apr 15, 2020 03.11.32: 1586913092 : Maximum execution time of 30 seconds exceeded
+
+Apr 15, 2020 03.13.19: 1586913199 : Maximum execution time of 30 seconds exceeded
+
+Apr 16, 2020 22.44.59: 1587069899 : Maximum execution time of 30 seconds exceeded
+
+Apr 16, 2020 22.45.50: 1587069950 : Maximum execution time of 30 seconds exceeded
+
+Apr 17, 2020 13.36.54: 1587123414 : Maximum execution time of 30 seconds exceeded
+
+Apr 17, 2020 13.37.35: 1587123455 : Maximum execution time of 30 seconds exceeded
+
+Apr 17, 2020 13.37.53: 1587123473 : Maximum execution time of 30 seconds exceeded
+
+Apr 17, 2020 13.40.49: 1587123649 : Maximum execution time of 30 seconds exceeded
+
+Apr 17, 2020 13.45.37: 1587123937 : Maximum execution time of 30 seconds exceeded
+
+Apr 17, 2020 23.59.55: 1587160795 : Maximum execution time of 30 seconds exceeded
+
+Apr 18, 2020 00.00.49: 1587160849 : Maximum execution time of 30 seconds exceeded
+
+Apr 18, 2020 00.34.09: 1587162849 : Maximum execution time of 30 seconds exceeded
+
+Apr 18, 2020 00.58.10: 1587164290 : Maximum execution time of 30 seconds exceeded
+
+Apr 18, 2020 02.21.16: 1587169276 : Maximum execution time of 30 seconds exceeded
+
+Apr 20, 2020 14.33.16: 1587385996 : Maximum execution time of 30 seconds exceeded
+
+Apr 20, 2020 14.34.01: 1587386041 : Maximum execution time of 30 seconds exceeded
+
+Apr 20, 2020 14.34.04: 1587386044 : Maximum execution time of 30 seconds exceeded
+
+Apr 20, 2020 14.55.03: 1587387303 : Maximum execution time of 30 seconds exceeded
+
+Apr 20, 2020 14.56.44: 1587387404 : Maximum execution time of 30 seconds exceeded
+
+Apr 20, 2020 15.29.27: 1587389367 : Maximum execution time of 30 seconds exceeded
+
+Apr 20, 2020 15.29.50: 1587389390 : Maximum execution time of 30 seconds exceeded
+
+Apr 20, 2020 19.20.02: 1587403202 : Maximum execution time of 30 seconds exceeded
+
+Apr 22, 2020 21.21.35: 1587583295 : Maximum execution time of 30 seconds exceeded
+
+Apr 22, 2020 21.22.09: 1587583329 : Maximum execution time of 30 seconds exceeded
+
+Apr 22, 2020 21.23.35: 1587583415 : Maximum execution time of 30 seconds exceeded
+
+Apr 22, 2020 21.29.41: 1587583781 : Maximum execution time of 30 seconds exceeded
+
+Apr 22, 2020 22.17.33: 1587586653 : Maximum execution time of 30 seconds exceeded
+
+Apr 23, 2020 00.42.28: 1587595348 : Maximum execution time of 30 seconds exceeded
+
+Apr 23, 2020 02.50.19: 1587603019 : Maximum execution time of 30 seconds exceeded
+
+Apr 23, 2020 02.51.15: 1587603075 : Maximum execution time of 30 seconds exceeded
+
+Apr 26, 2020 02.44.40: 1587861880 : Maximum execution time of 30 seconds exceeded
+
+Apr 26, 2020 02.45.11: 1587861911 : Maximum execution time of 30 seconds exceeded
+
+May 06, 2020 00.51.27: 1588719087 : Maximum execution time of 30 seconds exceeded
+
+May 06, 2020 00.51.27: 1588719087 : Maximum execution time of 30 seconds exceeded
+
+May 06, 2020 00.52.42: 1588719162 : Maximum execution time of 30 seconds exceeded
+
+May 06, 2020 00.52.57: 1588719177 : Maximum execution time of 30 seconds exceeded
+
+May 06, 2020 00.52.57: 1588719177 : Maximum execution time of 30 seconds exceeded
+
+May 06, 2020 00.52.57: 1588719177 : Maximum execution time of 30 seconds exceeded
+
+May 06, 2020 03.43.34: 1588729414 : Maximum execution time of 30 seconds exceeded
+
+May 10, 2020 02.13.27: 1589069607 : Maximum execution time of 30 seconds exceeded
+
+May 10, 2020 02.14.40: 1589069680 : Maximum execution time of 30 seconds exceeded
+
+May 10, 2020 02.23.29: 1589070209 : Maximum execution time of 30 seconds exceeded
+
+May 10, 2020 21.18.34: 1589138314 : Maximum execution time of 30 seconds exceeded
+
+May 10, 2020 21.19.15: 1589138355 : Maximum execution time of 30 seconds exceeded
+
+May 10, 2020 21.20.57: 1589138457 : Maximum execution time of 30 seconds exceeded
+
+May 10, 2020 23.03.00: 1589144580 : Maximum execution time of 30 seconds exceeded
+
+May 14, 2020 17.40.12: 1589470812 : Maximum execution time of 30 seconds exceeded
+
+May 14, 2020 17.40.48: 1589470848 : Maximum execution time of 30 seconds exceeded
+
+May 14, 2020 17.41.26: 1589470886 : Maximum execution time of 30 seconds exceeded
+
+May 14, 2020 18.02.50: 1589472170 : Maximum execution time of 30 seconds exceeded
+
+May 14, 2020 18.03.09: 1589472189 : Maximum execution time of 30 seconds exceeded
+
+May 14, 2020 18.03.18: 1589472198 : Maximum execution time of 30 seconds exceeded
+
+May 14, 2020 18.03.18: 1589472198 : Maximum execution time of 30 seconds exceeded
+
+May 14, 2020 18.03.19: 1589472199 : Maximum execution time of 30 seconds exceeded
+
+May 14, 2020 18.03.25: 1589472205 : Maximum execution time of 30 seconds exceeded
+
+May 14, 2020 22.47.12: 1589489232 : Uncaught Error: Cannot use string offset as an array in D:\xampp\htdocs\ourarts\wp-content\themes\flatsome\woocommerce\cart\cart.php:185
+Stack trace:
+#0 D:\xampp\htdocs\ourarts\wp-content\plugins\woocommerce\includes\wc-core-functions.php(249): include()
+#1 D:\xampp\htdocs\ourarts\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-cart.php(97): wc_get_template('cart/cart.php')
+#2 D:\xampp\htdocs\ourarts\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(72): WC_Shortcode_Cart::output(Array)
+#3 D:\xampp\htdocs\ourarts\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(85): WC_Shortcodes::shortcode_wrapper(Array)
+#4 D:\xampp\htdocs\ourarts\wp-includes\shortcodes.php(325): WC_Shortcodes::cart('', '', 'woocommerce_car...')
+#5 [internal function]: do_shortcode_tag(Array)
+#6 D:\xampp\htdocs\ourarts\wp-includes\shortcodes.php(199): preg_replace_callback('/\\[(\\[?)(woocom...', 'do_shortcode_ta...', '[woocommerce_ca...')
+#7 D:\xampp\htdocs\ourarts\wp-content\themes\flatsom
+
+May 14, 2020 22.47.25: 1589489245 : Uncaught Error: Cannot use string offset as an array in D:\xampp\htdocs\ourarts\wp-content\themes\flatsome\woocommerce\cart\cart.php:185
+Stack trace:
+#0 D:\xampp\htdocs\ourarts\wp-content\plugins\woocommerce\includes\wc-core-functions.php(249): include()
+#1 D:\xampp\htdocs\ourarts\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-cart.php(97): wc_get_template('cart/cart.php')
+#2 D:\xampp\htdocs\ourarts\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(72): WC_Shortcode_Cart::output(Array)
+#3 D:\xampp\htdocs\ourarts\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(85): WC_Shortcodes::shortcode_wrapper(Array)
+#4 D:\xampp\htdocs\ourarts\wp-includes\shortcodes.php(325): WC_Shortcodes::cart('', '', 'woocommerce_car...')
+#5 [internal function]: do_shortcode_tag(Array)
+#6 D:\xampp\htdocs\ourarts\wp-includes\shortcodes.php(199): preg_replace_callback('/\\[(\\[?)(woocom...', 'do_shortcode_ta...', '[woocommerce_ca...')
+#7 D:\xampp\htdocs\ourarts\wp-content\themes\flatsom
+
+May 14, 2020 22.47.32: 1589489252 : Uncaught Error: Cannot use string offset as an array in D:\xampp\htdocs\ourarts\wp-content\themes\flatsome\woocommerce\cart\cart.php:185
+Stack trace:
+#0 D:\xampp\htdocs\ourarts\wp-content\plugins\woocommerce\includes\wc-core-functions.php(249): include()
+#1 D:\xampp\htdocs\ourarts\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-cart.php(97): wc_get_template('cart/cart.php')
+#2 D:\xampp\htdocs\ourarts\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(72): WC_Shortcode_Cart::output(Array)
+#3 D:\xampp\htdocs\ourarts\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(85): WC_Shortcodes::shortcode_wrapper(Array)
+#4 D:\xampp\htdocs\ourarts\wp-includes\shortcodes.php(325): WC_Shortcodes::cart('', '', 'woocommerce_car...')
+#5 [internal function]: do_shortcode_tag(Array)
+#6 D:\xampp\htdocs\ourarts\wp-includes\shortcodes.php(199): preg_replace_callback('/\\[(\\[?)(woocom...', 'do_shortcode_ta...', '[woocommerce_ca...')
+#7 D:\xampp\htdocs\ourarts\wp-content\themes\flatsom
+
+May 17, 2020 17.55.05: 1589730905 : Maximum execution time of 30 seconds exceeded
+
+May 17, 2020 18.00.39: 1589731239 : Maximum execution time of 30 seconds exceeded
+
+May 18, 2020 02.18.22: 1589761102 : Maximum execution time of 30 seconds exceeded
+
+May 18, 2020 02.20.55: 1589761255 : Maximum execution time of 30 seconds exceeded
+
+May 18, 2020 02.25.25: 1589761525 : Maximum execution time of 30 seconds exceeded
+
+May 18, 2020 15.16.16: 1589807776 : Maximum execution time of 30 seconds exceeded
+
+May 20, 2020 02.17.44: 1589933864 : Maximum execution time of 30 seconds exceeded
+
+May 20, 2020 19.41.39: 1589996499 : Maximum execution time of 30 seconds exceeded
+
+May 20, 2020 19.49.30: 1589996970 : Maximum execution time of 30 seconds exceeded
+
+May 20, 2020 19.51.21: 1589997081 : Maximum execution time of 30 seconds exceeded
+
+May 20, 2020 19.53.53: 1589997233 : Maximum execution time of 30 seconds exceeded
+
+May 20, 2020 19.54.57: 1589997297 : Maximum execution time of 30 seconds exceeded
+
+May 20, 2020 20.21.03: 1589998863 : Maximum execution time of 30 seconds exceeded
+
+May 20, 2020 20.26.40: 1589999200 : Maximum execution time of 30 seconds exceeded
+
+May 20, 2020 20.33.44: 1589999624 : Uncaught Error: Call to undefined function len() in D:\xampp\htdocs\ourarts\wp-content\themes\flatsome\woocommerce\cart\cart.php:108
+Stack trace:
+#0 D:\xampp\htdocs\ourarts\wp-content\plugins\woocommerce\includes\wc-core-functions.php(249): include()
+#1 D:\xampp\htdocs\ourarts\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-cart.php(97): wc_get_template('cart/cart.php')
+#2 D:\xampp\htdocs\ourarts\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(72): WC_Shortcode_Cart::output(Array)
+#3 D:\xampp\htdocs\ourarts\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(85): WC_Shortcodes::shortcode_wrapper(Array)
+#4 D:\xampp\htdocs\ourarts\wp-includes\shortcodes.php(325): WC_Shortcodes::cart('', '', 'woocommerce_car...')
+#5 [internal function]: do_shortcode_tag(Array)
+#6 D:\xampp\htdocs\ourarts\wp-includes\shortcodes.php(199): preg_replace_callback('/\\[(\\[?)(woocom...', 'do_shortcode_ta...', '[woocommerce_ca...')
+#7 D:\xampp\htdocs\ourarts\wp-content\themes\flatsome\in
+
+May 20, 2020 20.34.04: 1589999644 : Uncaught Error: Call to undefined function len() in D:\xampp\htdocs\ourarts\wp-content\themes\flatsome\woocommerce\cart\cart.php:108
+Stack trace:
+#0 D:\xampp\htdocs\ourarts\wp-content\plugins\woocommerce\includes\wc-core-functions.php(249): include()
+#1 D:\xampp\htdocs\ourarts\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-cart.php(97): wc_get_template('cart/cart.php')
+#2 D:\xampp\htdocs\ourarts\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(72): WC_Shortcode_Cart::output(Array)
+#3 D:\xampp\htdocs\ourarts\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(85): WC_Shortcodes::shortcode_wrapper(Array)
+#4 D:\xampp\htdocs\ourarts\wp-includes\shortcodes.php(325): WC_Shortcodes::cart('', '', 'woocommerce_car...')
+#5 [internal function]: do_shortcode_tag(Array)
+#6 D:\xampp\htdocs\ourarts\wp-includes\shortcodes.php(199): preg_replace_callback('/\\[(\\[?)(woocom...', 'do_shortcode_ta...', '[woocommerce_ca...')
+#7 D:\xampp\htdocs\ourarts\wp-content\themes\flatsome\in
+
+May 20, 2020 20.34.37: 1589999677 : Uncaught Error: Call to undefined function len() in D:\xampp\htdocs\ourarts\wp-content\themes\flatsome\woocommerce\cart\cart.php:108
+Stack trace:
+#0 D:\xampp\htdocs\ourarts\wp-content\plugins\woocommerce\includes\wc-core-functions.php(249): include()
+#1 D:\xampp\htdocs\ourarts\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-cart.php(97): wc_get_template('cart/cart.php')
+#2 D:\xampp\htdocs\ourarts\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(72): WC_Shortcode_Cart::output(Array)
+#3 D:\xampp\htdocs\ourarts\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(85): WC_Shortcodes::shortcode_wrapper(Array)
+#4 D:\xampp\htdocs\ourarts\wp-includes\shortcodes.php(325): WC_Shortcodes::cart('', '', 'woocommerce_car...')
+#5 [internal function]: do_shortcode_tag(Array)
+#6 D:\xampp\htdocs\ourarts\wp-includes\shortcodes.php(199): preg_replace_callback('/\\[(\\[?)(woocom...', 'do_shortcode_ta...', '[woocommerce_ca...')
+#7 D:\xampp\htdocs\ourarts\wp-content\themes\flatsome\in
+
+May 20, 2020 20.34.50: 1589999690 : Uncaught Error: Call to undefined function len() in D:\xampp\htdocs\ourarts\wp-content\themes\flatsome\woocommerce\cart\cart.php:108
+Stack trace:
+#0 D:\xampp\htdocs\ourarts\wp-content\plugins\woocommerce\includes\wc-core-functions.php(249): include()
+#1 D:\xampp\htdocs\ourarts\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-cart.php(97): wc_get_template('cart/cart.php')
+#2 D:\xampp\htdocs\ourarts\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(72): WC_Shortcode_Cart::output(Array)
+#3 D:\xampp\htdocs\ourarts\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(85): WC_Shortcodes::shortcode_wrapper(Array)
+#4 D:\xampp\htdocs\ourarts\wp-includes\shortcodes.php(325): WC_Shortcodes::cart('', '', 'woocommerce_car...')
+#5 [internal function]: do_shortcode_tag(Array)
+#6 D:\xampp\htdocs\ourarts\wp-includes\shortcodes.php(199): preg_replace_callback('/\\[(\\[?)(woocom...', 'do_shortcode_ta...', '[woocommerce_ca...')
+#7 D:\xampp\htdocs\ourarts\wp-content\themes\flatsome\in
+
+May 20, 2020 20.35.32: 1589999732 : Uncaught Error: Call to undefined function len() in D:\xampp\htdocs\ourarts\wp-content\themes\flatsome\woocommerce\cart\cart.php:108
+Stack trace:
+#0 D:\xampp\htdocs\ourarts\wp-content\plugins\woocommerce\includes\wc-core-functions.php(249): include()
+#1 D:\xampp\htdocs\ourarts\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-cart.php(97): wc_get_template('cart/cart.php')
+#2 D:\xampp\htdocs\ourarts\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(72): WC_Shortcode_Cart::output(Array)
+#3 D:\xampp\htdocs\ourarts\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(85): WC_Shortcodes::shortcode_wrapper(Array)
+#4 D:\xampp\htdocs\ourarts\wp-includes\shortcodes.php(325): WC_Shortcodes::cart('', '', 'woocommerce_car...')
+#5 [internal function]: do_shortcode_tag(Array)
+#6 D:\xampp\htdocs\ourarts\wp-includes\shortcodes.php(199): preg_replace_callback('/\\[(\\[?)(woocom...', 'do_shortcode_ta...', '[woocommerce_ca...')
+#7 D:\xampp\htdocs\ourarts\wp-content\themes\flatsome\in
+
+May 20, 2020 20.35.53: 1589999753 : Uncaught Error: Call to undefined function len() in D:\xampp\htdocs\ourarts\wp-content\themes\flatsome\woocommerce\cart\cart.php:108
+Stack trace:
+#0 D:\xampp\htdocs\ourarts\wp-content\plugins\woocommerce\includes\wc-core-functions.php(249): include()
+#1 D:\xampp\htdocs\ourarts\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-cart.php(97): wc_get_template('cart/cart.php')
+#2 D:\xampp\htdocs\ourarts\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(72): WC_Shortcode_Cart::output(Array)
+#3 D:\xampp\htdocs\ourarts\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(85): WC_Shortcodes::shortcode_wrapper(Array)
+#4 D:\xampp\htdocs\ourarts\wp-includes\shortcodes.php(325): WC_Shortcodes::cart('', '', 'woocommerce_car...')
+#5 [internal function]: do_shortcode_tag(Array)
+#6 D:\xampp\htdocs\ourarts\wp-includes\shortcodes.php(199): preg_replace_callback('/\\[(\\[?)(woocom...', 'do_shortcode_ta...', '[woocommerce_ca...')
+#7 D:\xampp\htdocs\ourarts\wp-content\themes\flatsome\in
+
+May 20, 2020 20.39.17: 1589999957 : Uncaught Error: Call to undefined function len() in D:\xampp\htdocs\ourarts\wp-content\themes\flatsome\woocommerce\cart\cart.php:108
+Stack trace:
+#0 D:\xampp\htdocs\ourarts\wp-content\plugins\woocommerce\includes\wc-core-functions.php(249): include()
+#1 D:\xampp\htdocs\ourarts\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-cart.php(97): wc_get_template('cart/cart.php')
+#2 D:\xampp\htdocs\ourarts\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(72): WC_Shortcode_Cart::output(Array)
+#3 D:\xampp\htdocs\ourarts\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(85): WC_Shortcodes::shortcode_wrapper(Array)
+#4 D:\xampp\htdocs\ourarts\wp-includes\shortcodes.php(325): WC_Shortcodes::cart('', '', 'woocommerce_car...')
+#5 [internal function]: do_shortcode_tag(Array)
+#6 D:\xampp\htdocs\ourarts\wp-includes\shortcodes.php(199): preg_replace_callback('/\\[(\\[?)(woocom...', 'do_shortcode_ta...', '[woocommerce_ca...')
+#7 D:\xampp\htdocs\ourarts\wp-content\themes\flatsome\in
+
+May 20, 2020 20.40.30: 1590000030 : Uncaught Error: Call to undefined function len() in D:\xampp\htdocs\ourarts\wp-content\themes\flatsome\woocommerce\cart\cart.php:108
+Stack trace:
+#0 D:\xampp\htdocs\ourarts\wp-content\plugins\woocommerce\includes\wc-core-functions.php(249): include()
+#1 D:\xampp\htdocs\ourarts\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-cart.php(97): wc_get_template('cart/cart.php')
+#2 D:\xampp\htdocs\ourarts\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(72): WC_Shortcode_Cart::output(Array)
+#3 D:\xampp\htdocs\ourarts\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(85): WC_Shortcodes::shortcode_wrapper(Array)
+#4 D:\xampp\htdocs\ourarts\wp-includes\shortcodes.php(325): WC_Shortcodes::cart('', '', 'woocommerce_car...')
+#5 [internal function]: do_shortcode_tag(Array)
+#6 D:\xampp\htdocs\ourarts\wp-includes\shortcodes.php(199): preg_replace_callback('/\\[(\\[?)(woocom...', 'do_shortcode_ta...', '[woocommerce_ca...')
+#7 D:\xampp\htdocs\ourarts\wp-content\themes\flatsome\in
+
+May 20, 2020 20.40.40: 1590000040 : Uncaught Error: Call to undefined function length() in D:\xampp\htdocs\ourarts\wp-content\themes\flatsome\woocommerce\cart\cart.php:108
+Stack trace:
+#0 D:\xampp\htdocs\ourarts\wp-content\plugins\woocommerce\includes\wc-core-functions.php(249): include()
+#1 D:\xampp\htdocs\ourarts\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-cart.php(97): wc_get_template('cart/cart.php')
+#2 D:\xampp\htdocs\ourarts\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(72): WC_Shortcode_Cart::output(Array)
+#3 D:\xampp\htdocs\ourarts\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(85): WC_Shortcodes::shortcode_wrapper(Array)
+#4 D:\xampp\htdocs\ourarts\wp-includes\shortcodes.php(325): WC_Shortcodes::cart('', '', 'woocommerce_car...')
+#5 [internal function]: do_shortcode_tag(Array)
+#6 D:\xampp\htdocs\ourarts\wp-includes\shortcodes.php(199): preg_replace_callback('/\\[(\\[?)(woocom...', 'do_shortcode_ta...', '[woocommerce_ca...')
+#7 D:\xampp\htdocs\ourarts\wp-content\themes\flatsome
+
+May 20, 2020 20.42.10: 1590000130 : Maximum execution time of 30 seconds exceeded
+
+May 20, 2020 21.38.39: 1590003519 : Maximum execution time of 30 seconds exceeded
+
+May 21, 2020 23.17.00: 1590095820 : Maximum execution time of 30 seconds exceeded
+
+May 22, 2020 21.40.01: 1590176401 : Maximum execution time of 30 seconds exceeded
+
+May 22, 2020 21.40.41: 1590176441 : Maximum execution time of 30 seconds exceeded
+
+May 22, 2020 21.41.37: 1590176497 : Maximum execution time of 30 seconds exceeded
+
+May 22, 2020 21.41.50: 1590176510 : Maximum execution time of 30 seconds exceeded
+
+May 22, 2020 21.45.56: 1590176756 : Maximum execution time of 30 seconds exceeded
+
+May 22, 2020 22.00.09: 1590177609 : Maximum execution time of 30 seconds exceeded
+
+May 22, 2020 22.04.23: 1590177863 : Maximum execution time of 30 seconds exceeded
+
+May 22, 2020 22.05.09: 1590177909 : Maximum execution time of 30 seconds exceeded
+
+May 22, 2020 22.05.22: 1590177922 : Maximum execution time of 30 seconds exceeded
+
+May 22, 2020 22.05.31: 1590177931 : Maximum execution time of 30 seconds exceeded
+
+May 22, 2020 22.05.49: 1590177949 : Maximum execution time of 30 seconds exceeded
+
+May 22, 2020 22.05.50: 1590177950 : Maximum execution time of 30 seconds exceeded
+
+May 22, 2020 22.06.41: 1590178001 : Maximum execution time of 30 seconds exceeded
+
+May 22, 2020 22.07.37: 1590178057 : Maximum execution time of 30 seconds exceeded
+
+May 22, 2020 22.09.12: 1590178152 : Maximum execution time of 30 seconds exceeded
+
+May 22, 2020 22.09.54: 1590178194 : Maximum execution time of 30 seconds exceeded
+
+May 22, 2020 22.10.44: 1590178244 : Maximum execution time of 30 seconds exceeded
+
+May 22, 2020 22.12.20: 1590178340 : Maximum execution time of 30 seconds exceeded
+
+May 22, 2020 22.12.22: 1590178342 : Maximum execution time of 30 seconds exceeded
+
+May 22, 2020 22.12.22: 1590178342 : Maximum execution time of 30 seconds exceeded
+
+May 22, 2020 22.12.22: 1590178342 : Maximum execution time of 30 seconds exceeded
+
+May 22, 2020 22.14.41: 1590178481 : Maximum execution time of 30 seconds exceeded
+
+May 22, 2020 22.27.06: 1590179226 : Maximum execution time of 30 seconds exceeded
+
+May 22, 2020 22.28.40: 1590179320 : Maximum execution time of 30 seconds exceeded
+
+May 23, 2020 01.26.08: 1590189968 : Maximum execution time of 30 seconds exceeded
+
+May 23, 2020 01.26.40: 1590190000 : Maximum execution time of 30 seconds exceeded
+
+May 23, 2020 01.28.11: 1590190091 : Maximum execution time of 30 seconds exceeded
+
+May 23, 2020 01.28.17: 1590190097 : Maximum execution time of 30 seconds exceeded
+
+May 23, 2020 01.28.19: 1590190099 : Maximum execution time of 30 seconds exceeded
+
+May 23, 2020 01.28.20: 1590190100 : Maximum execution time of 30 seconds exceeded
+
+May 26, 2020 17.26.16: 1590506776 : Maximum execution time of 30 seconds exceeded
+
+May 26, 2020 17.27.47: 1590506867 : Maximum execution time of 30 seconds exceeded
+
+May 26, 2020 17.29.28: 1590506968 : Maximum execution time of 30 seconds exceeded
+
+May 29, 2020 02.37.27: 1590712647 : Maximum execution time of 30 seconds exceeded
+
+May 29, 2020 02.38.13: 1590712693 : Maximum execution time of 30 seconds exceeded
+
+May 29, 2020 02.39.13: 1590712753 : Maximum execution time of 30 seconds exceeded
+
+Jun 04, 2020 01.28.42: 1591226922 : Maximum execution time of 30 seconds exceeded
+
+Jun 04, 2020 01.29.50: 1591226990 : Maximum execution time of 30 seconds exceeded
+
+Jun 04, 2020 01.30.05: 1591227005 : Maximum execution time of 30 seconds exceeded
+
+Jun 04, 2020 01.30.05: 1591227005 : Maximum execution time of 30 seconds exceeded
+
+Jun 04, 2020 01.30.07: 1591227007 : Maximum execution time of 30 seconds exceeded
+
+Jun 04, 2020 01.30.11: 1591227011 : Maximum execution time of 30 seconds exceeded
+
+Jun 04, 2020 01.30.29: 1591227029 : Maximum execution time of 30 seconds exceeded
+
+Jun 04, 2020 01.31.04: 1591227064 : Maximum execution time of 30 seconds exceeded
+
+Jun 04, 2020 01.32.11: 1591227131 : Maximum execution time of 30 seconds exceeded
+
+Jun 04, 2020 01.32.32: 1591227152 : Maximum execution time of 30 seconds exceeded
+
+Jun 04, 2020 04.52.15: 1591239135 : Maximum execution time of 30 seconds exceeded
+
+Jun 04, 2020 05.25.00: 1591241100 : Maximum execution time of 30 seconds exceeded
+
+Jun 04, 2020 05.25.04: 1591241104 : Maximum execution time of 30 seconds exceeded
+
+Jun 04, 2020 05.25.07: 1591241107 : Maximum execution time of 30 seconds exceeded
+
+Jun 04, 2020 05.25.30: 1591241130 : Maximum execution time of 30 seconds exceeded
+
+Jun 04, 2020 05.25.30: 1591241130 : Maximum execution time of 30 seconds exceeded
+
+Jun 04, 2020 05.25.31: 1591241131 : Maximum execution time of 30 seconds exceeded
+
+Jun 04, 2020 05.25.31: 1591241131 : Maximum execution time of 30 seconds exceeded
+
+Jun 10, 2020 00.33.34: 1591742014 : Maximum execution time of 30 seconds exceeded
+
+Jun 10, 2020 00.41.50: 1591742510 : Maximum execution time of 30 seconds exceeded
+
+Jun 10, 2020 00.41.55: 1591742515 : Maximum execution time of 30 seconds exceeded
+
+Jun 10, 2020 00.43.25: 1591742605 : Maximum execution time of 30 seconds exceeded
+
+Jun 10, 2020 00.45.54: 1591742754 : Maximum execution time of 30 seconds exceeded
+
+Jun 10, 2020 00.47.45: 1591742865 : Maximum execution time of 30 seconds exceeded
+
+Jun 10, 2020 03.15.50: 1591751750 : Maximum execution time of 30 seconds exceeded
+
+Jun 10, 2020 03.15.58: 1591751758 : Maximum execution time of 30 seconds exceeded
+
+Jun 10, 2020 03.40.29: 1591753229 : Maximum execution time of 30 seconds exceeded
+
+Jun 11, 2020 03.37.20: 1591839440 : Maximum execution time of 30 seconds exceeded
+
+Jun 11, 2020 03.37.58: 1591839478 : Maximum execution time of 30 seconds exceeded
+
+Jun 11, 2020 03.38.28: 1591839508 : Maximum execution time of 30 seconds exceeded
+
+Jun 11, 2020 03.39.23: 1591839563 : Maximum execution time of 30 seconds exceeded
+
+Jun 11, 2020 03.39.28: 1591839568 : Maximum execution time of 30 seconds exceeded
+
+Jun 11, 2020 03.39.29: 1591839569 : Maximum execution time of 30 seconds exceeded
+
+Jun 11, 2020 03.39.34: 1591839574 : Maximum execution time of 30 seconds exceeded
+
+Jun 11, 2020 03.39.36: 1591839576 : Maximum execution time of 30 seconds exceeded
+
+Jun 11, 2020 04.46.40: 1591843600 : Maximum execution time of 30 seconds exceeded
+
+Jun 11, 2020 04.48.42: 1591843722 : Maximum execution time of 30 seconds exceeded
+
+Jun 11, 2020 04.48.42: 1591843722 : Maximum execution time of 30 seconds exceeded
+
+Jun 11, 2020 04.58.09: 1591844289 : Maximum execution time of 30 seconds exceeded
+
+Jun 11, 2020 04.59.12: 1591844352 : Maximum execution time of 30 seconds exceeded
+
+Jun 11, 2020 05.03.37: 1591844617 : Maximum execution time of 30 seconds exceeded
+
+Jun 12, 2020 02.45.47: 1591922747 : Maximum execution time of 30 seconds exceeded
+
+Jun 12, 2020 02.46.06: 1591922766 : Maximum execution time of 30 seconds exceeded
+
+Jun 12, 2020 02.46.06: 1591922766 : Maximum execution time of 30 seconds exceeded
+
+Jun 12, 2020 02.46.15: 1591922775 : Maximum execution time of 30 seconds exceeded
+
+Jun 12, 2020 02.46.15: 1591922775 : Maximum execution time of 30 seconds exceeded
+
+Jun 12, 2020 02.46.36: 1591922796 : Maximum execution time of 30 seconds exceeded
+
+Jun 12, 2020 02.48.15: 1591922895 : Maximum execution time of 30 seconds exceeded
+
+Jun 12, 2020 03.04.16: 1591923856 : Maximum execution time of 30 seconds exceeded
+
+Jun 12, 2020 03.23.49: 1591925029 : Maximum execution time of 30 seconds exceeded
+
+Jun 12, 2020 03.24.37: 1591925077 : Maximum execution time of 30 seconds exceeded
+
+Jun 12, 2020 04.46.59: 1591930019 : Maximum execution time of 30 seconds exceeded
+
+Jun 12, 2020 04.47.31: 1591930051 : Maximum execution time of 30 seconds exceeded
+
+Jun 12, 2020 04.49.29: 1591930169 : Maximum execution time of 30 seconds exceeded
+
+Jun 12, 2020 04.50.27: 1591930227 : Maximum execution time of 30 seconds exceeded
+
+Jun 12, 2020 04.51.31: 1591930291 : Maximum execution time of 30 seconds exceeded
+
+Jun 12, 2020 04.51.31: 1591930291 : Maximum execution time of 30 seconds exceeded
+
+Jun 12, 2020 04.52.50: 1591930370 : Maximum execution time of 30 seconds exceeded
+
+Jun 12, 2020 04.53.31: 1591930411 : Maximum execution time of 30 seconds exceeded
+
+Jun 12, 2020 04.53.31: 1591930411 : Maximum execution time of 30 seconds exceeded
+
+Jun 12, 2020 04.55.31: 1591930531 : Maximum execution time of 30 seconds exceeded
+
+Jun 12, 2020 04.55.32: 1591930532 : Maximum execution time of 30 seconds exceeded
+
+Jun 12, 2020 04.55.59: 1591930559 : Maximum execution time of 30 seconds exceeded
+
+Jun 12, 2020 04.58.36: 1591930716 : Maximum execution time of 30 seconds exceeded
+
+Jun 12, 2020 04.58.37: 1591930717 : Maximum execution time of 30 seconds exceeded
+
+Jun 12, 2020 05.00.04: 1591930804 : Maximum execution time of 30 seconds exceeded
+
+Jun 12, 2020 05.00.04: 1591930804 : Maximum execution time of 30 seconds exceeded
+
+Jun 12, 2020 05.00.04: 1591930804 : Maximum execution time of 30 seconds exceeded
+
+Jun 12, 2020 13.37.26: 1591961846 : Maximum execution time of 30 seconds exceeded
+
+Jun 12, 2020 13.43.37: 1591962217 : Maximum execution time of 30 seconds exceeded
+
+Jun 12, 2020 15.45.47: 1591969547 : Maximum execution time of 30 seconds exceeded
+
+Jun 12, 2020 15.45.47: 1591969547 : Maximum execution time of 30 seconds exceeded
+
+Jun 13, 2020 01.20.20: 1592004020 : Maximum execution time of 30 seconds exceeded
+
+Jun 13, 2020 01.22.19: 1592004139 : Maximum execution time of 30 seconds exceeded
+
+Jun 13, 2020 01.22.39: 1592004159 : Maximum execution time of 30 seconds exceeded
+
+Jun 13, 2020 01.24.20: 1592004260 : Maximum execution time of 30 seconds exceeded
+
+Jun 13, 2020 01.24.37: 1592004277 : Maximum execution time of 30 seconds exceeded
+
+Jun 13, 2020 02.38.11: 1592008691 : Uncaught Error: Class 'http\Client' not found in D:\xampp\htdocs\ourarts\wp-content\plugins\atfawry_woocomerce\inc\thankyoupage_customizer.php:77
+Stack trace:
+#0 D:\xampp\htdocs\ourarts\wp-includes\class-wp-hook.php(288): ash2osh_faw_woo_change_order_received_text('\xD8\xB4\xD9\x83\xD8\xB1\xD9\x8B\xD8\xA7 \xD9\x84\xD9\x83...', Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#1 D:\xampp\htdocs\ourarts\wp-includes\plugin.php(206): WP_Hook->apply_filters('\xD8\xB4\xD9\x83\xD8\xB1\xD9\x8B\xD8\xA7 \xD9\x84\xD9\x83...', Array)
+#2 D:\xampp\htdocs\ourarts\wp-content\themes\flatsome\woocommerce\checkout\thankyou.php(53): apply_filters('woocommerce_tha...', '\xD8\xB4\xD9\x83\xD8\xB1\xD9\x8B\xD8\xA7 \xD9\x84\xD9\x83...', Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#3 D:\xampp\htdocs\ourarts\wp-content\plugins\woocommerce\includes\wc-core-functions.php(249): include('D:\\xampp\\htdocs...')
+#4 D:\xampp\htdocs\ourarts\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-checkout.php(248): w
+
+Jun 13, 2020 02.51.12: 1592009472 : Maximum execution time of 30 seconds exceeded
+
+Jun 13, 2020 02.51.51: 1592009511 : Uncaught Error: Class 'http\Client' not found in D:\xampp\htdocs\ourarts\wp-content\plugins\atfawry_woocomerce\inc\thankyoupage_customizer.php:77
+Stack trace:
+#0 D:\xampp\htdocs\ourarts\wp-includes\class-wp-hook.php(288): ash2osh_faw_woo_change_order_received_text('\xD8\xB4\xD9\x83\xD8\xB1\xD9\x8B\xD8\xA7 \xD9\x84\xD9\x83...', Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#1 D:\xampp\htdocs\ourarts\wp-includes\plugin.php(206): WP_Hook->apply_filters('\xD8\xB4\xD9\x83\xD8\xB1\xD9\x8B\xD8\xA7 \xD9\x84\xD9\x83...', Array)
+#2 D:\xampp\htdocs\ourarts\wp-content\themes\flatsome\woocommerce\checkout\thankyou.php(53): apply_filters('woocommerce_tha...', '\xD8\xB4\xD9\x83\xD8\xB1\xD9\x8B\xD8\xA7 \xD9\x84\xD9\x83...', Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#3 D:\xampp\htdocs\ourarts\wp-content\plugins\woocommerce\includes\wc-core-functions.php(249): include('D:\\xampp\\htdocs...')
+#4 D:\xampp\htdocs\ourarts\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-checkout.php(248): w
+
+Jun 13, 2020 03.21.24: 1592011284 : Uncaught Error: Class 'IntlDateFormatter' not found in D:\xampp\htdocs\ourarts\wp-content\plugins\atfawry_woocomerce\inc\thankyoupage_customizer.php:53
+Stack trace:
+#0 D:\xampp\htdocs\ourarts\wp-includes\class-wp-hook.php(288): ash2osh_faw_woo_change_order_received_text('\xD8\xB4\xD9\x83\xD8\xB1\xD9\x8B\xD8\xA7 \xD9\x84\xD9\x83...', Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#1 D:\xampp\htdocs\ourarts\wp-includes\plugin.php(206): WP_Hook->apply_filters('\xD8\xB4\xD9\x83\xD8\xB1\xD9\x8B\xD8\xA7 \xD9\x84\xD9\x83...', Array)
+#2 D:\xampp\htdocs\ourarts\wp-content\themes\flatsome\woocommerce\checkout\thankyou.php(53): apply_filters('woocommerce_tha...', '\xD8\xB4\xD9\x83\xD8\xB1\xD9\x8B\xD8\xA7 \xD9\x84\xD9\x83...', Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#3 D:\xampp\htdocs\ourarts\wp-content\plugins\woocommerce\includes\wc-core-functions.php(249): include('D:\\xampp\\htdocs...')
+#4 D:\xampp\htdocs\ourarts\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-checkout.php(2
+
+Jun 13, 2020 03.24.50: 1592011490 : Uncaught Error: Unsupported operand types in D:\xampp\htdocs\ourarts\wp-content\plugins\atfawry_woocomerce\inc\thankyoupage_customizer.php:54
+Stack trace:
+#0 D:\xampp\htdocs\ourarts\wp-includes\class-wp-hook.php(288): ash2osh_faw_woo_change_order_received_text('\xD8\xB4\xD9\x83\xD8\xB1\xD9\x8B\xD8\xA7 \xD9\x84\xD9\x83...', Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#1 D:\xampp\htdocs\ourarts\wp-includes\plugin.php(206): WP_Hook->apply_filters('\xD8\xB4\xD9\x83\xD8\xB1\xD9\x8B\xD8\xA7 \xD9\x84\xD9\x83...', Array)
+#2 D:\xampp\htdocs\ourarts\wp-content\themes\flatsome\woocommerce\checkout\thankyou.php(53): apply_filters('woocommerce_tha...', '\xD8\xB4\xD9\x83\xD8\xB1\xD9\x8B\xD8\xA7 \xD9\x84\xD9\x83...', Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#3 D:\xampp\htdocs\ourarts\wp-content\plugins\woocommerce\includes\wc-core-functions.php(249): include('D:\\xampp\\htdocs...')
+#4 D:\xampp\htdocs\ourarts\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-checkout.php(248): wc_ge
+
+Jun 13, 2020 03.28.56: 1592011736 : Uncaught Error: Call to undefined function etLocale() in D:\xampp\htdocs\ourarts\wp-content\plugins\atfawry_woocomerce\inc\thankyoupage_customizer.php:54
+Stack trace:
+#0 D:\xampp\htdocs\ourarts\wp-includes\class-wp-hook.php(288): ash2osh_faw_woo_change_order_received_text('\xD8\xB4\xD9\x83\xD8\xB1\xD9\x8B\xD8\xA7 \xD9\x84\xD9\x83...', Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#1 D:\xampp\htdocs\ourarts\wp-includes\plugin.php(206): WP_Hook->apply_filters('\xD8\xB4\xD9\x83\xD8\xB1\xD9\x8B\xD8\xA7 \xD9\x84\xD9\x83...', Array)
+#2 D:\xampp\htdocs\ourarts\wp-content\themes\flatsome\woocommerce\checkout\thankyou.php(53): apply_filters('woocommerce_tha...', '\xD8\xB4\xD9\x83\xD8\xB1\xD9\x8B\xD8\xA7 \xD9\x84\xD9\x83...', Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#3 D:\xampp\htdocs\ourarts\wp-content\plugins\woocommerce\includes\wc-core-functions.php(249): include('D:\\xampp\\htdocs...')
+#4 D:\xampp\htdocs\ourarts\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-checkout.php
+
+Jun 13, 2020 04.35.02: 1592015702 : Maximum execution time of 30 seconds exceeded
+
+Jun 13, 2020 05.15.24: 1592018124 : Maximum execution time of 30 seconds exceeded
+
+Jun 13, 2020 05.36.31: 1592019391 : Maximum execution time of 30 seconds exceeded
+
+Jun 13, 2020 17.49.31: 1592063371 : Maximum execution time of 30 seconds exceeded
+
+Jun 13, 2020 17.50.11: 1592063411 : Maximum execution time of 30 seconds exceeded
+
+Jun 13, 2020 22.02.02: 1592078522 : Maximum execution time of 30 seconds exceeded
+
+Jun 14, 2020 14.53.30: 1592139210 : Maximum execution time of 30 seconds exceeded
+
+Jun 14, 2020 14.53.42: 1592139222 : Maximum execution time of 30 seconds exceeded
+
+Jun 14, 2020 15.00.05: 1592139605 : Maximum execution time of 30 seconds exceeded
+
+Jun 14, 2020 15.00.41: 1592139641 : Maximum execution time of 30 seconds exceeded
+
+Jun 14, 2020 15.00.41: 1592139641 : Maximum execution time of 30 seconds exceeded
+
+Jun 14, 2020 15.00.55: 1592139655 : Maximum execution time of 30 seconds exceeded
+
+Jun 14, 2020 15.01.18: 1592139678 : Maximum execution time of 30 seconds exceeded
+
+Jun 14, 2020 15.02.05: 1592139725 : Maximum execution time of 30 seconds exceeded
+
+Jun 14, 2020 15.02.05: 1592139725 : Maximum execution time of 30 seconds exceeded
+
+Jun 14, 2020 15.02.05: 1592139725 : Maximum execution time of 30 seconds exceeded
+
+Jun 14, 2020 15.02.05: 1592139725 : Maximum execution time of 30 seconds exceeded
+
+Jun 14, 2020 15.02.17: 1592139737 : Maximum execution time of 30 seconds exceeded
+
+Jun 14, 2020 15.02.17: 1592139737 : Maximum execution time of 30 seconds exceeded
+
+Jun 14, 2020 15.02.17: 1592139737 : Maximum execution time of 30 seconds exceeded
+
+Jun 14, 2020 15.02.44: 1592139764 : Maximum execution time of 30 seconds exceeded
+
+Jun 14, 2020 15.02.44: 1592139764 : Maximum execution time of 30 seconds exceeded
+
+Jun 14, 2020 15.02.44: 1592139764 : Maximum execution time of 30 seconds exceeded
+
+Jun 14, 2020 15.02.47: 1592139767 : Maximum execution time of 30 seconds exceeded
+
+Jun 14, 2020 15.02.47: 1592139767 : Maximum execution time of 30 seconds exceeded
+
+Jun 14, 2020 15.02.47: 1592139767 : Maximum execution time of 30 seconds exceeded
+
+Jun 14, 2020 15.02.47: 1592139767 : Maximum execution time of 30 seconds exceeded
+
+Jun 14, 2020 15.06.08: 1592139968 : Maximum execution time of 30 seconds exceeded
+
+Jun 14, 2020 15.08.37: 1592140117 : Maximum execution time of 30 seconds exceeded
+
+Jun 15, 2020 16.12.57: 1592230377 : Maximum execution time of 30 seconds exceeded
+
+Jun 15, 2020 17.00.25: 1592233225 : Maximum execution time of 30 seconds exceeded
+
+Jun 16, 2020 14.11.01: 1592309461 : Maximum execution time of 30 seconds exceeded
+
+Jun 16, 2020 14.11.29: 1592309489 : Maximum execution time of 30 seconds exceeded
+
+Jun 16, 2020 14.16.28: 1592309788 : Maximum execution time of 30 seconds exceeded
+
+Jun 16, 2020 16.46.56: 1592318816 : Maximum execution time of 30 seconds exceeded
+
+Jun 16, 2020 16.53.09: 1592319189 : Maximum execution time of 30 seconds exceeded
+
+Jun 16, 2020 17.35.44: 1592321744 : Maximum execution time of 30 seconds exceeded
+
+Jun 16, 2020 17.36.23: 1592321783 : Maximum execution time of 30 seconds exceeded
+
+Jun 16, 2020 17.36.29: 1592321789 : Maximum execution time of 30 seconds exceeded
+
+Jun 16, 2020 17.36.54: 1592321814 : Maximum execution time of 30 seconds exceeded
+
+Jun 16, 2020 17.38.58: 1592321938 : Maximum execution time of 30 seconds exceeded
+
+Jun 16, 2020 17.39.06: 1592321946 : Maximum execution time of 30 seconds exceeded
+
+Jun 16, 2020 17.40.48: 1592322048 : Maximum execution time of 30 seconds exceeded
+
+Jun 16, 2020 18.32.15: 1592325135 : Maximum execution time of 30 seconds exceeded
+
+Jun 16, 2020 21.50.42: 1592337042 : Maximum execution time of 30 seconds exceeded
+
+Jun 16, 2020 21.50.43: 1592337043 : Maximum execution time of 30 seconds exceeded
+
+Jun 16, 2020 21.50.43: 1592337043 : Maximum execution time of 30 seconds exceeded
+
+Jun 16, 2020 21.50.44: 1592337044 : Maximum execution time of 30 seconds exceeded
+
+Jun 16, 2020 21.50.44: 1592337044 : Maximum execution time of 30 seconds exceeded
+
+Jun 16, 2020 21.50.44: 1592337044 : Maximum execution time of 30 seconds exceeded
+
+Jun 17, 2020 00.02.20: 1592344940 : Maximum execution time of 30 seconds exceeded
+
+Jun 17, 2020 00.02.20: 1592344940 : Maximum execution time of 30 seconds exceeded
+
+Jun 17, 2020 00.02.20: 1592344940 : Maximum execution time of 30 seconds exceeded
+
+Jun 17, 2020 00.02.20: 1592344940 : Maximum execution time of 30 seconds exceeded
+
+Jun 17, 2020 00.02.20: 1592344940 : Maximum execution time of 30 seconds exceeded
+
+Jun 17, 2020 00.02.20: 1592344940 : Maximum execution time of 30 seconds exceeded
+
+Jun 17, 2020 00.08.25: 1592345305 : Maximum execution time of 30 seconds exceeded
+
+Jun 17, 2020 01.34.18: 1592350458 : Maximum execution time of 30 seconds exceeded
+
+Jun 17, 2020 01.34.19: 1592350459 : Maximum execution time of 30 seconds exceeded
+
+Jun 17, 2020 01.34.19: 1592350459 : Maximum execution time of 30 seconds exceeded
+
+Jun 17, 2020 01.34.19: 1592350459 : Maximum execution time of 30 seconds exceeded
+
+Jun 17, 2020 01.34.19: 1592350459 : Maximum execution time of 30 seconds exceeded
+
+Jun 17, 2020 01.34.19: 1592350459 : Maximum execution time of 30 seconds exceeded
+
+Jun 17, 2020 01.36.24: 1592350584 : Maximum execution time of 30 seconds exceeded
+
+Jun 17, 2020 02.21.36: 1592353296 : Maximum execution time of 30 seconds exceeded
+
+Jun 17, 2020 02.21.36: 1592353296 : Maximum execution time of 30 seconds exceeded
+
+Jun 17, 2020 02.21.36: 1592353296 : Maximum execution time of 30 seconds exceeded
+
+Jun 17, 2020 02.21.36: 1592353296 : Maximum execution time of 30 seconds exceeded
+
+Jun 17, 2020 02.21.36: 1592353296 : Maximum execution time of 30 seconds exceeded
+
+Jun 17, 2020 02.21.36: 1592353296 : Maximum execution time of 30 seconds exceeded
+
+Jun 17, 2020 02.24.28: 1592353468 : Maximum execution time of 30 seconds exceeded
+
+Jun 18, 2020 13.01.37: 1592478097 : Maximum execution time of 30 seconds exceeded
+
+Jun 18, 2020 13.02.27: 1592478147 : Maximum execution time of 30 seconds exceeded
+
+Jun 18, 2020 13.03.29: 1592478209 : Maximum execution time of 30 seconds exceeded
+
+Jun 18, 2020 13.04.36: 1592478276 : Maximum execution time of 30 seconds exceeded
+
+Jun 18, 2020 13.37.44: 1592480264 : Uncaught TypeError: Argument 2 passed to WPSEO_Link_Watcher::save_post() must be an instance of WP_Post, null given, called in D:\xampp\htdocs\ourarts\wp-includes\class-wp-hook.php on line 290 and defined in D:\xampp\htdocs\ourarts\wp-content\plugins\wordpress-seo\admin\links\class-link-watcher.php:47
+Stack trace:
+#0 D:\xampp\htdocs\ourarts\wp-includes\class-wp-hook.php(290): WPSEO_Link_Watcher->save_post(36885, NULL)
+#1 D:\xampp\htdocs\ourarts\wp-includes\class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 D:\xampp\htdocs\ourarts\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 D:\xampp\htdocs\ourarts\wp-includes\post.php(4120): do_action('save_post', 36885, NULL, true)
+#4 D:\xampp\htdocs\ourarts\wp-includes\post.php(4197): wp_insert_post(Array, false)
+#5 D:\xampp\htdocs\ourarts\wp-content\plugins\woocommerce-smart-coupons\includes\libraries\action-scheduler\classes\data-stores\ActionScheduler_wpPostStore.php(797): wp_update_post(Array)
+#6 D:\xampp\htdocs\ourarts\wp-content\plugins\woocom
+
+Jun 18, 2020 13.38.21: 1592480301 : Maximum execution time of 30 seconds exceeded
+
+Jun 18, 2020 13.40.50: 1592480450 : Maximum execution time of 30 seconds exceeded
+
+Jun 18, 2020 13.42.18: 1592480538 : Maximum execution time of 30 seconds exceeded
+
+Jun 18, 2020 13.45.48: 1592480748 : Maximum execution time of 30 seconds exceeded
+
+Jun 18, 2020 13.47.44: 1592480864 : Maximum execution time of 30 seconds exceeded
+
+Jun 18, 2020 13.49.30: 1592480970 : Maximum execution time of 30 seconds exceeded
+
+Jun 18, 2020 13.51.16: 1592481076 : Maximum execution time of 30 seconds exceeded
+
+Jun 18, 2020 13.53.00: 1592481180 : Maximum execution time of 30 seconds exceeded
+
+Jun 18, 2020 13.55.14: 1592481314 : Maximum execution time of 30 seconds exceeded
+
+Jun 18, 2020 13.57.28: 1592481448 : Maximum execution time of 30 seconds exceeded
+
+Jun 18, 2020 13.58.16: 1592481496 : Maximum execution time of 30 seconds exceeded
+
+Jun 18, 2020 13.59.33: 1592481573 : Maximum execution time of 30 seconds exceeded
+
+Jun 18, 2020 14.00.16: 1592481616 : Maximum execution time of 30 seconds exceeded
+
+Jun 18, 2020 14.02.49: 1592481769 : Maximum execution time of 30 seconds exceeded
+
+Jun 18, 2020 14.05.55: 1592481955 : Maximum execution time of 30 seconds exceeded
+
+Jun 18, 2020 14.07.48: 1592482068 : Maximum execution time of 30 seconds exceeded
+
+Jun 18, 2020 14.11.31: 1592482291 : Maximum execution time of 30 seconds exceeded
+
+Jun 18, 2020 14.13.40: 1592482420 : Maximum execution time of 30 seconds exceeded
+
+Jun 18, 2020 14.16.19: 1592482579 : Maximum execution time of 30 seconds exceeded
+
+Jun 18, 2020 14.17.39: 1592482659 : Maximum execution time of 30 seconds exceeded
+
+Jun 18, 2020 14.21.39: 1592482899 : Maximum execution time of 30 seconds exceeded
+
+Jun 18, 2020 15.33.00: 1592487180 : Maximum execution time of 30 seconds exceeded
+
+Jun 18, 2020 15.33.31: 1592487211 : Maximum execution time of 30 seconds exceeded
+
+Jun 18, 2020 15.34.22: 1592487262 : Maximum execution time of 30 seconds exceeded
+
+Jun 18, 2020 15.36.21: 1592487381 : Maximum execution time of 30 seconds exceeded
+
+Jun 18, 2020 15.40.37: 1592487637 : Maximum execution time of 30 seconds exceeded
+
+Jun 18, 2020 15.44.39: 1592487879 : Maximum execution time of 30 seconds exceeded
+
+Jun 18, 2020 20.08.24: 1592503704 : Maximum execution time of 30 seconds exceeded
+
+Jun 18, 2020 20.08.24: 1592503704 : Maximum execution time of 30 seconds exceeded
+
+Jun 18, 2020 20.08.55: 1592503735 : Maximum execution time of 30 seconds exceeded
+
+Jun 18, 2020 20.08.56: 1592503736 : Maximum execution time of 30 seconds exceeded
+
+Jun 18, 2020 20.08.56: 1592503736 : Maximum execution time of 30 seconds exceeded
+
+Jun 18, 2020 20.08.56: 1592503736 : Maximum execution time of 30 seconds exceeded
+
+Jun 18, 2020 20.08.56: 1592503736 : Maximum execution time of 30 seconds exceeded
+
+Jun 18, 2020 20.10.18: 1592503818 : Maximum execution time of 30 seconds exceeded
+
+Jun 18, 2020 20.11.18: 1592503878 : Maximum execution time of 30 seconds exceeded
+
+Jun 18, 2020 20.13.45: 1592504025 : Maximum execution time of 30 seconds exceeded
+
+Jun 18, 2020 20.14.12: 1592504052 : Maximum execution time of 30 seconds exceeded
+
+Jun 18, 2020 20.15.12: 1592504112 : Maximum execution time of 30 seconds exceeded
+
+Jun 18, 2020 20.16.27: 1592504187 : Maximum execution time of 30 seconds exceeded
+
+Jun 18, 2020 20.18.19: 1592504299 : Uncaught ArgumentCountError: Too few arguments to function WC_SC_Purchase_Credit::woocommerce_cart_item_price_html(), 1 passed in D:\xampp\htdocs\ourarts\wp-includes\class-wp-hook.php on line 288 and exactly 3 expected in D:\xampp\htdocs\ourarts\wp-content\plugins\woocommerce-smart-coupons\includes\class-wc-sc-purchase-credit.php:350
+Stack trace:
+#0 D:\xampp\htdocs\ourarts\wp-includes\class-wp-hook.php(288): WC_SC_Purchase_Credit->woocommerce_cart_item_price_html('58.5EGP')
+#1 D:\xampp\htdocs\ourarts\wp-includes\plugin.php(206): WP_Hook->apply_filters('58.5EGP', Array)
+#2 D:\xampp\htdocs\ourarts\wp-content\themes\flatsome\woocommerce\cart\cart.php(235): apply_filters('woocommerce_car...', '58.5EGP')
+#3 D:\xampp\htdocs\ourarts\wp-content\plugins\woocommerce\includes\wc-core-functions.php(249): include('D:\\xampp\\htdocs...')
+#4 D:\xampp\htdocs\ourarts\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-cart.php(97): wc_get_template('cart/cart.php')
+#5 D:\xampp\htdocs\ourarts\wp-content\plugin
+
+Jun 18, 2020 20.18.21: 1592504301 : Maximum execution time of 30 seconds exceeded
+
+Jun 18, 2020 20.22.41: 1592504561 : Maximum execution time of 30 seconds exceeded
+
+Jun 18, 2020 20.24.56: 1592504696 : Maximum execution time of 30 seconds exceeded
+
+Jun 18, 2020 20.26.53: 1592504813 : Maximum execution time of 30 seconds exceeded
+
+Jun 18, 2020 20.29.52: 1592504992 : Uncaught ArgumentCountError: Too few arguments to function WC_SC_Purchase_Credit::woocommerce_cart_item_price_html(), 1 passed in D:\xampp\htdocs\ourarts\wp-includes\class-wp-hook.php on line 288 and exactly 3 expected in D:\xampp\htdocs\ourarts\wp-content\plugins\woocommerce-smart-coupons\includes\class-wc-sc-purchase-credit.php:350
+Stack trace:
+#0 D:\xampp\htdocs\ourarts\wp-includes\class-wp-hook.php(288): WC_SC_Purchase_Credit->woocommerce_cart_item_price_html('58.5EGP')
+#1 D:\xampp\htdocs\ourarts\wp-includes\plugin.php(206): WP_Hook->apply_filters('58.5EGP', Array)
+#2 D:\xampp\htdocs\ourarts\wp-content\themes\flatsome\woocommerce\cart\cart.php(236): apply_filters('woocommerce_car...', '58.5EGP')
+#3 D:\xampp\htdocs\ourarts\wp-content\plugins\woocommerce\includes\wc-core-functions.php(249): include('D:\\xampp\\htdocs...')
+#4 D:\xampp\htdocs\ourarts\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-cart.php(97): wc_get_template('cart/cart.php')
+#5 D:\xampp\htdocs\ourarts\wp-content\plugin
+
+Jun 18, 2020 20.33.18: 1592505198 : Uncaught ArgumentCountError: Too few arguments to function WC_SC_Purchase_Credit::woocommerce_cart_item_price_html(), 1 passed in D:\xampp\htdocs\ourarts\wp-includes\class-wp-hook.php on line 288 and exactly 3 expected in D:\xampp\htdocs\ourarts\wp-content\plugins\woocommerce-smart-coupons\includes\class-wc-sc-purchase-credit.php:350
+Stack trace:
+#0 D:\xampp\htdocs\ourarts\wp-includes\class-wp-hook.php(288): WC_SC_Purchase_Credit->woocommerce_cart_item_price_html('58.5EGP')
+#1 D:\xampp\htdocs\ourarts\wp-includes\plugin.php(206): WP_Hook->apply_filters('58.5EGP', Array)
+#2 D:\xampp\htdocs\ourarts\wp-content\themes\flatsome\woocommerce\cart\cart.php(236): apply_filters('woocommerce_car...', '58.5EGP')
+#3 D:\xampp\htdocs\ourarts\wp-content\plugins\woocommerce\includes\wc-core-functions.php(249): include('D:\\xampp\\htdocs...')
+#4 D:\xampp\htdocs\ourarts\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-cart.php(97): wc_get_template('cart/cart.php')
+#5 D:\xampp\htdocs\ourarts\wp-content\plugin
+
+Jun 18, 2020 20.33.46: 1592505226 : Maximum execution time of 30 seconds exceeded
+
+Jun 18, 2020 20.57.12: 1592506632 : Maximum execution time of 30 seconds exceeded
+
+Jun 18, 2020 20.57.12: 1592506632 : Maximum execution time of 30 seconds exceeded
+
+Jun 18, 2020 20.57.12: 1592506632 : Maximum execution time of 30 seconds exceeded
+
+Jun 18, 2020 20.57.12: 1592506632 : Maximum execution time of 30 seconds exceeded
+
+Jun 18, 2020 20.57.12: 1592506632 : Maximum execution time of 30 seconds exceeded
+
+Jun 18, 2020 20.57.42: 1592506662 : Maximum execution time of 30 seconds exceeded
+
+Jun 18, 2020 21.01.16: 1592506876 : Maximum execution time of 30 seconds exceeded
+
+Jun 18, 2020 21.03.40: 1592507020 : Maximum execution time of 30 seconds exceeded
+
+Jun 18, 2020 21.05.16: 1592507116 : Maximum execution time of 30 seconds exceeded
+
+Jun 18, 2020 21.07.45: 1592507265 : Maximum execution time of 30 seconds exceeded
+
+Jun 18, 2020 21.18.47: 1592507927 : Maximum execution time of 30 seconds exceeded
+
+Jun 18, 2020 21.18.47: 1592507927 : Maximum execution time of 30 seconds exceeded
+
+Jun 18, 2020 21.18.56: 1592507936 : Maximum execution time of 30 seconds exceeded
+
+Jun 18, 2020 21.19.21: 1592507961 : Uncaught ArgumentCountError: Too few arguments to function WC_SC_Purchase_Credit::woocommerce_cart_item_price_html(), 1 passed in D:\xampp\htdocs\ourarts\wp-includes\class-wp-hook.php on line 288 and exactly 3 expected in D:\xampp\htdocs\ourarts\wp-content\plugins\woocommerce-smart-coupons\includes\class-wc-sc-purchase-credit.php:350
+Stack trace:
+#0 D:\xampp\htdocs\ourarts\wp-includes\class-wp-hook.php(288): WC_SC_Purchase_Credit->woocommerce_cart_item_price_html('58.5EGP')
+#1 D:\xampp\htdocs\ourarts\wp-includes\plugin.php(206): WP_Hook->apply_filters('58.5EGP', Array)
+#2 D:\xampp\htdocs\ourarts\wp-content\themes\flatsome\woocommerce\cart\cart.php(235): apply_filters('woocommerce_car...', '58.5EGP')
+#3 D:\xampp\htdocs\ourarts\wp-content\plugins\woocommerce\includes\wc-core-functions.php(249): include('D:\\xampp\\htdocs...')
+#4 D:\xampp\htdocs\ourarts\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-cart.php(97): wc_get_template('cart/cart.php')
+#5 D:\xampp\htdocs\ourarts\wp-content\plugin
+
+Jun 18, 2020 21.20.00: 1592508000 : Uncaught ArgumentCountError: Too few arguments to function WC_SC_Purchase_Credit::woocommerce_cart_item_price_html(), 1 passed in D:\xampp\htdocs\ourarts\wp-includes\class-wp-hook.php on line 288 and exactly 3 expected in D:\xampp\htdocs\ourarts\wp-content\plugins\woocommerce-smart-coupons\includes\class-wc-sc-purchase-credit.php:350
+Stack trace:
+#0 D:\xampp\htdocs\ourarts\wp-includes\class-wp-hook.php(288): WC_SC_Purchase_Credit->woocommerce_cart_item_price_html('58.5EGP')
+#1 D:\xampp\htdocs\ourarts\wp-includes\plugin.php(206): WP_Hook->apply_filters('58.5EGP', Array)
+#2 D:\xampp\htdocs\ourarts\wp-content\themes\flatsome\woocommerce\cart\cart.php(235): apply_filters('woocommerce_car...', '58.5EGP')
+#3 D:\xampp\htdocs\ourarts\wp-content\plugins\woocommerce\includes\wc-core-functions.php(249): include('D:\\xampp\\htdocs...')
+#4 D:\xampp\htdocs\ourarts\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-cart.php(97): wc_get_template('cart/cart.php')
+#5 D:\xampp\htdocs\ourarts\wp-content\plugin
+
+Jun 18, 2020 21.20.30: 1592508030 : Maximum execution time of 30 seconds exceeded
+
+Jun 18, 2020 21.23.37: 1592508217 : Maximum execution time of 30 seconds exceeded
+
+Jun 18, 2020 21.24.49: 1592508289 : Maximum execution time of 30 seconds exceeded
+
+Jun 18, 2020 21.27.01: 1592508421 : Maximum execution time of 30 seconds exceeded
+
+Jun 18, 2020 21.28.51: 1592508531 : Maximum execution time of 30 seconds exceeded
+
+Jun 18, 2020 21.30.15: 1592508615 : Maximum execution time of 30 seconds exceeded
+
+Jun 18, 2020 21.32.42: 1592508762 : Maximum execution time of 30 seconds exceeded
+
+Jun 18, 2020 21.33.57: 1592508837 : Maximum execution time of 30 seconds exceeded
+
+Jun 18, 2020 21.34.19: 1592508859 : Maximum execution time of 30 seconds exceeded
+
+Jun 18, 2020 21.34.33: 1592508873 : Maximum execution time of 30 seconds exceeded
+
+Jun 18, 2020 21.34.53: 1592508893 : Maximum execution time of 30 seconds exceeded
+
+Jun 18, 2020 21.36.41: 1592509001 : Maximum execution time of 30 seconds exceeded
+
+Jun 18, 2020 21.39.58: 1592509198 : Maximum execution time of 30 seconds exceeded
+
+Jun 18, 2020 21.40.32: 1592509232 : Maximum execution time of 30 seconds exceeded
+
+Jun 18, 2020 21.43.38: 1592509418 : Maximum execution time of 30 seconds exceeded
+
+Jun 18, 2020 21.45.39: 1592509539 : Maximum execution time of 30 seconds exceeded
+
+Jun 18, 2020 21.49.46: 1592509786 : Maximum execution time of 30 seconds exceeded
+
+Jun 18, 2020 21.51.42: 1592509902 : Maximum execution time of 30 seconds exceeded
+
+Jun 18, 2020 21.54.20: 1592510060 : Maximum execution time of 30 seconds exceeded
+
+Jun 18, 2020 21.55.58: 1592510158 : Maximum execution time of 30 seconds exceeded
+
+Jun 18, 2020 22.01.08: 1592510468 : Maximum execution time of 30 seconds exceeded
+
+Jun 18, 2020 22.04.31: 1592510671 : Maximum execution time of 30 seconds exceeded
+
+Jun 18, 2020 22.06.20: 1592510780 : Uncaught ArgumentCountError: Too few arguments to function WC_SC_Purchase_Credit::woocommerce_cart_item_price_html(), 1 passed in D:\xampp\htdocs\ourarts\wp-includes\class-wp-hook.php on line 288 and exactly 3 expected in D:\xampp\htdocs\ourarts\wp-content\plugins\woocommerce-smart-coupons\includes\class-wc-sc-purchase-credit.php:350
+Stack trace:
+#0 D:\xampp\htdocs\ourarts\wp-includes\class-wp-hook.php(288): WC_SC_Purchase_Credit->woocommerce_cart_item_price_html('58.5EGP')
+#1 D:\xampp\htdocs\ourarts\wp-includes\plugin.php(206): WP_Hook->apply_filters('58.5EGP', Array)
+#2 D:\xampp\htdocs\ourarts\wp-content\themes\flatsome\woocommerce\cart\cart.php(238): apply_filters('woocommerce_car...', '58.5EGP')
+#3 D:\xampp\htdocs\ourarts\wp-content\plugins\woocommerce\includes\wc-core-functions.php(249): include('D:\\xampp\\htdocs...')
+#4 D:\xampp\htdocs\ourarts\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-cart.php(97): wc_get_template('cart/cart.php')
+#5 D:\xampp\htdocs\ourarts\wp-content\plugin
+
+Jun 18, 2020 22.08.16: 1592510896 : Uncaught ArgumentCountError: Too few arguments to function WC_SC_Purchase_Credit::woocommerce_cart_item_price_html(), 1 passed in D:\xampp\htdocs\ourarts\wp-includes\class-wp-hook.php on line 288 and exactly 3 expected in D:\xampp\htdocs\ourarts\wp-content\plugins\woocommerce-smart-coupons\includes\class-wc-sc-purchase-credit.php:350
+Stack trace:
+#0 D:\xampp\htdocs\ourarts\wp-includes\class-wp-hook.php(288): WC_SC_Purchase_Credit->woocommerce_cart_item_price_html('58.5EGP')
+#1 D:\xampp\htdocs\ourarts\wp-includes\plugin.php(206): WP_Hook->apply_filters('58.5EGP', Array)
+#2 D:\xampp\htdocs\ourarts\wp-content\themes\flatsome\woocommerce\cart\cart.php(238): apply_filters('woocommerce_car...', '58.5EGP')
+#3 D:\xampp\htdocs\ourarts\wp-content\plugins\woocommerce\includes\wc-core-functions.php(249): include('D:\\xampp\\htdocs...')
+#4 D:\xampp\htdocs\ourarts\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-cart.php(97): wc_get_template('cart/cart.php')
+#5 D:\xampp\htdocs\ourarts\wp-content\plugin
+
+Jun 18, 2020 22.08.45: 1592510925 : Maximum execution time of 30 seconds exceeded
+
+Jun 18, 2020 22.11.24: 1592511084 : Maximum execution time of 30 seconds exceeded
+
+Jun 18, 2020 22.12.29: 1592511149 : Uncaught ArgumentCountError: Too few arguments to function WC_SC_Purchase_Credit::woocommerce_cart_item_price_html(), 1 passed in D:\xampp\htdocs\ourarts\wp-includes\class-wp-hook.php on line 288 and exactly 3 expected in D:\xampp\htdocs\ourarts\wp-content\plugins\woocommerce-smart-coupons\includes\class-wc-sc-purchase-credit.php:350
+Stack trace:
+#0 D:\xampp\htdocs\ourarts\wp-includes\class-wp-hook.php(288): WC_SC_Purchase_Credit->woocommerce_cart_item_price_html('58.5EGP')
+#1 D:\xampp\htdocs\ourarts\wp-includes\plugin.php(206): WP_Hook->apply_filters('58.5EGP', Array)
+#2 D:\xampp\htdocs\ourarts\wp-content\themes\flatsome\woocommerce\cart\cart.php(237): apply_filters('woocommerce_car...', '58.5EGP')
+#3 D:\xampp\htdocs\ourarts\wp-content\plugins\woocommerce\includes\wc-core-functions.php(249): include('D:\\xampp\\htdocs...')
+#4 D:\xampp\htdocs\ourarts\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-cart.php(97): wc_get_template('cart/cart.php')
+#5 D:\xampp\htdocs\ourarts\wp-content\plugin
+
+Jun 18, 2020 22.12.58: 1592511178 : Maximum execution time of 30 seconds exceeded
+
+Jun 18, 2020 22.18.51: 1592511531 : Uncaught ArgumentCountError: Too few arguments to function WC_SC_Purchase_Credit::woocommerce_cart_item_price_html(), 1 passed in D:\xampp\htdocs\ourarts\wp-includes\class-wp-hook.php on line 288 and exactly 3 expected in D:\xampp\htdocs\ourarts\wp-content\plugins\woocommerce-smart-coupons\includes\class-wc-sc-purchase-credit.php:350
+Stack trace:
+#0 D:\xampp\htdocs\ourarts\wp-includes\class-wp-hook.php(288): WC_SC_Purchase_Credit->woocommerce_cart_item_price_html('58.5')
+#1 D:\xampp\htdocs\ourarts\wp-includes\plugin.php(206): WP_Hook->apply_filters('58.5', Array)
+#2 D:\xampp\htdocs\ourarts\wp-content\themes\flatsome\woocommerce\cart\cart.php(237): apply_filters('woocommerce_car...', '58.5')
+#3 D:\xampp\htdocs\ourarts\wp-content\plugins\woocommerce\includes\wc-core-functions.php(249): include('D:\\xampp\\htdocs...')
+#4 D:\xampp\htdocs\ourarts\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-cart.php(97): wc_get_template('cart/cart.php')
+#5 D:\xampp\htdocs\ourarts\wp-content\plugins\woocomm
+
+Jun 18, 2020 22.20.28: 1592511628 : Maximum execution time of 30 seconds exceeded
+
+Jun 18, 2020 22.23.39: 1592511819 : Maximum execution time of 30 seconds exceeded
+
+Jun 18, 2020 23.02.05: 1592514125 : Maximum execution time of 30 seconds exceeded
+
+Jun 18, 2020 23.02.05: 1592514125 : Maximum execution time of 30 seconds exceeded
+
+Jun 18, 2020 23.02.05: 1592514125 : Maximum execution time of 30 seconds exceeded
+
+Jun 18, 2020 23.02.06: 1592514126 : Maximum execution time of 30 seconds exceeded
+
+Jun 18, 2020 23.02.06: 1592514126 : Maximum execution time of 30 seconds exceeded
+
+Jun 18, 2020 23.02.06: 1592514126 : Maximum execution time of 30 seconds exceeded
+
+Jun 18, 2020 23.02.56: 1592514176 : Maximum execution time of 30 seconds exceeded
+
+Jun 18, 2020 23.04.11: 1592514251 : Maximum execution time of 30 seconds exceeded
+
+Jun 18, 2020 23.08.11: 1592514491 : Maximum execution time of 30 seconds exceeded
+
+Jun 18, 2020 23.10.11: 1592514611 : Maximum execution time of 30 seconds exceeded
+
+Aug 31, 2020 02.03.19: 1598832199 : Maximum execution time of 30 seconds exceeded
+
+Aug 31, 2020 02.05.23: 1598832323 : Maximum execution time of 30 seconds exceeded
+
+Aug 31, 2020 02.30.09: 1598833809 : Maximum execution time of 30 seconds exceeded
+
+Aug 31, 2020 02.31.05: 1598833865 : Maximum execution time of 30 seconds exceeded
+
+Aug 31, 2020 02.31.40: 1598833900 : Maximum execution time of 30 seconds exceeded
+
+Aug 31, 2020 02.32.15: 1598833935 : Maximum execution time of 30 seconds exceeded
+
+Aug 31, 2020 02.33.12: 1598833992 : Uncaught TypeError: Argument 2 passed to WPSEO_Link_Watcher::save_post() must be an instance of WP_Post, null given, called in D:\xampp\htdocs\ourarts\wp-includes\class-wp-hook.php on line 290 and defined in D:\xampp\htdocs\ourarts\wp-content\plugins\wordpress-seo\admin\links\class-link-watcher.php:47
+Stack trace:
+#0 D:\xampp\htdocs\ourarts\wp-includes\class-wp-hook.php(290): WPSEO_Link_Watcher->save_post(30050, NULL)
+#1 D:\xampp\htdocs\ourarts\wp-includes\class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 D:\xampp\htdocs\ourarts\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 D:\xampp\htdocs\ourarts\wp-includes\post.php(4120): do_action('save_post', 30050, NULL, true)
+#4 D:\xampp\htdocs\ourarts\wp-includes\post.php(4197): wp_insert_post(Array, false)
+#5 D:\xampp\htdocs\ourarts\wp-content\plugins\woocommerce-smart-coupons\includes\libraries\action-scheduler\classes\data-stores\ActionScheduler_wpPostStore.php(797): wp_update_post(Array)
+#6 D:\xampp\htdocs\ourarts\wp-content\plugins\woocom
+
+Aug 31, 2020 02.33.35: 1598834015 : Maximum execution time of 30 seconds exceeded
+
+Aug 31, 2020 02.33.36: 1598834016 : Maximum execution time of 30 seconds exceeded
+
+Aug 31, 2020 02.33.36: 1598834016 : Maximum execution time of 30 seconds exceeded
+
+Aug 31, 2020 02.33.42: 1598834022 : Maximum execution time of 30 seconds exceeded
+
+Aug 31, 2020 02.38.12: 1598834292 : Maximum execution time of 30 seconds exceeded
+
+Aug 31, 2020 02.38.35: 1598834315 : Uncaught TypeError: Argument 2 passed to WPSEO_Link_Watcher::save_post() must be an instance of WP_Post, null given, called in D:\xampp\htdocs\ourarts\wp-includes\class-wp-hook.php on line 290 and defined in D:\xampp\htdocs\ourarts\wp-content\plugins\wordpress-seo\admin\links\class-link-watcher.php:47
+Stack trace:
+#0 D:\xampp\htdocs\ourarts\wp-includes\class-wp-hook.php(290): WPSEO_Link_Watcher->save_post(30071, NULL)
+#1 D:\xampp\htdocs\ourarts\wp-includes\class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 D:\xampp\htdocs\ourarts\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 D:\xampp\htdocs\ourarts\wp-includes\post.php(4120): do_action('save_post', 30071, NULL, true)
+#4 D:\xampp\htdocs\ourarts\wp-includes\post.php(4197): wp_insert_post(Array, false)
+#5 D:\xampp\htdocs\ourarts\wp-content\plugins\woocommerce-smart-coupons\includes\libraries\action-scheduler\classes\data-stores\ActionScheduler_wpPostStore.php(797): wp_update_post(Array)
+#6 D:\xampp\htdocs\ourarts\wp-content\plugins\woocom
+
+Aug 31, 2020 02.39.04: 1598834344 : Maximum execution time of 30 seconds exceeded
+
+Aug 31, 2020 02.39.21: 1598834361 : Maximum execution time of 30 seconds exceeded
+
+Aug 31, 2020 02.39.21: 1598834361 : Maximum execution time of 30 seconds exceeded
+
+Aug 31, 2020 02.39.31: 1598834371 : Maximum execution time of 30 seconds exceeded
+
+Aug 31, 2020 02.39.38: 1598834378 : Uncaught TypeError: Argument 2 passed to WPSEO_Link_Watcher::save_post() must be an instance of WP_Post, null given, called in D:\xampp\htdocs\ourarts\wp-includes\class-wp-hook.php on line 290 and defined in D:\xampp\htdocs\ourarts\wp-content\plugins\wordpress-seo\admin\links\class-link-watcher.php:47
+Stack trace:
+#0 D:\xampp\htdocs\ourarts\wp-includes\class-wp-hook.php(290): WPSEO_Link_Watcher->save_post(30109, NULL)
+#1 D:\xampp\htdocs\ourarts\wp-includes\class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 D:\xampp\htdocs\ourarts\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 D:\xampp\htdocs\ourarts\wp-includes\post.php(4120): do_action('save_post', 30109, NULL, true)
+#4 D:\xampp\htdocs\ourarts\wp-includes\post.php(4197): wp_insert_post(Array, false)
+#5 D:\xampp\htdocs\ourarts\wp-content\plugins\woocommerce-smart-coupons\includes\libraries\action-scheduler\classes\data-stores\ActionScheduler_wpPostStore.php(797): wp_update_post(Array)
+#6 D:\xampp\htdocs\ourarts\wp-content\plugins\woocom
+
+Aug 31, 2020 02.39.38: 1598834378 : Maximum execution time of 30 seconds exceeded
+
+Aug 31, 2020 02.42.57: 1598834577 : Maximum execution time of 30 seconds exceeded
+
+Aug 31, 2020 02.43.17: 1598834597 : Maximum execution time of 30 seconds exceeded
+
+Aug 31, 2020 02.43.55: 1598834635 : Maximum execution time of 30 seconds exceeded
+
+Aug 31, 2020 02.44.03: 1598834643 : Maximum execution time of 30 seconds exceeded
+
+Aug 31, 2020 02.44.13: 1598834653 : Maximum execution time of 30 seconds exceeded
+
+Aug 31, 2020 02.46.57: 1598834817 : Uncaught TypeError: Argument 2 passed to WPSEO_Link_Watcher::save_post() must be an instance of WP_Post, null given, called in D:\xampp\htdocs\ourarts\wp-includes\class-wp-hook.php on line 290 and defined in D:\xampp\htdocs\ourarts\wp-content\plugins\wordpress-seo\admin\links\class-link-watcher.php:47
+Stack trace:
+#0 D:\xampp\htdocs\ourarts\wp-includes\class-wp-hook.php(290): WPSEO_Link_Watcher->save_post(30201, NULL)
+#1 D:\xampp\htdocs\ourarts\wp-includes\class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 D:\xampp\htdocs\ourarts\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 D:\xampp\htdocs\ourarts\wp-includes\post.php(4120): do_action('save_post', 30201, NULL, true)
+#4 D:\xampp\htdocs\ourarts\wp-includes\post.php(4197): wp_insert_post(Array, false)
+#5 D:\xampp\htdocs\ourarts\wp-content\plugins\woocommerce-smart-coupons\includes\libraries\action-scheduler\classes\data-stores\ActionScheduler_wpPostStore.php(797): wp_update_post(Array)
+#6 D:\xampp\htdocs\ourarts\wp-content\plugins\woocom
+
+Aug 31, 2020 02.47.32: 1598834852 : Uncaught TypeError: Argument 2 passed to WPSEO_Link_Watcher::save_post() must be an instance of WP_Post, null given, called in D:\xampp\htdocs\ourarts\wp-includes\class-wp-hook.php on line 290 and defined in D:\xampp\htdocs\ourarts\wp-content\plugins\wordpress-seo\admin\links\class-link-watcher.php:47
+Stack trace:
+#0 D:\xampp\htdocs\ourarts\wp-includes\class-wp-hook.php(290): WPSEO_Link_Watcher->save_post(30211, NULL)
+#1 D:\xampp\htdocs\ourarts\wp-includes\class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 D:\xampp\htdocs\ourarts\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 D:\xampp\htdocs\ourarts\wp-includes\post.php(4120): do_action('save_post', 30211, NULL, true)
+#4 D:\xampp\htdocs\ourarts\wp-includes\post.php(4197): wp_insert_post(Array, false)
+#5 D:\xampp\htdocs\ourarts\wp-content\plugins\woocommerce-smart-coupons\includes\libraries\action-scheduler\classes\data-stores\ActionScheduler_wpPostStore.php(797): wp_update_post(Array)
+#6 D:\xampp\htdocs\ourarts\wp-content\plugins\woocom
+
+Aug 31, 2020 02.48.41: 1598834921 : Uncaught TypeError: Argument 2 passed to WPSEO_Link_Watcher::save_post() must be an instance of WP_Post, null given, called in D:\xampp\htdocs\ourarts\wp-includes\class-wp-hook.php on line 290 and defined in D:\xampp\htdocs\ourarts\wp-content\plugins\wordpress-seo\admin\links\class-link-watcher.php:47
+Stack trace:
+#0 D:\xampp\htdocs\ourarts\wp-includes\class-wp-hook.php(290): WPSEO_Link_Watcher->save_post(30246, NULL)
+#1 D:\xampp\htdocs\ourarts\wp-includes\class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 D:\xampp\htdocs\ourarts\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 D:\xampp\htdocs\ourarts\wp-includes\post.php(4120): do_action('save_post', 30246, NULL, true)
+#4 D:\xampp\htdocs\ourarts\wp-includes\post.php(4197): wp_insert_post(Array, false)
+#5 D:\xampp\htdocs\ourarts\wp-content\plugins\woocommerce-smart-coupons\includes\libraries\action-scheduler\classes\data-stores\ActionScheduler_wpPostStore.php(797): wp_update_post(Array)
+#6 D:\xampp\htdocs\ourarts\wp-content\plugins\woocom
+
+Aug 31, 2020 02.49.40: 1598834980 : Maximum execution time of 30 seconds exceeded
+
+Aug 31, 2020 02.49.52: 1598834992 : Uncaught TypeError: Argument 2 passed to WPSEO_Link_Watcher::save_post() must be an instance of WP_Post, null given, called in D:\xampp\htdocs\ourarts\wp-includes\class-wp-hook.php on line 290 and defined in D:\xampp\htdocs\ourarts\wp-content\plugins\wordpress-seo\admin\links\class-link-watcher.php:47
+Stack trace:
+#0 D:\xampp\htdocs\ourarts\wp-includes\class-wp-hook.php(290): WPSEO_Link_Watcher->save_post(30289, NULL)
+#1 D:\xampp\htdocs\ourarts\wp-includes\class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 D:\xampp\htdocs\ourarts\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 D:\xampp\htdocs\ourarts\wp-includes\post.php(4120): do_action('save_post', 30289, NULL, true)
+#4 D:\xampp\htdocs\ourarts\wp-includes\post.php(4197): wp_insert_post(Array, false)
+#5 D:\xampp\htdocs\ourarts\wp-content\plugins\woocommerce-smart-coupons\includes\libraries\action-scheduler\classes\data-stores\ActionScheduler_wpPostStore.php(797): wp_update_post(Array)
+#6 D:\xampp\htdocs\ourarts\wp-content\plugins\woocom
+
+Aug 31, 2020 02.49.58: 1598834998 : Uncaught TypeError: Argument 2 passed to WPSEO_Link_Watcher::save_post() must be an instance of WP_Post, null given, called in D:\xampp\htdocs\ourarts\wp-includes\class-wp-hook.php on line 290 and defined in D:\xampp\htdocs\ourarts\wp-content\plugins\wordpress-seo\admin\links\class-link-watcher.php:47
+Stack trace:
+#0 D:\xampp\htdocs\ourarts\wp-includes\class-wp-hook.php(290): WPSEO_Link_Watcher->save_post(30295, NULL)
+#1 D:\xampp\htdocs\ourarts\wp-includes\class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 D:\xampp\htdocs\ourarts\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 D:\xampp\htdocs\ourarts\wp-includes\post.php(4120): do_action('save_post', 30295, NULL, true)
+#4 D:\xampp\htdocs\ourarts\wp-includes\post.php(4197): wp_insert_post(Array, false)
+#5 D:\xampp\htdocs\ourarts\wp-content\plugins\woocommerce-smart-coupons\includes\libraries\action-scheduler\classes\data-stores\ActionScheduler_wpPostStore.php(797): wp_update_post(Array)
+#6 D:\xampp\htdocs\ourarts\wp-content\plugins\woocom
+
+Aug 31, 2020 02.51.28: 1598835088 : Uncaught TypeError: Argument 2 passed to WPSEO_Link_Watcher::save_post() must be an instance of WP_Post, null given, called in D:\xampp\htdocs\ourarts\wp-includes\class-wp-hook.php on line 290 and defined in D:\xampp\htdocs\ourarts\wp-content\plugins\wordpress-seo\admin\links\class-link-watcher.php:47
+Stack trace:
+#0 D:\xampp\htdocs\ourarts\wp-includes\class-wp-hook.php(290): WPSEO_Link_Watcher->save_post(30308, NULL)
+#1 D:\xampp\htdocs\ourarts\wp-includes\class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 D:\xampp\htdocs\ourarts\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 D:\xampp\htdocs\ourarts\wp-includes\post.php(4120): do_action('save_post', 30308, NULL, true)
+#4 D:\xampp\htdocs\ourarts\wp-includes\post.php(4197): wp_insert_post(Array, false)
+#5 D:\xampp\htdocs\ourarts\wp-content\plugins\woocommerce-smart-coupons\includes\libraries\action-scheduler\classes\data-stores\ActionScheduler_wpPostStore.php(797): wp_update_post(Array)
+#6 D:\xampp\htdocs\ourarts\wp-content\plugins\woocom
+
+Aug 31, 2020 02.52.49: 1598835169 : Uncaught TypeError: Argument 2 passed to WPSEO_Link_Watcher::save_post() must be an instance of WP_Post, null given, called in D:\xampp\htdocs\ourarts\wp-includes\class-wp-hook.php on line 290 and defined in D:\xampp\htdocs\ourarts\wp-content\plugins\wordpress-seo\admin\links\class-link-watcher.php:47
+Stack trace:
+#0 D:\xampp\htdocs\ourarts\wp-includes\class-wp-hook.php(290): WPSEO_Link_Watcher->save_post(30329, NULL)
+#1 D:\xampp\htdocs\ourarts\wp-includes\class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 D:\xampp\htdocs\ourarts\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 D:\xampp\htdocs\ourarts\wp-includes\post.php(4120): do_action('save_post', 30329, NULL, true)
+#4 D:\xampp\htdocs\ourarts\wp-includes\post.php(4197): wp_insert_post(Array, false)
+#5 D:\xampp\htdocs\ourarts\wp-content\plugins\woocommerce-smart-coupons\includes\libraries\action-scheduler\classes\data-stores\ActionScheduler_wpPostStore.php(797): wp_update_post(Array)
+#6 D:\xampp\htdocs\ourarts\wp-content\plugins\woocom
+
+Aug 31, 2020 02.52.51: 1598835171 : Uncaught TypeError: Argument 2 passed to WPSEO_Link_Watcher::save_post() must be an instance of WP_Post, null given, called in D:\xampp\htdocs\ourarts\wp-includes\class-wp-hook.php on line 290 and defined in D:\xampp\htdocs\ourarts\wp-content\plugins\wordpress-seo\admin\links\class-link-watcher.php:47
+Stack trace:
+#0 D:\xampp\htdocs\ourarts\wp-includes\class-wp-hook.php(290): WPSEO_Link_Watcher->save_post(30331, NULL)
+#1 D:\xampp\htdocs\ourarts\wp-includes\class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 D:\xampp\htdocs\ourarts\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 D:\xampp\htdocs\ourarts\wp-includes\post.php(4120): do_action('save_post', 30331, NULL, true)
+#4 D:\xampp\htdocs\ourarts\wp-includes\post.php(4197): wp_insert_post(Array, false)
+#5 D:\xampp\htdocs\ourarts\wp-content\plugins\woocommerce-smart-coupons\includes\libraries\action-scheduler\classes\data-stores\ActionScheduler_wpPostStore.php(797): wp_update_post(Array)
+#6 D:\xampp\htdocs\ourarts\wp-content\plugins\woocom
+
+Aug 31, 2020 02.53.18: 1598835198 : Maximum execution time of 30 seconds exceeded
+
+Aug 31, 2020 02.54.06: 1598835246 : Uncaught TypeError: Argument 2 passed to WPSEO_Link_Watcher::save_post() must be an instance of WP_Post, null given, called in D:\xampp\htdocs\ourarts\wp-includes\class-wp-hook.php on line 290 and defined in D:\xampp\htdocs\ourarts\wp-content\plugins\wordpress-seo\admin\links\class-link-watcher.php:47
+Stack trace:
+#0 D:\xampp\htdocs\ourarts\wp-includes\class-wp-hook.php(290): WPSEO_Link_Watcher->save_post(30361, NULL)
+#1 D:\xampp\htdocs\ourarts\wp-includes\class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 D:\xampp\htdocs\ourarts\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 D:\xampp\htdocs\ourarts\wp-includes\post.php(4120): do_action('save_post', 30361, NULL, true)
+#4 D:\xampp\htdocs\ourarts\wp-includes\post.php(4197): wp_insert_post(Array, false)
+#5 D:\xampp\htdocs\ourarts\wp-content\plugins\woocommerce-smart-coupons\includes\libraries\action-scheduler\classes\data-stores\ActionScheduler_wpPostStore.php(797): wp_update_post(Array)
+#6 D:\xampp\htdocs\ourarts\wp-content\plugins\woocom
+
+Aug 31, 2020 02.54.35: 1598835275 : Maximum execution time of 30 seconds exceeded
+
+Aug 31, 2020 02.55.25: 1598835325 : Uncaught TypeError: Argument 2 passed to WPSEO_Link_Watcher::save_post() must be an instance of WP_Post, null given, called in D:\xampp\htdocs\ourarts\wp-includes\class-wp-hook.php on line 290 and defined in D:\xampp\htdocs\ourarts\wp-content\plugins\wordpress-seo\admin\links\class-link-watcher.php:47
+Stack trace:
+#0 D:\xampp\htdocs\ourarts\wp-includes\class-wp-hook.php(290): WPSEO_Link_Watcher->save_post(30399, NULL)
+#1 D:\xampp\htdocs\ourarts\wp-includes\class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 D:\xampp\htdocs\ourarts\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 D:\xampp\htdocs\ourarts\wp-includes\post.php(4120): do_action('save_post', 30399, NULL, true)
+#4 D:\xampp\htdocs\ourarts\wp-includes\post.php(4197): wp_insert_post(Array, false)
+#5 D:\xampp\htdocs\ourarts\wp-content\plugins\woocommerce-smart-coupons\includes\libraries\action-scheduler\classes\data-stores\ActionScheduler_wpPostStore.php(797): wp_update_post(Array)
+#6 D:\xampp\htdocs\ourarts\wp-content\plugins\woocom
+
+Aug 31, 2020 02.56.45: 1598835405 : Uncaught TypeError: Argument 2 passed to WPSEO_Link_Watcher::save_post() must be an instance of WP_Post, null given, called in D:\xampp\htdocs\ourarts\wp-includes\class-wp-hook.php on line 290 and defined in D:\xampp\htdocs\ourarts\wp-content\plugins\wordpress-seo\admin\links\class-link-watcher.php:47
+Stack trace:
+#0 D:\xampp\htdocs\ourarts\wp-includes\class-wp-hook.php(290): WPSEO_Link_Watcher->save_post(30419, NULL)
+#1 D:\xampp\htdocs\ourarts\wp-includes\class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 D:\xampp\htdocs\ourarts\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 D:\xampp\htdocs\ourarts\wp-includes\post.php(4120): do_action('save_post', 30419, NULL, true)
+#4 D:\xampp\htdocs\ourarts\wp-includes\post.php(4197): wp_insert_post(Array, false)
+#5 D:\xampp\htdocs\ourarts\wp-content\plugins\woocommerce-smart-coupons\includes\libraries\action-scheduler\classes\data-stores\ActionScheduler_wpPostStore.php(797): wp_update_post(Array)
+#6 D:\xampp\htdocs\ourarts\wp-content\plugins\woocom
+
+Aug 31, 2020 02.56.47: 1598835407 : Uncaught TypeError: Argument 2 passed to WPSEO_Link_Watcher::save_post() must be an instance of WP_Post, null given, called in D:\xampp\htdocs\ourarts\wp-includes\class-wp-hook.php on line 290 and defined in D:\xampp\htdocs\ourarts\wp-content\plugins\wordpress-seo\admin\links\class-link-watcher.php:47
+Stack trace:
+#0 D:\xampp\htdocs\ourarts\wp-includes\class-wp-hook.php(290): WPSEO_Link_Watcher->save_post(30421, NULL)
+#1 D:\xampp\htdocs\ourarts\wp-includes\class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 D:\xampp\htdocs\ourarts\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 D:\xampp\htdocs\ourarts\wp-includes\post.php(4120): do_action('save_post', 30421, NULL, true)
+#4 D:\xampp\htdocs\ourarts\wp-includes\post.php(4197): wp_insert_post(Array, false)
+#5 D:\xampp\htdocs\ourarts\wp-content\plugins\woocommerce-smart-coupons\includes\libraries\action-scheduler\classes\data-stores\ActionScheduler_wpPostStore.php(797): wp_update_post(Array)
+#6 D:\xampp\htdocs\ourarts\wp-content\plugins\woocom
+
+Aug 31, 2020 02.58.37: 1598835517 : Uncaught TypeError: Argument 2 passed to WPSEO_Link_Watcher::save_post() must be an instance of WP_Post, null given, called in D:\xampp\htdocs\ourarts\wp-includes\class-wp-hook.php on line 290 and defined in D:\xampp\htdocs\ourarts\wp-content\plugins\wordpress-seo\admin\links\class-link-watcher.php:47
+Stack trace:
+#0 D:\xampp\htdocs\ourarts\wp-includes\class-wp-hook.php(290): WPSEO_Link_Watcher->save_post(30437, NULL)
+#1 D:\xampp\htdocs\ourarts\wp-includes\class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 D:\xampp\htdocs\ourarts\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 D:\xampp\htdocs\ourarts\wp-includes\post.php(4120): do_action('save_post', 30437, NULL, true)
+#4 D:\xampp\htdocs\ourarts\wp-includes\post.php(4197): wp_insert_post(Array, false)
+#5 D:\xampp\htdocs\ourarts\wp-content\plugins\woocommerce-smart-coupons\includes\libraries\action-scheduler\classes\data-stores\ActionScheduler_wpPostStore.php(797): wp_update_post(Array)
+#6 D:\xampp\htdocs\ourarts\wp-content\plugins\woocom
+
+Aug 31, 2020 03.00.04: 1598835604 : Uncaught TypeError: Argument 2 passed to WPSEO_Link_Watcher::save_post() must be an instance of WP_Post, null given, called in D:\xampp\htdocs\ourarts\wp-includes\class-wp-hook.php on line 290 and defined in D:\xampp\htdocs\ourarts\wp-content\plugins\wordpress-seo\admin\links\class-link-watcher.php:47
+Stack trace:
+#0 D:\xampp\htdocs\ourarts\wp-includes\class-wp-hook.php(290): WPSEO_Link_Watcher->save_post(30498, NULL)
+#1 D:\xampp\htdocs\ourarts\wp-includes\class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 D:\xampp\htdocs\ourarts\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 D:\xampp\htdocs\ourarts\wp-includes\post.php(4120): do_action('save_post', 30498, NULL, true)
+#4 D:\xampp\htdocs\ourarts\wp-includes\post.php(4197): wp_insert_post(Array, false)
+#5 D:\xampp\htdocs\ourarts\wp-content\plugins\woocommerce-smart-coupons\includes\libraries\action-scheduler\classes\data-stores\ActionScheduler_wpPostStore.php(797): wp_update_post(Array)
+#6 D:\xampp\htdocs\ourarts\wp-content\plugins\woocom
+
+Aug 31, 2020 03.01.03: 1598835663 : Uncaught TypeError: Argument 2 passed to WPSEO_Link_Watcher::save_post() must be an instance of WP_Post, null given, called in D:\xampp\htdocs\ourarts\wp-includes\class-wp-hook.php on line 290 and defined in D:\xampp\htdocs\ourarts\wp-content\plugins\wordpress-seo\admin\links\class-link-watcher.php:47
+Stack trace:
+#0 D:\xampp\htdocs\ourarts\wp-includes\class-wp-hook.php(290): WPSEO_Link_Watcher->save_post(30554, NULL)
+#1 D:\xampp\htdocs\ourarts\wp-includes\class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 D:\xampp\htdocs\ourarts\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 D:\xampp\htdocs\ourarts\wp-includes\post.php(4120): do_action('save_post', 30554, NULL, true)
+#4 D:\xampp\htdocs\ourarts\wp-includes\post.php(4197): wp_insert_post(Array, false)
+#5 D:\xampp\htdocs\ourarts\wp-content\plugins\woocommerce-smart-coupons\includes\libraries\action-scheduler\classes\data-stores\ActionScheduler_wpPostStore.php(797): wp_update_post(Array)
+#6 D:\xampp\htdocs\ourarts\wp-content\plugins\woocom
+
+Aug 31, 2020 03.01.05: 1598835665 : Uncaught TypeError: Argument 2 passed to WPSEO_Link_Watcher::save_post() must be an instance of WP_Post, null given, called in D:\xampp\htdocs\ourarts\wp-includes\class-wp-hook.php on line 290 and defined in D:\xampp\htdocs\ourarts\wp-content\plugins\wordpress-seo\admin\links\class-link-watcher.php:47
+Stack trace:
+#0 D:\xampp\htdocs\ourarts\wp-includes\class-wp-hook.php(290): WPSEO_Link_Watcher->save_post(30555, NULL)
+#1 D:\xampp\htdocs\ourarts\wp-includes\class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 D:\xampp\htdocs\ourarts\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 D:\xampp\htdocs\ourarts\wp-includes\post.php(4120): do_action('save_post', 30555, NULL, true)
+#4 D:\xampp\htdocs\ourarts\wp-includes\post.php(4197): wp_insert_post(Array, false)
+#5 D:\xampp\htdocs\ourarts\wp-content\plugins\woocommerce-smart-coupons\includes\libraries\action-scheduler\classes\data-stores\ActionScheduler_wpPostStore.php(797): wp_update_post(Array)
+#6 D:\xampp\htdocs\ourarts\wp-content\plugins\woocom
+
+Aug 31, 2020 03.01.51: 1598835711 : Maximum execution time of 30 seconds exceeded
+
+Aug 31, 2020 03.03.14: 1598835794 : Uncaught TypeError: Argument 2 passed to WPSEO_Link_Watcher::save_post() must be an instance of WP_Post, null given, called in D:\xampp\htdocs\ourarts\wp-includes\class-wp-hook.php on line 290 and defined in D:\xampp\htdocs\ourarts\wp-content\plugins\wordpress-seo\admin\links\class-link-watcher.php:47
+Stack trace:
+#0 D:\xampp\htdocs\ourarts\wp-includes\class-wp-hook.php(290): WPSEO_Link_Watcher->save_post(30600, NULL)
+#1 D:\xampp\htdocs\ourarts\wp-includes\class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 D:\xampp\htdocs\ourarts\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 D:\xampp\htdocs\ourarts\wp-includes\post.php(4120): do_action('save_post', 30600, NULL, true)
+#4 D:\xampp\htdocs\ourarts\wp-includes\post.php(4197): wp_insert_post(Array, false)
+#5 D:\xampp\htdocs\ourarts\wp-content\plugins\woocommerce-smart-coupons\includes\libraries\action-scheduler\classes\data-stores\ActionScheduler_wpPostStore.php(797): wp_update_post(Array)
+#6 D:\xampp\htdocs\ourarts\wp-content\plugins\woocom
+
+Aug 31, 2020 03.04.26: 1598835866 : Uncaught TypeError: Argument 2 passed to WPSEO_Link_Watcher::save_post() must be an instance of WP_Post, null given, called in D:\xampp\htdocs\ourarts\wp-includes\class-wp-hook.php on line 290 and defined in D:\xampp\htdocs\ourarts\wp-content\plugins\wordpress-seo\admin\links\class-link-watcher.php:47
+Stack trace:
+#0 D:\xampp\htdocs\ourarts\wp-includes\class-wp-hook.php(290): WPSEO_Link_Watcher->save_post(30621, NULL)
+#1 D:\xampp\htdocs\ourarts\wp-includes\class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 D:\xampp\htdocs\ourarts\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 D:\xampp\htdocs\ourarts\wp-includes\post.php(4120): do_action('save_post', 30621, NULL, true)
+#4 D:\xampp\htdocs\ourarts\wp-includes\post.php(4197): wp_insert_post(Array, false)
+#5 D:\xampp\htdocs\ourarts\wp-content\plugins\woocommerce-smart-coupons\includes\libraries\action-scheduler\classes\data-stores\ActionScheduler_wpPostStore.php(797): wp_update_post(Array)
+#6 D:\xampp\htdocs\ourarts\wp-content\plugins\woocom
+
+Aug 31, 2020 03.05.30: 1598835930 : Uncaught TypeError: Argument 2 passed to WPSEO_Link_Watcher::save_post() must be an instance of WP_Post, null given, called in D:\xampp\htdocs\ourarts\wp-includes\class-wp-hook.php on line 290 and defined in D:\xampp\htdocs\ourarts\wp-content\plugins\wordpress-seo\admin\links\class-link-watcher.php:47
+Stack trace:
+#0 D:\xampp\htdocs\ourarts\wp-includes\class-wp-hook.php(290): WPSEO_Link_Watcher->save_post(30660, NULL)
+#1 D:\xampp\htdocs\ourarts\wp-includes\class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 D:\xampp\htdocs\ourarts\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 D:\xampp\htdocs\ourarts\wp-includes\post.php(4120): do_action('save_post', 30660, NULL, true)
+#4 D:\xampp\htdocs\ourarts\wp-includes\post.php(4197): wp_insert_post(Array, false)
+#5 D:\xampp\htdocs\ourarts\wp-content\plugins\woocommerce-smart-coupons\includes\libraries\action-scheduler\classes\data-stores\ActionScheduler_wpPostStore.php(797): wp_update_post(Array)
+#6 D:\xampp\htdocs\ourarts\wp-content\plugins\woocom
+
+Aug 31, 2020 03.05.34: 1598835934 : Uncaught TypeError: Argument 2 passed to WPSEO_Link_Watcher::save_post() must be an instance of WP_Post, null given, called in D:\xampp\htdocs\ourarts\wp-includes\class-wp-hook.php on line 290 and defined in D:\xampp\htdocs\ourarts\wp-content\plugins\wordpress-seo\admin\links\class-link-watcher.php:47
+Stack trace:
+#0 D:\xampp\htdocs\ourarts\wp-includes\class-wp-hook.php(290): WPSEO_Link_Watcher->save_post(30669, NULL)
+#1 D:\xampp\htdocs\ourarts\wp-includes\class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 D:\xampp\htdocs\ourarts\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 D:\xampp\htdocs\ourarts\wp-includes\post.php(4120): do_action('save_post', 30669, NULL, true)
+#4 D:\xampp\htdocs\ourarts\wp-includes\post.php(4197): wp_insert_post(Array, false)
+#5 D:\xampp\htdocs\ourarts\wp-content\plugins\woocommerce-smart-coupons\includes\libraries\action-scheduler\classes\data-stores\ActionScheduler_wpPostStore.php(797): wp_update_post(Array)
+#6 D:\xampp\htdocs\ourarts\wp-content\plugins\woocom
+
+Aug 31, 2020 03.05.41: 1598835941 : Uncaught TypeError: Argument 2 passed to WPSEO_Link_Watcher::save_post() must be an instance of WP_Post, null given, called in D:\xampp\htdocs\ourarts\wp-includes\class-wp-hook.php on line 290 and defined in D:\xampp\htdocs\ourarts\wp-content\plugins\wordpress-seo\admin\links\class-link-watcher.php:47
+Stack trace:
+#0 D:\xampp\htdocs\ourarts\wp-includes\class-wp-hook.php(290): WPSEO_Link_Watcher->save_post(30678, NULL)
+#1 D:\xampp\htdocs\ourarts\wp-includes\class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 D:\xampp\htdocs\ourarts\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 D:\xampp\htdocs\ourarts\wp-includes\post.php(4120): do_action('save_post', 30678, NULL, true)
+#4 D:\xampp\htdocs\ourarts\wp-includes\post.php(4197): wp_insert_post(Array, false)
+#5 D:\xampp\htdocs\ourarts\wp-content\plugins\woocommerce-smart-coupons\includes\libraries\action-scheduler\classes\data-stores\ActionScheduler_wpPostStore.php(797): wp_update_post(Array)
+#6 D:\xampp\htdocs\ourarts\wp-content\plugins\woocom
+
+Aug 31, 2020 03.06.57: 1598836017 : Uncaught TypeError: Argument 2 passed to WPSEO_Link_Watcher::save_post() must be an instance of WP_Post, null given, called in D:\xampp\htdocs\ourarts\wp-includes\class-wp-hook.php on line 290 and defined in D:\xampp\htdocs\ourarts\wp-content\plugins\wordpress-seo\admin\links\class-link-watcher.php:47
+Stack trace:
+#0 D:\xampp\htdocs\ourarts\wp-includes\class-wp-hook.php(290): WPSEO_Link_Watcher->save_post(30680, NULL)
+#1 D:\xampp\htdocs\ourarts\wp-includes\class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 D:\xampp\htdocs\ourarts\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 D:\xampp\htdocs\ourarts\wp-includes\post.php(4120): do_action('save_post', 30680, NULL, true)
+#4 D:\xampp\htdocs\ourarts\wp-includes\post.php(4197): wp_insert_post(Array, false)
+#5 D:\xampp\htdocs\ourarts\wp-content\plugins\woocommerce-smart-coupons\includes\libraries\action-scheduler\classes\data-stores\ActionScheduler_wpPostStore.php(797): wp_update_post(Array)
+#6 D:\xampp\htdocs\ourarts\wp-content\plugins\woocom
+
+Aug 31, 2020 03.07.01: 1598836021 : Uncaught TypeError: Argument 2 passed to WPSEO_Link_Watcher::save_post() must be an instance of WP_Post, null given, called in D:\xampp\htdocs\ourarts\wp-includes\class-wp-hook.php on line 290 and defined in D:\xampp\htdocs\ourarts\wp-content\plugins\wordpress-seo\admin\links\class-link-watcher.php:47
+Stack trace:
+#0 D:\xampp\htdocs\ourarts\wp-includes\class-wp-hook.php(290): WPSEO_Link_Watcher->save_post(30684, NULL)
+#1 D:\xampp\htdocs\ourarts\wp-includes\class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 D:\xampp\htdocs\ourarts\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 D:\xampp\htdocs\ourarts\wp-includes\post.php(4120): do_action('save_post', 30684, NULL, true)
+#4 D:\xampp\htdocs\ourarts\wp-includes\post.php(4197): wp_insert_post(Array, false)
+#5 D:\xampp\htdocs\ourarts\wp-content\plugins\woocommerce-smart-coupons\includes\libraries\action-scheduler\classes\data-stores\ActionScheduler_wpPostStore.php(797): wp_update_post(Array)
+#6 D:\xampp\htdocs\ourarts\wp-content\plugins\woocom
+
+Aug 31, 2020 03.08.08: 1598836088 : Uncaught TypeError: Argument 2 passed to WPSEO_Link_Watcher::save_post() must be an instance of WP_Post, null given, called in D:\xampp\htdocs\ourarts\wp-includes\class-wp-hook.php on line 290 and defined in D:\xampp\htdocs\ourarts\wp-content\plugins\wordpress-seo\admin\links\class-link-watcher.php:47
+Stack trace:
+#0 D:\xampp\htdocs\ourarts\wp-includes\class-wp-hook.php(290): WPSEO_Link_Watcher->save_post(30700, NULL)
+#1 D:\xampp\htdocs\ourarts\wp-includes\class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 D:\xampp\htdocs\ourarts\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 D:\xampp\htdocs\ourarts\wp-includes\post.php(4120): do_action('save_post', 30700, NULL, true)
+#4 D:\xampp\htdocs\ourarts\wp-includes\post.php(4197): wp_insert_post(Array, false)
+#5 D:\xampp\htdocs\ourarts\wp-content\plugins\woocommerce-smart-coupons\includes\libraries\action-scheduler\classes\data-stores\ActionScheduler_wpPostStore.php(797): wp_update_post(Array)
+#6 D:\xampp\htdocs\ourarts\wp-content\plugins\woocom
+
+Aug 31, 2020 03.09.49: 1598836189 : Uncaught TypeError: Argument 2 passed to WPSEO_Link_Watcher::save_post() must be an instance of WP_Post, null given, called in D:\xampp\htdocs\ourarts\wp-includes\class-wp-hook.php on line 290 and defined in D:\xampp\htdocs\ourarts\wp-content\plugins\wordpress-seo\admin\links\class-link-watcher.php:47
+Stack trace:
+#0 D:\xampp\htdocs\ourarts\wp-includes\class-wp-hook.php(290): WPSEO_Link_Watcher->save_post(30719, NULL)
+#1 D:\xampp\htdocs\ourarts\wp-includes\class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 D:\xampp\htdocs\ourarts\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 D:\xampp\htdocs\ourarts\wp-includes\post.php(4120): do_action('save_post', 30719, NULL, true)
+#4 D:\xampp\htdocs\ourarts\wp-includes\post.php(4197): wp_insert_post(Array, false)
+#5 D:\xampp\htdocs\ourarts\wp-content\plugins\woocommerce-smart-coupons\includes\libraries\action-scheduler\classes\data-stores\ActionScheduler_wpPostStore.php(797): wp_update_post(Array)
+#6 D:\xampp\htdocs\ourarts\wp-content\plugins\woocom
+
+Aug 31, 2020 03.10.56: 1598836256 : Uncaught TypeError: Argument 2 passed to WPSEO_Link_Watcher::save_post() must be an instance of WP_Post, null given, called in D:\xampp\htdocs\ourarts\wp-includes\class-wp-hook.php on line 290 and defined in D:\xampp\htdocs\ourarts\wp-content\plugins\wordpress-seo\admin\links\class-link-watcher.php:47
+Stack trace:
+#0 D:\xampp\htdocs\ourarts\wp-includes\class-wp-hook.php(290): WPSEO_Link_Watcher->save_post(30775, NULL)
+#1 D:\xampp\htdocs\ourarts\wp-includes\class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 D:\xampp\htdocs\ourarts\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 D:\xampp\htdocs\ourarts\wp-includes\post.php(4120): do_action('save_post', 30775, NULL, true)
+#4 D:\xampp\htdocs\ourarts\wp-includes\post.php(4197): wp_insert_post(Array, false)
+#5 D:\xampp\htdocs\ourarts\wp-content\plugins\woocommerce-smart-coupons\includes\libraries\action-scheduler\classes\data-stores\ActionScheduler_wpPostStore.php(797): wp_update_post(Array)
+#6 D:\xampp\htdocs\ourarts\wp-content\plugins\woocom
+
+Aug 31, 2020 03.11.06: 1598836266 : Uncaught TypeError: Argument 2 passed to WPSEO_Link_Watcher::save_post() must be an instance of WP_Post, null given, called in D:\xampp\htdocs\ourarts\wp-includes\class-wp-hook.php on line 290 and defined in D:\xampp\htdocs\ourarts\wp-content\plugins\wordpress-seo\admin\links\class-link-watcher.php:47
+Stack trace:
+#0 D:\xampp\htdocs\ourarts\wp-includes\class-wp-hook.php(290): WPSEO_Link_Watcher->save_post(30783, NULL)
+#1 D:\xampp\htdocs\ourarts\wp-includes\class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 D:\xampp\htdocs\ourarts\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 D:\xampp\htdocs\ourarts\wp-includes\post.php(4120): do_action('save_post', 30783, NULL, true)
+#4 D:\xampp\htdocs\ourarts\wp-includes\post.php(4197): wp_insert_post(Array, false)
+#5 D:\xampp\htdocs\ourarts\wp-content\plugins\woocommerce-smart-coupons\includes\libraries\action-scheduler\classes\data-stores\ActionScheduler_wpPostStore.php(797): wp_update_post(Array)
+#6 D:\xampp\htdocs\ourarts\wp-content\plugins\woocom
+
+Aug 31, 2020 03.12.29: 1598836349 : Uncaught TypeError: Argument 2 passed to WPSEO_Link_Watcher::save_post() must be an instance of WP_Post, null given, called in D:\xampp\htdocs\ourarts\wp-includes\class-wp-hook.php on line 290 and defined in D:\xampp\htdocs\ourarts\wp-content\plugins\wordpress-seo\admin\links\class-link-watcher.php:47
+Stack trace:
+#0 D:\xampp\htdocs\ourarts\wp-includes\class-wp-hook.php(290): WPSEO_Link_Watcher->save_post(30833, NULL)
+#1 D:\xampp\htdocs\ourarts\wp-includes\class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 D:\xampp\htdocs\ourarts\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 D:\xampp\htdocs\ourarts\wp-includes\post.php(4120): do_action('save_post', 30833, NULL, true)
+#4 D:\xampp\htdocs\ourarts\wp-includes\post.php(4197): wp_insert_post(Array, false)
+#5 D:\xampp\htdocs\ourarts\wp-content\plugins\woocommerce-smart-coupons\includes\libraries\action-scheduler\classes\data-stores\ActionScheduler_wpPostStore.php(797): wp_update_post(Array)
+#6 D:\xampp\htdocs\ourarts\wp-content\plugins\woocom
+
+Aug 31, 2020 03.12.59: 1598836379 : Maximum execution time of 30 seconds exceeded
+
+Aug 31, 2020 03.13.57: 1598836437 : Maximum execution time of 30 seconds exceeded
+
+Aug 31, 2020 03.13.59: 1598836439 : Uncaught TypeError: Argument 2 passed to WPSEO_Link_Watcher::save_post() must be an instance of WP_Post, null given, called in D:\xampp\htdocs\ourarts\wp-includes\class-wp-hook.php on line 290 and defined in D:\xampp\htdocs\ourarts\wp-content\plugins\wordpress-seo\admin\links\class-link-watcher.php:47
+Stack trace:
+#0 D:\xampp\htdocs\ourarts\wp-includes\class-wp-hook.php(290): WPSEO_Link_Watcher->save_post(30897, NULL)
+#1 D:\xampp\htdocs\ourarts\wp-includes\class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 D:\xampp\htdocs\ourarts\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 D:\xampp\htdocs\ourarts\wp-includes\post.php(4120): do_action('save_post', 30897, NULL, true)
+#4 D:\xampp\htdocs\ourarts\wp-includes\post.php(4197): wp_insert_post(Array, false)
+#5 D:\xampp\htdocs\ourarts\wp-content\plugins\woocommerce-smart-coupons\includes\libraries\action-scheduler\classes\data-stores\ActionScheduler_wpPostStore.php(797): wp_update_post(Array)
+#6 D:\xampp\htdocs\ourarts\wp-content\plugins\woocom
+
+Aug 31, 2020 03.14.26: 1598836466 : Maximum execution time of 30 seconds exceeded
+
+Sep 02, 2020 02.21.10: 1599006070 : Maximum execution time of 30 seconds exceeded
+
+Sep 02, 2020 02.22.14: 1599006134 : Maximum execution time of 30 seconds exceeded
+
+Sep 02, 2020 02.23.20: 1599006200 : Maximum execution time of 30 seconds exceeded
+
+Sep 02, 2020 02.24.33: 1599006273 : Maximum execution time of 30 seconds exceeded
+
+Sep 02, 2020 02.24.38: 1599006278 : Maximum execution time of 30 seconds exceeded
+
+Sep 02, 2020 02.24.40: 1599006280 : Maximum execution time of 30 seconds exceeded
+
+Sep 02, 2020 02.26.39: 1599006399 : Uncaught TypeError: Argument 2 passed to WPSEO_Link_Watcher::save_post() must be an instance of WP_Post, null given, called in D:\xampp\htdocs\ourarts\wp-includes\class-wp-hook.php on line 290 and defined in D:\xampp\htdocs\ourarts\wp-content\plugins\wordpress-seo\admin\links\class-link-watcher.php:47
+Stack trace:
+#0 D:\xampp\htdocs\ourarts\wp-includes\class-wp-hook.php(290): WPSEO_Link_Watcher->save_post(30959, NULL)
+#1 D:\xampp\htdocs\ourarts\wp-includes\class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 D:\xampp\htdocs\ourarts\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 D:\xampp\htdocs\ourarts\wp-includes\post.php(4120): do_action('save_post', 30959, NULL, true)
+#4 D:\xampp\htdocs\ourarts\wp-includes\post.php(4197): wp_insert_post(Array, false)
+#5 D:\xampp\htdocs\ourarts\wp-content\plugins\woocommerce-smart-coupons\includes\libraries\action-scheduler\classes\data-stores\ActionScheduler_wpPostStore.php(797): wp_update_post(Array)
+#6 D:\xampp\htdocs\ourarts\wp-content\plugins\woocom
+
+Sep 02, 2020 02.26.42: 1599006402 : Uncaught TypeError: Argument 2 passed to WPSEO_Link_Watcher::save_post() must be an instance of WP_Post, null given, called in D:\xampp\htdocs\ourarts\wp-includes\class-wp-hook.php on line 290 and defined in D:\xampp\htdocs\ourarts\wp-content\plugins\wordpress-seo\admin\links\class-link-watcher.php:47
+Stack trace:
+#0 D:\xampp\htdocs\ourarts\wp-includes\class-wp-hook.php(290): WPSEO_Link_Watcher->save_post(30961, NULL)
+#1 D:\xampp\htdocs\ourarts\wp-includes\class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 D:\xampp\htdocs\ourarts\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 D:\xampp\htdocs\ourarts\wp-includes\post.php(4120): do_action('save_post', 30961, NULL, true)
+#4 D:\xampp\htdocs\ourarts\wp-includes\post.php(4197): wp_insert_post(Array, false)
+#5 D:\xampp\htdocs\ourarts\wp-content\plugins\woocommerce-smart-coupons\includes\libraries\action-scheduler\classes\data-stores\ActionScheduler_wpPostStore.php(797): wp_update_post(Array)
+#6 D:\xampp\htdocs\ourarts\wp-content\plugins\woocom
+
+Sep 02, 2020 02.26.43: 1599006403 : Uncaught TypeError: Argument 2 passed to WPSEO_Link_Watcher::save_post() must be an instance of WP_Post, null given, called in D:\xampp\htdocs\ourarts\wp-includes\class-wp-hook.php on line 290 and defined in D:\xampp\htdocs\ourarts\wp-content\plugins\wordpress-seo\admin\links\class-link-watcher.php:47
+Stack trace:
+#0 D:\xampp\htdocs\ourarts\wp-includes\class-wp-hook.php(290): WPSEO_Link_Watcher->save_post(30962, NULL)
+#1 D:\xampp\htdocs\ourarts\wp-includes\class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 D:\xampp\htdocs\ourarts\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 D:\xampp\htdocs\ourarts\wp-includes\post.php(4120): do_action('save_post', 30962, NULL, true)
+#4 D:\xampp\htdocs\ourarts\wp-includes\post.php(4197): wp_insert_post(Array, false)
+#5 D:\xampp\htdocs\ourarts\wp-content\plugins\woocommerce-smart-coupons\includes\libraries\action-scheduler\classes\data-stores\ActionScheduler_wpPostStore.php(797): wp_update_post(Array)
+#6 D:\xampp\htdocs\ourarts\wp-content\plugins\woocom
+
+Sep 02, 2020 02.26.48: 1599006408 : Uncaught TypeError: Argument 2 passed to WPSEO_Link_Watcher::save_post() must be an instance of WP_Post, null given, called in D:\xampp\htdocs\ourarts\wp-includes\class-wp-hook.php on line 290 and defined in D:\xampp\htdocs\ourarts\wp-content\plugins\wordpress-seo\admin\links\class-link-watcher.php:47
+Stack trace:
+#0 D:\xampp\htdocs\ourarts\wp-includes\class-wp-hook.php(290): WPSEO_Link_Watcher->save_post(30966, NULL)
+#1 D:\xampp\htdocs\ourarts\wp-includes\class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 D:\xampp\htdocs\ourarts\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 D:\xampp\htdocs\ourarts\wp-includes\post.php(4120): do_action('save_post', 30966, NULL, true)
+#4 D:\xampp\htdocs\ourarts\wp-includes\post.php(4197): wp_insert_post(Array, false)
+#5 D:\xampp\htdocs\ourarts\wp-content\plugins\woocommerce-smart-coupons\includes\libraries\action-scheduler\classes\data-stores\ActionScheduler_wpPostStore.php(797): wp_update_post(Array)
+#6 D:\xampp\htdocs\ourarts\wp-content\plugins\woocom
+
+Sep 02, 2020 02.27.19: 1599006439 : Maximum execution time of 30 seconds exceeded
+
+Sep 02, 2020 02.27.52: 1599006472 : Maximum execution time of 30 seconds exceeded
+
+Sep 02, 2020 02.27.58: 1599006478 : Uncaught TypeError: Argument 2 passed to WPSEO_Link_Watcher::save_post() must be an instance of WP_Post, null given, called in D:\xampp\htdocs\ourarts\wp-includes\class-wp-hook.php on line 290 and defined in D:\xampp\htdocs\ourarts\wp-content\plugins\wordpress-seo\admin\links\class-link-watcher.php:47
+Stack trace:
+#0 D:\xampp\htdocs\ourarts\wp-includes\class-wp-hook.php(290): WPSEO_Link_Watcher->save_post(31009, NULL)
+#1 D:\xampp\htdocs\ourarts\wp-includes\class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 D:\xampp\htdocs\ourarts\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 D:\xampp\htdocs\ourarts\wp-includes\post.php(4120): do_action('save_post', 31009, NULL, true)
+#4 D:\xampp\htdocs\ourarts\wp-includes\post.php(4197): wp_insert_post(Array, false)
+#5 D:\xampp\htdocs\ourarts\wp-content\plugins\woocommerce-smart-coupons\includes\libraries\action-scheduler\classes\data-stores\ActionScheduler_wpPostStore.php(797): wp_update_post(Array)
+#6 D:\xampp\htdocs\ourarts\wp-content\plugins\woocom
+
+Sep 02, 2020 02.29.25: 1599006565 : Uncaught TypeError: Argument 2 passed to WPSEO_Link_Watcher::save_post() must be an instance of WP_Post, null given, called in D:\xampp\htdocs\ourarts\wp-includes\class-wp-hook.php on line 290 and defined in D:\xampp\htdocs\ourarts\wp-content\plugins\wordpress-seo\admin\links\class-link-watcher.php:47
+Stack trace:
+#0 D:\xampp\htdocs\ourarts\wp-includes\class-wp-hook.php(290): WPSEO_Link_Watcher->save_post(31037, NULL)
+#1 D:\xampp\htdocs\ourarts\wp-includes\class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 D:\xampp\htdocs\ourarts\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 D:\xampp\htdocs\ourarts\wp-includes\post.php(4120): do_action('save_post', 31037, NULL, true)
+#4 D:\xampp\htdocs\ourarts\wp-includes\post.php(4197): wp_insert_post(Array, false)
+#5 D:\xampp\htdocs\ourarts\wp-content\plugins\woocommerce-smart-coupons\includes\libraries\action-scheduler\classes\data-stores\ActionScheduler_wpPostStore.php(797): wp_update_post(Array)
+#6 D:\xampp\htdocs\ourarts\wp-content\plugins\woocom
+
+Sep 02, 2020 02.29.33: 1599006573 : Uncaught TypeError: Argument 2 passed to WPSEO_Link_Watcher::save_post() must be an instance of WP_Post, null given, called in D:\xampp\htdocs\ourarts\wp-includes\class-wp-hook.php on line 290 and defined in D:\xampp\htdocs\ourarts\wp-content\plugins\wordpress-seo\admin\links\class-link-watcher.php:47
+Stack trace:
+#0 D:\xampp\htdocs\ourarts\wp-includes\class-wp-hook.php(290): WPSEO_Link_Watcher->save_post(31048, NULL)
+#1 D:\xampp\htdocs\ourarts\wp-includes\class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 D:\xampp\htdocs\ourarts\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 D:\xampp\htdocs\ourarts\wp-includes\post.php(4120): do_action('save_post', 31048, NULL, true)
+#4 D:\xampp\htdocs\ourarts\wp-includes\post.php(4197): wp_insert_post(Array, false)
+#5 D:\xampp\htdocs\ourarts\wp-content\plugins\woocommerce-smart-coupons\includes\libraries\action-scheduler\classes\data-stores\ActionScheduler_wpPostStore.php(797): wp_update_post(Array)
+#6 D:\xampp\htdocs\ourarts\wp-content\plugins\woocom
+
+Sep 02, 2020 02.31.27: 1599006687 : Uncaught TypeError: Argument 2 passed to WPSEO_Link_Watcher::save_post() must be an instance of WP_Post, null given, called in D:\xampp\htdocs\ourarts\wp-includes\class-wp-hook.php on line 290 and defined in D:\xampp\htdocs\ourarts\wp-content\plugins\wordpress-seo\admin\links\class-link-watcher.php:47
+Stack trace:
+#0 D:\xampp\htdocs\ourarts\wp-includes\class-wp-hook.php(290): WPSEO_Link_Watcher->save_post(31078, NULL)
+#1 D:\xampp\htdocs\ourarts\wp-includes\class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 D:\xampp\htdocs\ourarts\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 D:\xampp\htdocs\ourarts\wp-includes\post.php(4120): do_action('save_post', 31078, NULL, true)
+#4 D:\xampp\htdocs\ourarts\wp-includes\post.php(4197): wp_insert_post(Array, false)
+#5 D:\xampp\htdocs\ourarts\wp-content\plugins\woocommerce-smart-coupons\includes\libraries\action-scheduler\classes\data-stores\ActionScheduler_wpPostStore.php(797): wp_update_post(Array)
+#6 D:\xampp\htdocs\ourarts\wp-content\plugins\woocom
+
+Sep 02, 2020 02.31.27: 1599006687 : Uncaught TypeError: Argument 2 passed to WPSEO_Link_Watcher::save_post() must be an instance of WP_Post, null given, called in D:\xampp\htdocs\ourarts\wp-includes\class-wp-hook.php on line 290 and defined in D:\xampp\htdocs\ourarts\wp-content\plugins\wordpress-seo\admin\links\class-link-watcher.php:47
+Stack trace:
+#0 D:\xampp\htdocs\ourarts\wp-includes\class-wp-hook.php(290): WPSEO_Link_Watcher->save_post(31078, NULL)
+#1 D:\xampp\htdocs\ourarts\wp-includes\class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 D:\xampp\htdocs\ourarts\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 D:\xampp\htdocs\ourarts\wp-includes\post.php(4120): do_action('save_post', 31078, NULL, true)
+#4 D:\xampp\htdocs\ourarts\wp-includes\post.php(4197): wp_insert_post(Array, false)
+#5 D:\xampp\htdocs\ourarts\wp-content\plugins\woocommerce-smart-coupons\includes\libraries\action-scheduler\classes\data-stores\ActionScheduler_wpPostStore.php(797): wp_update_post(Array)
+#6 D:\xampp\htdocs\ourarts\wp-content\plugins\woocom
+
+Sep 02, 2020 02.32.22: 1599006742 : Uncaught TypeError: Argument 2 passed to WPSEO_Link_Watcher::save_post() must be an instance of WP_Post, null given, called in D:\xampp\htdocs\ourarts\wp-includes\class-wp-hook.php on line 290 and defined in D:\xampp\htdocs\ourarts\wp-content\plugins\wordpress-seo\admin\links\class-link-watcher.php:47
+Stack trace:
+#0 D:\xampp\htdocs\ourarts\wp-includes\class-wp-hook.php(290): WPSEO_Link_Watcher->save_post(31115, NULL)
+#1 D:\xampp\htdocs\ourarts\wp-includes\class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 D:\xampp\htdocs\ourarts\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 D:\xampp\htdocs\ourarts\wp-includes\post.php(4120): do_action('save_post', 31115, NULL, true)
+#4 D:\xampp\htdocs\ourarts\wp-includes\post.php(4197): wp_insert_post(Array, false)
+#5 D:\xampp\htdocs\ourarts\wp-content\plugins\woocommerce-smart-coupons\includes\libraries\action-scheduler\classes\data-stores\ActionScheduler_wpPostStore.php(797): wp_update_post(Array)
+#6 D:\xampp\htdocs\ourarts\wp-content\plugins\woocom
+
+Sep 02, 2020 02.33.27: 1599006807 : Uncaught TypeError: Argument 2 passed to WPSEO_Link_Watcher::save_post() must be an instance of WP_Post, null given, called in D:\xampp\htdocs\ourarts\wp-includes\class-wp-hook.php on line 290 and defined in D:\xampp\htdocs\ourarts\wp-content\plugins\wordpress-seo\admin\links\class-link-watcher.php:47
+Stack trace:
+#0 D:\xampp\htdocs\ourarts\wp-includes\class-wp-hook.php(290): WPSEO_Link_Watcher->save_post(31141, NULL)
+#1 D:\xampp\htdocs\ourarts\wp-includes\class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 D:\xampp\htdocs\ourarts\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 D:\xampp\htdocs\ourarts\wp-includes\post.php(4120): do_action('save_post', 31141, NULL, true)
+#4 D:\xampp\htdocs\ourarts\wp-includes\post.php(4197): wp_insert_post(Array, false)
+#5 D:\xampp\htdocs\ourarts\wp-content\plugins\woocommerce-smart-coupons\includes\libraries\action-scheduler\classes\data-stores\ActionScheduler_wpPostStore.php(797): wp_update_post(Array)
+#6 D:\xampp\htdocs\ourarts\wp-content\plugins\woocom
+
+Sep 02, 2020 02.33.29: 1599006809 : Uncaught TypeError: Argument 2 passed to WPSEO_Link_Watcher::save_post() must be an instance of WP_Post, null given, called in D:\xampp\htdocs\ourarts\wp-includes\class-wp-hook.php on line 290 and defined in D:\xampp\htdocs\ourarts\wp-content\plugins\wordpress-seo\admin\links\class-link-watcher.php:47
+Stack trace:
+#0 D:\xampp\htdocs\ourarts\wp-includes\class-wp-hook.php(290): WPSEO_Link_Watcher->save_post(31143, NULL)
+#1 D:\xampp\htdocs\ourarts\wp-includes\class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 D:\xampp\htdocs\ourarts\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 D:\xampp\htdocs\ourarts\wp-includes\post.php(4120): do_action('save_post', 31143, NULL, true)
+#4 D:\xampp\htdocs\ourarts\wp-includes\post.php(4197): wp_insert_post(Array, false)
+#5 D:\xampp\htdocs\ourarts\wp-content\plugins\woocommerce-smart-coupons\includes\libraries\action-scheduler\classes\data-stores\ActionScheduler_wpPostStore.php(797): wp_update_post(Array)
+#6 D:\xampp\htdocs\ourarts\wp-content\plugins\woocom
+
+Sep 02, 2020 02.35.45: 1599006945 : Uncaught TypeError: Argument 2 passed to WPSEO_Link_Watcher::save_post() must be an instance of WP_Post, null given, called in D:\xampp\htdocs\ourarts\wp-includes\class-wp-hook.php on line 290 and defined in D:\xampp\htdocs\ourarts\wp-content\plugins\wordpress-seo\admin\links\class-link-watcher.php:47
+Stack trace:
+#0 D:\xampp\htdocs\ourarts\wp-includes\class-wp-hook.php(290): WPSEO_Link_Watcher->save_post(31211, NULL)
+#1 D:\xampp\htdocs\ourarts\wp-includes\class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 D:\xampp\htdocs\ourarts\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 D:\xampp\htdocs\ourarts\wp-includes\post.php(4120): do_action('save_post', 31211, NULL, true)
+#4 D:\xampp\htdocs\ourarts\wp-includes\post.php(4197): wp_insert_post(Array, false)
+#5 D:\xampp\htdocs\ourarts\wp-content\plugins\woocommerce-smart-coupons\includes\libraries\action-scheduler\classes\data-stores\ActionScheduler_wpPostStore.php(797): wp_update_post(Array)
+#6 D:\xampp\htdocs\ourarts\wp-content\plugins\woocom
+
+Sep 02, 2020 02.35.56: 1599006956 : Maximum execution time of 30 seconds exceeded
+
+Sep 02, 2020 02.36.48: 1599007008 : Uncaught TypeError: Argument 2 passed to WPSEO_Link_Watcher::save_post() must be an instance of WP_Post, null given, called in D:\xampp\htdocs\ourarts\wp-includes\class-wp-hook.php on line 290 and defined in D:\xampp\htdocs\ourarts\wp-content\plugins\wordpress-seo\admin\links\class-link-watcher.php:47
+Stack trace:
+#0 D:\xampp\htdocs\ourarts\wp-includes\class-wp-hook.php(290): WPSEO_Link_Watcher->save_post(31220, NULL)
+#1 D:\xampp\htdocs\ourarts\wp-includes\class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 D:\xampp\htdocs\ourarts\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 D:\xampp\htdocs\ourarts\wp-includes\post.php(4120): do_action('save_post', 31220, NULL, true)
+#4 D:\xampp\htdocs\ourarts\wp-includes\post.php(4197): wp_insert_post(Array, false)
+#5 D:\xampp\htdocs\ourarts\wp-content\plugins\woocommerce-smart-coupons\includes\libraries\action-scheduler\classes\data-stores\ActionScheduler_wpPostStore.php(797): wp_update_post(Array)
+#6 D:\xampp\htdocs\ourarts\wp-content\plugins\woocom
+
+Sep 02, 2020 02.36.50: 1599007010 : Uncaught TypeError: Argument 2 passed to WPSEO_Link_Watcher::save_post() must be an instance of WP_Post, null given, called in D:\xampp\htdocs\ourarts\wp-includes\class-wp-hook.php on line 290 and defined in D:\xampp\htdocs\ourarts\wp-content\plugins\wordpress-seo\admin\links\class-link-watcher.php:47
+Stack trace:
+#0 D:\xampp\htdocs\ourarts\wp-includes\class-wp-hook.php(290): WPSEO_Link_Watcher->save_post(31224, NULL)
+#1 D:\xampp\htdocs\ourarts\wp-includes\class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 D:\xampp\htdocs\ourarts\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 D:\xampp\htdocs\ourarts\wp-includes\post.php(4120): do_action('save_post', 31224, NULL, true)
+#4 D:\xampp\htdocs\ourarts\wp-includes\post.php(4197): wp_insert_post(Array, false)
+#5 D:\xampp\htdocs\ourarts\wp-content\plugins\woocommerce-smart-coupons\includes\libraries\action-scheduler\classes\data-stores\ActionScheduler_wpPostStore.php(797): wp_update_post(Array)
+#6 D:\xampp\htdocs\ourarts\wp-content\plugins\woocom
+
+Sep 02, 2020 02.36.56: 1599007016 : Uncaught TypeError: Argument 2 passed to WPSEO_Link_Watcher::save_post() must be an instance of WP_Post, null given, called in D:\xampp\htdocs\ourarts\wp-includes\class-wp-hook.php on line 290 and defined in D:\xampp\htdocs\ourarts\wp-content\plugins\wordpress-seo\admin\links\class-link-watcher.php:47
+Stack trace:
+#0 D:\xampp\htdocs\ourarts\wp-includes\class-wp-hook.php(290): WPSEO_Link_Watcher->save_post(31231, NULL)
+#1 D:\xampp\htdocs\ourarts\wp-includes\class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 D:\xampp\htdocs\ourarts\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 D:\xampp\htdocs\ourarts\wp-includes\post.php(4120): do_action('save_post', 31231, NULL, true)
+#4 D:\xampp\htdocs\ourarts\wp-includes\post.php(4197): wp_insert_post(Array, false)
+#5 D:\xampp\htdocs\ourarts\wp-content\plugins\woocommerce-smart-coupons\includes\libraries\action-scheduler\classes\data-stores\ActionScheduler_wpPostStore.php(797): wp_update_post(Array)
+#6 D:\xampp\htdocs\ourarts\wp-content\plugins\woocom
+
+Sep 02, 2020 02.37.05: 1599007025 : Maximum execution time of 30 seconds exceeded
+
+Sep 02, 2020 02.37.05: 1599007025 : Uncaught TypeError: Argument 2 passed to WPSEO_Link_Watcher::save_post() must be an instance of WP_Post, null given, called in D:\xampp\htdocs\ourarts\wp-includes\class-wp-hook.php on line 290 and defined in D:\xampp\htdocs\ourarts\wp-content\plugins\wordpress-seo\admin\links\class-link-watcher.php:47
+Stack trace:
+#0 D:\xampp\htdocs\ourarts\wp-includes\class-wp-hook.php(290): WPSEO_Link_Watcher->save_post(31237, NULL)
+#1 D:\xampp\htdocs\ourarts\wp-includes\class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 D:\xampp\htdocs\ourarts\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 D:\xampp\htdocs\ourarts\wp-includes\post.php(4120): do_action('save_post', 31237, NULL, true)
+#4 D:\xampp\htdocs\ourarts\wp-includes\post.php(4197): wp_insert_post(Array, false)
+#5 D:\xampp\htdocs\ourarts\wp-content\plugins\woocommerce-smart-coupons\includes\libraries\action-scheduler\classes\data-stores\ActionScheduler_wpPostStore.php(797): wp_update_post(Array)
+#6 D:\xampp\htdocs\ourarts\wp-content\plugins\woocom
+
+Sep 02, 2020 02.37.07: 1599007027 : Maximum execution time of 30 seconds exceeded
+
+Sep 02, 2020 02.38.12: 1599007092 : Uncaught TypeError: Argument 2 passed to WPSEO_Link_Watcher::save_post() must be an instance of WP_Post, null given, called in D:\xampp\htdocs\ourarts\wp-includes\class-wp-hook.php on line 290 and defined in D:\xampp\htdocs\ourarts\wp-content\plugins\wordpress-seo\admin\links\class-link-watcher.php:47
+Stack trace:
+#0 D:\xampp\htdocs\ourarts\wp-includes\class-wp-hook.php(290): WPSEO_Link_Watcher->save_post(31240, NULL)
+#1 D:\xampp\htdocs\ourarts\wp-includes\class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 D:\xampp\htdocs\ourarts\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 D:\xampp\htdocs\ourarts\wp-includes\post.php(4120): do_action('save_post', 31240, NULL, true)
+#4 D:\xampp\htdocs\ourarts\wp-includes\post.php(4197): wp_insert_post(Array, false)
+#5 D:\xampp\htdocs\ourarts\wp-content\plugins\woocommerce-smart-coupons\includes\libraries\action-scheduler\classes\data-stores\ActionScheduler_wpPostStore.php(797): wp_update_post(Array)
+#6 D:\xampp\htdocs\ourarts\wp-content\plugins\woocom
+
+Sep 02, 2020 02.39.12: 1599007152 : Maximum execution time of 30 seconds exceeded
+
+Sep 02, 2020 02.39.17: 1599007157 : Uncaught TypeError: Argument 2 passed to WPSEO_Link_Watcher::save_post() must be an instance of WP_Post, null given, called in D:\xampp\htdocs\ourarts\wp-includes\class-wp-hook.php on line 290 and defined in D:\xampp\htdocs\ourarts\wp-content\plugins\wordpress-seo\admin\links\class-link-watcher.php:47
+Stack trace:
+#0 D:\xampp\htdocs\ourarts\wp-includes\class-wp-hook.php(290): WPSEO_Link_Watcher->save_post(31279, NULL)
+#1 D:\xampp\htdocs\ourarts\wp-includes\class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 D:\xampp\htdocs\ourarts\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 D:\xampp\htdocs\ourarts\wp-includes\post.php(4120): do_action('save_post', 31279, NULL, true)
+#4 D:\xampp\htdocs\ourarts\wp-includes\post.php(4197): wp_insert_post(Array, false)
+#5 D:\xampp\htdocs\ourarts\wp-content\plugins\woocommerce-smart-coupons\includes\libraries\action-scheduler\classes\data-stores\ActionScheduler_wpPostStore.php(797): wp_update_post(Array)
+#6 D:\xampp\htdocs\ourarts\wp-content\plugins\woocom
+
+Sep 02, 2020 02.39.46: 1599007186 : Maximum execution time of 30 seconds exceeded
+
+Sep 02, 2020 02.40.15: 1599007215 : Uncaught TypeError: Argument 2 passed to WPSEO_Link_Watcher::save_post() must be an instance of WP_Post, null given, called in D:\xampp\htdocs\ourarts\wp-includes\class-wp-hook.php on line 290 and defined in D:\xampp\htdocs\ourarts\wp-content\plugins\wordpress-seo\admin\links\class-link-watcher.php:47
+Stack trace:
+#0 D:\xampp\htdocs\ourarts\wp-includes\class-wp-hook.php(290): WPSEO_Link_Watcher->save_post(31302, NULL)
+#1 D:\xampp\htdocs\ourarts\wp-includes\class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 D:\xampp\htdocs\ourarts\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 D:\xampp\htdocs\ourarts\wp-includes\post.php(4120): do_action('save_post', 31302, NULL, true)
+#4 D:\xampp\htdocs\ourarts\wp-includes\post.php(4197): wp_insert_post(Array, false)
+#5 D:\xampp\htdocs\ourarts\wp-content\plugins\woocommerce-smart-coupons\includes\libraries\action-scheduler\classes\data-stores\ActionScheduler_wpPostStore.php(797): wp_update_post(Array)
+#6 D:\xampp\htdocs\ourarts\wp-content\plugins\woocom
+
+Sep 02, 2020 02.42.09: 1599007329 : Maximum execution time of 30 seconds exceeded
+
+Sep 02, 2020 02.42.49: 1599007369 : Uncaught TypeError: Argument 2 passed to WPSEO_Link_Watcher::save_post() must be an instance of WP_Post, null given, called in D:\xampp\htdocs\ourarts\wp-includes\class-wp-hook.php on line 290 and defined in D:\xampp\htdocs\ourarts\wp-content\plugins\wordpress-seo\admin\links\class-link-watcher.php:47
+Stack trace:
+#0 D:\xampp\htdocs\ourarts\wp-includes\class-wp-hook.php(290): WPSEO_Link_Watcher->save_post(31363, NULL)
+#1 D:\xampp\htdocs\ourarts\wp-includes\class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 D:\xampp\htdocs\ourarts\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 D:\xampp\htdocs\ourarts\wp-includes\post.php(4120): do_action('save_post', 31363, NULL, true)
+#4 D:\xampp\htdocs\ourarts\wp-includes\post.php(4197): wp_insert_post(Array, false)
+#5 D:\xampp\htdocs\ourarts\wp-content\plugins\woocommerce-smart-coupons\includes\libraries\action-scheduler\classes\data-stores\ActionScheduler_wpPostStore.php(797): wp_update_post(Array)
+#6 D:\xampp\htdocs\ourarts\wp-content\plugins\woocom
+
+Sep 02, 2020 02.42.53: 1599007373 : Uncaught TypeError: Argument 2 passed to WPSEO_Link_Watcher::save_post() must be an instance of WP_Post, null given, called in D:\xampp\htdocs\ourarts\wp-includes\class-wp-hook.php on line 290 and defined in D:\xampp\htdocs\ourarts\wp-content\plugins\wordpress-seo\admin\links\class-link-watcher.php:47
+Stack trace:
+#0 D:\xampp\htdocs\ourarts\wp-includes\class-wp-hook.php(290): WPSEO_Link_Watcher->save_post(31370, NULL)
+#1 D:\xampp\htdocs\ourarts\wp-includes\class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 D:\xampp\htdocs\ourarts\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 D:\xampp\htdocs\ourarts\wp-includes\post.php(4120): do_action('save_post', 31370, NULL, true)
+#4 D:\xampp\htdocs\ourarts\wp-includes\post.php(4197): wp_insert_post(Array, false)
+#5 D:\xampp\htdocs\ourarts\wp-content\plugins\woocommerce-smart-coupons\includes\libraries\action-scheduler\classes\data-stores\ActionScheduler_wpPostStore.php(797): wp_update_post(Array)
+#6 D:\xampp\htdocs\ourarts\wp-content\plugins\woocom
+
+Sep 02, 2020 02.43.43: 1599007423 : Uncaught TypeError: Argument 2 passed to WPSEO_Link_Watcher::save_post() must be an instance of WP_Post, null given, called in D:\xampp\htdocs\ourarts\wp-includes\class-wp-hook.php on line 290 and defined in D:\xampp\htdocs\ourarts\wp-content\plugins\wordpress-seo\admin\links\class-link-watcher.php:47
+Stack trace:
+#0 D:\xampp\htdocs\ourarts\wp-includes\class-wp-hook.php(290): WPSEO_Link_Watcher->save_post(31406, NULL)
+#1 D:\xampp\htdocs\ourarts\wp-includes\class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 D:\xampp\htdocs\ourarts\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 D:\xampp\htdocs\ourarts\wp-includes\post.php(4120): do_action('save_post', 31406, NULL, true)
+#4 D:\xampp\htdocs\ourarts\wp-includes\post.php(4197): wp_insert_post(Array, false)
+#5 D:\xampp\htdocs\ourarts\wp-content\plugins\woocommerce-smart-coupons\includes\libraries\action-scheduler\classes\data-stores\ActionScheduler_wpPostStore.php(797): wp_update_post(Array)
+#6 D:\xampp\htdocs\ourarts\wp-content\plugins\woocom
+
+Sep 02, 2020 02.44.08: 1599007448 : Uncaught TypeError: Argument 2 passed to WPSEO_Link_Watcher::save_post() must be an instance of WP_Post, null given, called in D:\xampp\htdocs\ourarts\wp-includes\class-wp-hook.php on line 290 and defined in D:\xampp\htdocs\ourarts\wp-content\plugins\wordpress-seo\admin\links\class-link-watcher.php:47
+Stack trace:
+#0 D:\xampp\htdocs\ourarts\wp-includes\class-wp-hook.php(290): WPSEO_Link_Watcher->save_post(31425, NULL)
+#1 D:\xampp\htdocs\ourarts\wp-includes\class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 D:\xampp\htdocs\ourarts\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 D:\xampp\htdocs\ourarts\wp-includes\post.php(4120): do_action('save_post', 31425, NULL, true)
+#4 D:\xampp\htdocs\ourarts\wp-includes\post.php(4197): wp_insert_post(Array, false)
+#5 D:\xampp\htdocs\ourarts\wp-content\plugins\woocommerce-smart-coupons\includes\libraries\action-scheduler\classes\data-stores\ActionScheduler_wpPostStore.php(797): wp_update_post(Array)
+#6 D:\xampp\htdocs\ourarts\wp-content\plugins\woocom
+
+Sep 02, 2020 02.44.12: 1599007452 : Maximum execution time of 30 seconds exceeded
+
+Sep 02, 2020 02.44.43: 1599007483 : Maximum execution time of 30 seconds exceeded
+
+Sep 02, 2020 02.44.46: 1599007486 : Uncaught TypeError: Argument 2 passed to WPSEO_Link_Watcher::save_post() must be an instance of WP_Post, null given, called in D:\xampp\htdocs\ourarts\wp-includes\class-wp-hook.php on line 290 and defined in D:\xampp\htdocs\ourarts\wp-content\plugins\wordpress-seo\admin\links\class-link-watcher.php:47
+Stack trace:
+#0 D:\xampp\htdocs\ourarts\wp-includes\class-wp-hook.php(290): WPSEO_Link_Watcher->save_post(31448, NULL)
+#1 D:\xampp\htdocs\ourarts\wp-includes\class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 D:\xampp\htdocs\ourarts\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 D:\xampp\htdocs\ourarts\wp-includes\post.php(4120): do_action('save_post', 31448, NULL, true)
+#4 D:\xampp\htdocs\ourarts\wp-includes\post.php(4197): wp_insert_post(Array, false)
+#5 D:\xampp\htdocs\ourarts\wp-content\plugins\woocommerce-smart-coupons\includes\libraries\action-scheduler\classes\data-stores\ActionScheduler_wpPostStore.php(797): wp_update_post(Array)
+#6 D:\xampp\htdocs\ourarts\wp-content\plugins\woocom
+
+Sep 02, 2020 02.45.45: 1599007545 : Uncaught TypeError: Argument 2 passed to WPSEO_Link_Watcher::save_post() must be an instance of WP_Post, null given, called in D:\xampp\htdocs\ourarts\wp-includes\class-wp-hook.php on line 290 and defined in D:\xampp\htdocs\ourarts\wp-content\plugins\wordpress-seo\admin\links\class-link-watcher.php:47
+Stack trace:
+#0 D:\xampp\htdocs\ourarts\wp-includes\class-wp-hook.php(290): WPSEO_Link_Watcher->save_post(31471, NULL)
+#1 D:\xampp\htdocs\ourarts\wp-includes\class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 D:\xampp\htdocs\ourarts\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 D:\xampp\htdocs\ourarts\wp-includes\post.php(4120): do_action('save_post', 31471, NULL, true)
+#4 D:\xampp\htdocs\ourarts\wp-includes\post.php(4197): wp_insert_post(Array, false)
+#5 D:\xampp\htdocs\ourarts\wp-content\plugins\woocommerce-smart-coupons\includes\libraries\action-scheduler\classes\data-stores\ActionScheduler_wpPostStore.php(797): wp_update_post(Array)
+#6 D:\xampp\htdocs\ourarts\wp-content\plugins\woocom
+
+Sep 02, 2020 02.47.46: 1599007666 : Uncaught TypeError: Argument 2 passed to WPSEO_Link_Watcher::save_post() must be an instance of WP_Post, null given, called in D:\xampp\htdocs\ourarts\wp-includes\class-wp-hook.php on line 290 and defined in D:\xampp\htdocs\ourarts\wp-content\plugins\wordpress-seo\admin\links\class-link-watcher.php:47
+Stack trace:
+#0 D:\xampp\htdocs\ourarts\wp-includes\class-wp-hook.php(290): WPSEO_Link_Watcher->save_post(31490, NULL)
+#1 D:\xampp\htdocs\ourarts\wp-includes\class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 D:\xampp\htdocs\ourarts\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 D:\xampp\htdocs\ourarts\wp-includes\post.php(4120): do_action('save_post', 31490, NULL, true)
+#4 D:\xampp\htdocs\ourarts\wp-includes\post.php(4197): wp_insert_post(Array, false)
+#5 D:\xampp\htdocs\ourarts\wp-content\plugins\woocommerce-smart-coupons\includes\libraries\action-scheduler\classes\data-stores\ActionScheduler_wpPostStore.php(797): wp_update_post(Array)
+#6 D:\xampp\htdocs\ourarts\wp-content\plugins\woocom
+
+Sep 02, 2020 02.48.13: 1599007693 : Maximum execution time of 30 seconds exceeded
+
+Sep 02, 2020 02.48.49: 1599007729 : Uncaught TypeError: Argument 2 passed to WPSEO_Link_Watcher::save_post() must be an instance of WP_Post, null given, called in D:\xampp\htdocs\ourarts\wp-includes\class-wp-hook.php on line 290 and defined in D:\xampp\htdocs\ourarts\wp-content\plugins\wordpress-seo\admin\links\class-link-watcher.php:47
+Stack trace:
+#0 D:\xampp\htdocs\ourarts\wp-includes\class-wp-hook.php(290): WPSEO_Link_Watcher->save_post(31508, NULL)
+#1 D:\xampp\htdocs\ourarts\wp-includes\class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 D:\xampp\htdocs\ourarts\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 D:\xampp\htdocs\ourarts\wp-includes\post.php(4120): do_action('save_post', 31508, NULL, true)
+#4 D:\xampp\htdocs\ourarts\wp-includes\post.php(4197): wp_insert_post(Array, false)
+#5 D:\xampp\htdocs\ourarts\wp-content\plugins\woocommerce-smart-coupons\includes\libraries\action-scheduler\classes\data-stores\ActionScheduler_wpPostStore.php(797): wp_update_post(Array)
+#6 D:\xampp\htdocs\ourarts\wp-content\plugins\woocom
+
+Sep 02, 2020 02.49.16: 1599007756 : Maximum execution time of 30 seconds exceeded
+
+Sep 02, 2020 02.50.14: 1599007814 : Maximum execution time of 30 seconds exceeded
+
+Sep 02, 2020 02.57.45: 1599008265 : Uncaught TypeError: Argument 2 passed to WPSEO_Link_Watcher::save_post() must be an instance of WP_Post, null given, called in D:\xampp\htdocs\ourarts\wp-includes\class-wp-hook.php on line 290 and defined in D:\xampp\htdocs\ourarts\wp-content\plugins\wordpress-seo\admin\links\class-link-watcher.php:47
+Stack trace:
+#0 D:\xampp\htdocs\ourarts\wp-includes\class-wp-hook.php(290): WPSEO_Link_Watcher->save_post(31610, NULL)
+#1 D:\xampp\htdocs\ourarts\wp-includes\class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 D:\xampp\htdocs\ourarts\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 D:\xampp\htdocs\ourarts\wp-includes\post.php(4120): do_action('save_post', 31610, NULL, true)
+#4 D:\xampp\htdocs\ourarts\wp-includes\post.php(4197): wp_insert_post(Array, false)
+#5 D:\xampp\htdocs\ourarts\wp-content\plugins\woocommerce-smart-coupons\includes\libraries\action-scheduler\classes\data-stores\ActionScheduler_wpPostStore.php(797): wp_update_post(Array)
+#6 D:\xampp\htdocs\ourarts\wp-content\plugins\woocom

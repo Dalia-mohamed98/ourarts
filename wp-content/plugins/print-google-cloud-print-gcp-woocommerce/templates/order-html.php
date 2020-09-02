@@ -29,6 +29,11 @@
         <td colspan="4"><?php _e('Time ordered', 'Print-Google-Cloud-Print-GCP-WooCommerce'); ?>
             - <?= date_i18n(\get_option('time_format', 'H:i'), $order->get_date_created()); ?></td>
     </tr>
+		<?php if ($location_data['shipping']['delivery_pickup_type']) { ?>
+				<tr>
+						<td colspan="4"><?= get_shipping_details($order); ?></td>
+				</tr>
+		<?php } ?>
     </tfoot>
     <tbody>
     <tr>
@@ -67,6 +72,13 @@
         ?>
         </tbody>
     <?php } ?>
+		<?php foreach ($order->get_fees() as $fee) { ?>
+				<tbody>
+				<tr>
+						<td colspan="2"><?= $fee->get_name() ?></td>
+				</tr>
+				</tbody>
+		<?php } ?>
 </table>
 
 <?php if($location_data['shipping']['billing_shipping_details']) { ?>

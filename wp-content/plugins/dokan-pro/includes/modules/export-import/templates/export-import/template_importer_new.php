@@ -35,7 +35,7 @@ $parser = new Dokan_WXR_Parser();
 		<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 
 			<header class="dokan-dashboard-header">
-			    <h1 class="entry-title"><?php _e( 'Tools', 'dokan' ); ?></h1>
+			    <h1 class="entry-title"><?php _e( 'استيراد و تصدير المنتجات', 'dokan' ); ?></h1>
 			</header><!-- .-->
 
 			<div id="tab-container">
@@ -43,7 +43,7 @@ $parser = new Dokan_WXR_Parser();
                                     <?php if ( current_user_can( 'dokan_import_product' ) ): ?>
                                             <li class="active">
                                                 <a href="#import" data-toggle="tab">
-                                                    <?php _e( 'Import', 'dokan' ); ?>
+                                                    <?php _e( 'استيراد', 'dokan' ); ?>
                                                 </a>
                                             </li>
                                     <?php endif ?>
@@ -51,7 +51,7 @@ $parser = new Dokan_WXR_Parser();
                                     <?php if ( current_user_can( 'dokan_export_product' ) ): ?>
                                             <li>
                                                 <a href="#export" data-toggle="tab">
-                                                    <?php _e( 'Export', 'dokan' ); ?>
+                                                    <?php _e( 'تصدير', 'dokan' ); ?>
                                                 </a>
                                             </li>
                                     <?php endif ?>
@@ -61,33 +61,33 @@ $parser = new Dokan_WXR_Parser();
 				<div class="tabs_container">
                                 <?php if ( current_user_can( 'dokan_import_product' ) ): ?>
     				  	<div class="import_div tab-pane active" id="import">
-                                            <header class="dokan-import-export-header">
+<!--                                             <header class="dokan-import-export-header">
     					    	<h1 class="entry-title"><?php _e( 'Import XML', 'dokan' ); ?></h1>
-    					    </header>
+    					    </header> -->
 
     						<?php
 
-    						if( isset( $_POST['import_xml'] ) ) {
-    							if( empty( $_FILES['import'] ) ) {
-    								echo __( "Please select a xml file", 'dokan' );
-    							}else {
-    								Dokan_Product_Importer::init()->import( $_FILES['import']['tmp_name'] );
-    							}
-    						}
+//     						if( isset( $_POST['import_xml'] ) ) {
+//     							if( empty( $_FILES['import'] ) ) {
+//     								echo __( "Please select a xml file", 'dokan' );
+//     							}else {
+//     								Dokan_Product_Importer::init()->import( $_FILES['import']['tmp_name'] );
+//     							}
+//     						}
 
     						?>
-    					    <p><?php _e( 'Click Browse button and choose a XML file that you want to import.', 'dokan' ); ?></p>
+<!--     					    <p><?php _e( 'Click Browse button and choose a XML file that you want to import.', 'dokan' ); ?></p>
     					    <form method='post' enctype='multipart/form-data' action="">
     				        	<p><input type='file' name='import' /></p>
     				        	<p><input type='submit' name='import_xml' value='<?php _e( 'Import', 'dokan' ); ?>' class="btn btn-danger" /></p>
 
     					    </form>
-                                            <hr>
+                                            <hr> -->
                                             <header class="dokan-import-export-header">
-    					    	<h1 class="entry-title"><?php _e( 'Import CSV', 'dokan' ); ?></h1>
+    					    	<h1 class="entry-title"><?php _e( 'تحميل المنتجات CSV', 'dokan' ); ?></h1>
     					    </header>
                                             <a href="<?php echo dokan_get_navigation_url( 'tools/csv-import' ) ?>" class="dokan-btn dokan-btn-theme">
-                                                <?php _e( 'Import CSV', 'dokan' ) ?>
+                                                <?php _e( 'تحميل CSV', 'dokan' ) ?>
                                             </a>
 
     				  	</div>
@@ -95,24 +95,24 @@ $parser = new Dokan_WXR_Parser();
                     <?php if ( current_user_can( 'dokan_export_product' ) ): ?>
                                 <div class="export_div tab-pane" id="export">
                                     <header class="dokan-import-export-header">
-                                            <h1 class="entry-title"><?php _e( 'Export XML', 'dokan' ); ?></h1>
+                                            <h1 class="entry-title"><?php _e( 'استخراج XML', 'dokan' ); ?></h1>
                                     </header>
 
 
-                                    <p><?php _e( 'Chose your type of product and click export button to export all data in XML form', 'dokan' ); ?></p>
+                                    <p><?php _e( 'اختر نوع المنتج الخاص بك واضغط على تصدير لتصدير  البيانات في شكل XML', 'dokan' ); ?></p>
 
                                     <form action="" method="POST">
-                                            <p><input type="radio" name="content" value="all" id="export_all" checked="checked"> <label for="export_all"><?php _e( 'All', 'dokan' ); ?></label></p>
-                                            <p><input type="radio" name="content" value="product" id="export_product"> <label for="export_product"><?php _e( 'Product', 'dokan' ); ?></label></p>
-                                            <p><input type="radio" name="content" value="product_variation" id="export_variation_product"> <label for="export_variation_product"><?php _e( 'Variation', 'dokan' ); ?></label></p>
-                                            <p><input type="submit" name="export_xml" value="Export" class="btn btn-danger"></p>
+                                            <p><input type="radio" name="content" value="all" id="export_all" checked="checked"> <label for="export_all"><?php _e( 'الكل', 'dokan' ); ?></label></p>
+                                            <p><input type="radio" name="content" value="product" id="export_product"> <label for="export_product"><?php _e( 'المنتج', 'dokan' ); ?></label></p>
+                                            <p><input type="radio" name="content" value="product_variation" id="export_variation_product"> <label for="export_variation_product"><?php _e( 'النوع', 'dokan' ); ?></label></p>
+                                            <p><input type="submit" name="export_xml" value="تصدير" class="btn btn-danger"></p>
                                     </form>
                                     <hr>
                                     <header class="dokan-import-export-header">
-                                        <h1 class="entry-title"><?php _e( 'Export CSV', 'dokan' ); ?></h1>
+                                        <h1 class="entry-title"><?php _e( 'استخراج CSV', 'dokan' ); ?></h1>
                                     </header>
                                     <a href="<?php echo dokan_get_navigation_url( 'tools/csv-export' ) ?>" class="dokan-btn dokan-btn-theme">
-                                        <?php _e( 'Export CSV', 'dokan' ) ?>
+                                        <?php _e( 'تصدير CSV', 'dokan' ) ?>
                                     </a>
 
                                 </div>

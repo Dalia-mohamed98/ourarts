@@ -86,6 +86,7 @@ class Background
   public static function backgroundCallListener() {
 		if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['_zprint_print'])) {
 			$check = $_POST['_zprint_print'];
+			$track = $_POST['track'];
 			if (file_get_contents(Background::getTmpDir($check)) !== $check) {
 				return;
 			}
@@ -97,7 +98,7 @@ class Background
 			set_time_limit(0);
 			$order_id = (int)$_POST['order'];
 			Log::info(Log::PRINTING, ["#$order_id", 'print']);
-			Printer::rawPrintOrder($order_id, $_POST['arguments']);
+			Printer::rawPrintOrder($order_id, $_POST['arguments'],$track);
 			exit;
 		}
 	}

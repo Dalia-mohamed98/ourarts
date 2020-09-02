@@ -23,6 +23,7 @@ class Location
 		'customer_details' => true,
 		'billing_shipping_details' => true,
 		'method' => true,
+		'delivery_pickup_type' => false
 	];
 	/* total template settings */
 	public $total = [
@@ -102,10 +103,10 @@ class Location
 			$this->margins = isset($options['margins']) ? $options['margins'] : null;
 			if (isset($options['shipping'])) {
 				$this->shipping = array_merge($this->shipping, $options['shipping']);
+				$this->shipping['delivery_pickup_type'] = $this->shipping['delivery_pickup_type'] && defined('\ZZHoursDelivery\ACTIVE');
 			}
-			if (isset($options['total'])) {
-				$this->total = array_merge($this->total, $options['total']);
-			}
+			$this->total = array_merge($this->total, $options['total']);
+
 			$this->height = isset($options['height']) ? $options['height'] : null;
 			$this->width = isset($options['width']) ? $options['width'] : null;
 			$this->format = isset($options['format']) ? $options['format'] : 'html';

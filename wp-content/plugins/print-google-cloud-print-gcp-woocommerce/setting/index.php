@@ -16,6 +16,7 @@ $setting_page
 		call_user_func(include_once 'locations.php', $setting_page);
 		call_user_func(include_once 'setting/index.php', $setting_page);
 		call_user_func(include_once 'logs.php', $setting_page);
+		call_user_func(include_once 'addons.php', $setting_page);
 	});
 
 function get_appearance_setting($name)

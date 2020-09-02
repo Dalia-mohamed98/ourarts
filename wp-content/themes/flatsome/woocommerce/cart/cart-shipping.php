@@ -29,7 +29,8 @@ $calculator_text          = '';
 		<table class="shipping__table <?php if ( 1 < count( $available_methods ) ) : ?>shipping__table--multiple<?php endif; ?>">
 			<tbody>
 			<tr>
-				<th <?php if ( 1 < count( $available_methods ) ) : ?> colspan="2" <?php endif; ?>><?php echo wp_kses_post( $package_name ); ?></th>
+				<th>الشحن</th>
+				<!-- <th <?php //if ( 1 < count( $available_methods ) ) : ?> colspan="2" <?php //endif; ?>><?php //echo wp_kses_post( $package_name ); ?></th> -->
 				<td data-title="<?php echo esc_attr( $package_name ); ?>">
 					<?php if ( $available_methods ) : ?>
 						<ul id="shipping_method" class="shipping__list woocommerce-shipping-methods">

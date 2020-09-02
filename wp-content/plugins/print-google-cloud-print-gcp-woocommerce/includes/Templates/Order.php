@@ -24,6 +24,7 @@ class Order extends Basic implements Index, TemplateSettings
 			'shipping' => [
 				'billing_shipping_details' => true,
 				'method' => true,
+				'delivery_pickup_type' => defined('\ZZHoursDelivery\ACTIVE')
 			]
 		];
 	}

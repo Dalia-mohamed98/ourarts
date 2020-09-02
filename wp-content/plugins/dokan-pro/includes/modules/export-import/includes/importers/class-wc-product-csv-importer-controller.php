@@ -78,22 +78,22 @@ class WC_Product_CSV_Importer_Controller {
     public function __construct() {
         $this->steps           = array(
             'upload'  => array(
-                'name'    => __( 'Upload CSV file', 'dokan' ),
+                'name'    => __( 'تحميل ملف CSV', 'dokan' ),
                 'view'    => array( $this, 'upload_form' ),
                 'handler' => array( $this, 'upload_form_handler' ),
             ),
             'mapping' => array(
-                'name'    => __( 'Column mapping', 'dokan' ),
+                'name'    => __( 'تعيين الأعمدة', 'dokan' ),
                 'view'    => array( $this, 'mapping_form' ),
                 'handler' => '',
             ),
             'import'  => array(
-                'name'    => __( 'Import', 'dokan' ),
+                'name'    => __( 'تحميل', 'dokan' ),
                 'view'    => array( $this, 'import' ),
                 'handler' => '',
             ),
             'done'    => array(
-                'name'    => __( 'Done!', 'dokan' ),
+                'name'    => __( 'انتهاء!', 'dokan' ),
                 'view'    => array( $this, 'done' ),
                 'handler' => '',
             ),
@@ -133,7 +133,7 @@ class WC_Product_CSV_Importer_Controller {
             'file'            => str_replace( DIRECTORY_SEPARATOR, '/', $this->file ),
             'delimiter'       => $this->delimiter,
             'update_existing' => $this->update_existing,
-            '_wpnonce'        => wp_create_nonce( 'woocommerce-csv-importer' ), // wp_nonce_url() escapes & to &amp; breaking redirects.
+            '_wpnonce'        => wp_create_nonce( 'woocommerce-csv-importer' ), // wp_nonce_url() escapes & to & breaking redirects.
         );
 
         return add_query_arg( $params );

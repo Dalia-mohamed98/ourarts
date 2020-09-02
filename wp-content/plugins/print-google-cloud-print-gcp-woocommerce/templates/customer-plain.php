@@ -14,6 +14,9 @@
 	<?= Document::symbolsAlign(__('Payment Method', 'Print-Google-Cloud-Print-GCP-WooCommerce'), $order->get_payment_method_title()); ?>
 <?php } ?>
 <?= Document::symbolsAlign(__('Time Ordered', 'Print-Google-Cloud-Print-GCP-WooCommerce'), date_i18n(\get_option('time_format', 'H:i'), $order->get_date_created())); ?>
+<?php if ($location_data['shipping']['delivery_pickup_type']) { ?>
+		<?= Document::centerLine(get_shipping_details($order)); ?>
+<?php } ?>
 <?= Document::emptyLine(); ?>
 <?= Document::centerLine(__('Order Information', 'Print-Google-Cloud-Print-GCP-WooCommerce')); ?>
 <?= Document::emptyLine(); ?>
@@ -31,6 +34,9 @@
 	echo implode('', $meta);
 	?>
 <?php } ?>
+<?php foreach ($order->get_fees() as $fee) {
+		echo Document::symbolsAlign($fee->get_name(), wc_price($fee->get_total(), array('currency' => $order->get_currency())));
+} ?>
 <?= Document::emptyLine(); ?>
 <?php if ($location_data['total']['cost']) { ?>
 	<?= Document::symbolsAlign(__('Subtotal', 'Print-Google-Cloud-Print-GCP-WooCommerce'), $order->get_subtotal_to_display()); ?>

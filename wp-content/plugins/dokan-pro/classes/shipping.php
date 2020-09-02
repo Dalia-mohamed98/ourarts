@@ -310,7 +310,7 @@ class Dokan_Pro_Shipping {
         }
 
         $tabs['shipping'] = array(
-            'title' => __( 'Shipping', 'dokan' ),
+            'title' => __( 'الشحن', 'dokan' ),
             'priority' => 12,
             'callback' => array( $this, 'shipping_tab' )
         );
@@ -361,7 +361,7 @@ class Dokan_Pro_Shipping {
         <?php } ?>
 
         <?php if ( $shipping_policy ) { ?>
-            <p>&nbsp;</p>
+            <p> </p>
             <strong><?php _e( 'Shipping Policy', 'dokan' ); ?></strong>
             <hr>
             <?php echo wpautop( $shipping_policy ); ?>
@@ -369,7 +369,7 @@ class Dokan_Pro_Shipping {
 
         <?php if ( $refund_policy ) { ?>
             <hr>
-            <p>&nbsp;</p>
+            <p> </p>
             <strong><?php _e( 'Refund Policy', 'dokan' ); ?></strong>
             <hr>
             <?php echo wpautop( $refund_policy ); ?>

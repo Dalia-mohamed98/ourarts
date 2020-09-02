@@ -26,7 +26,8 @@
 class Google_Service_Compute_Resource_Subnetworks extends Google_Service_Resource
 {
   /**
-   * Retrieves an aggregated list of subnetworks. (subnetworks.aggregatedList)
+   * Retrieves an aggregated list of subnetworks. (== suppress_warning http-rest-
+   * shadowed ==) (subnetworks.aggregatedList)
    *
    * @param string $project Project ID for this request.
    * @param array $optParams Optional parameters.
@@ -78,7 +79,8 @@ class Google_Service_Compute_Resource_Subnetworks extends Google_Service_Resourc
     return $this->call('aggregatedList', array($params), "Google_Service_Compute_SubnetworkAggregatedList");
   }
   /**
-   * Deletes the specified subnetwork. (subnetworks.delete)
+   * Deletes the specified subnetwork. (== suppress_warning http-rest-shadowed ==)
+   * (subnetworks.delete)
    *
    * @param string $project Project ID for this request.
    * @param string $region Name of the region scoping this request.
@@ -106,8 +108,8 @@ class Google_Service_Compute_Resource_Subnetworks extends Google_Service_Resourc
     return $this->call('delete', array($params), "Google_Service_Compute_Operation");
   }
   /**
-   * Expands the IP CIDR range of the subnetwork to a specified value.
-   * (subnetworks.expandIpCidrRange)
+   * Expands the IP CIDR range of the subnetwork to a specified value. (==
+   * suppress_warning http-rest-shadowed ==) (subnetworks.expandIpCidrRange)
    *
    * @param string $project Project ID for this request.
    * @param string $region Name of the region scoping this request.
@@ -137,7 +139,7 @@ class Google_Service_Compute_Resource_Subnetworks extends Google_Service_Resourc
   }
   /**
    * Returns the specified subnetwork. Gets a list of available subnetworks list()
-   * request. (subnetworks.get)
+   * request. (== suppress_warning http-rest-shadowed ==) (subnetworks.get)
    *
    * @param string $project Project ID for this request.
    * @param string $region Name of the region scoping this request.
@@ -152,8 +154,25 @@ class Google_Service_Compute_Resource_Subnetworks extends Google_Service_Resourc
     return $this->call('get', array($params), "Google_Service_Compute_Subnetwork");
   }
   /**
+   * Gets the access control policy for a resource. May be empty if no such policy
+   * or resource exists. (== suppress_warning http-rest-shadowed ==)
+   * (subnetworks.getIamPolicy)
+   *
+   * @param string $project Project ID for this request.
+   * @param string $region The name of the region for this request.
+   * @param string $resource Name or id of the resource for this request.
+   * @param array $optParams Optional parameters.
+   * @return Google_Service_Compute_Policy
+   */
+  public function getIamPolicy($project, $region, $resource, $optParams = array())
+  {
+    $params = array('project' => $project, 'region' => $region, 'resource' => $resource);
+    $params = array_merge($params, $optParams);
+    return $this->call('getIamPolicy', array($params), "Google_Service_Compute_Policy");
+  }
+  /**
    * Creates a subnetwork in the specified project using the data included in the
-   * request. (subnetworks.insert)
+   * request. (== suppress_warning http-rest-shadowed ==) (subnetworks.insert)
    *
    * @param string $project Project ID for this request.
    * @param string $region Name of the region scoping this request.
@@ -181,8 +200,8 @@ class Google_Service_Compute_Resource_Subnetworks extends Google_Service_Resourc
     return $this->call('insert', array($params), "Google_Service_Compute_Operation");
   }
   /**
-   * Retrieves a list of subnetworks available to the specified project.
-   * (subnetworks.listSubnetworks)
+   * Retrieves a list of subnetworks available to the specified project. (==
+   * suppress_warning http-rest-shadowed ==) (subnetworks.listSubnetworks)
    *
    * @param string $project Project ID for this request.
    * @param string $region Name of the region scoping this request.
@@ -235,11 +254,66 @@ class Google_Service_Compute_Resource_Subnetworks extends Google_Service_Resourc
     return $this->call('list', array($params), "Google_Service_Compute_SubnetworkList");
   }
   /**
+   * Retrieves an aggregated list of all usable subnetworks in the project. The
+   * list contains all of the subnetworks in the project and the subnetworks that
+   * were shared by a Shared VPC host project. (== suppress_warning http-rest-
+   * shadowed ==) (subnetworks.listUsable)
+   *
+   * @param string $project Project ID for this request.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string filter A filter expression that filters resources listed in
+   * the response. The expression must specify the field name, a comparison
+   * operator, and the value that you want to use for filtering. The value must be
+   * a string, a number, or a boolean. The comparison operator must be either =,
+   * !=, >, or <.
+   *
+   * For example, if you are filtering Compute Engine instances, you can exclude
+   * instances named example-instance by specifying name != example-instance.
+   *
+   * You can also filter nested fields. For example, you could specify
+   * scheduling.automaticRestart = false to include instances only if they are not
+   * scheduled for automatic restarts. You can use filtering on nested fields to
+   * filter based on resource labels.
+   *
+   * To filter on multiple expressions, provide each separate expression within
+   * parentheses. For example, (scheduling.automaticRestart = true) (cpuPlatform =
+   * "Intel Skylake"). By default, each expression is an AND expression. However,
+   * you can include AND and OR expressions explicitly. For example, (cpuPlatform
+   * = "Intel Skylake") OR (cpuPlatform = "Intel Broadwell") AND
+   * (scheduling.automaticRestart = true).
+   * @opt_param string maxResults The maximum number of results per page that
+   * should be returned. If the number of available results is larger than
+   * maxResults, Compute Engine returns a nextPageToken that can be used to get
+   * the next page of results in subsequent list requests. Acceptable values are 0
+   * to 500, inclusive. (Default: 500)
+   * @opt_param string orderBy Sorts list results by a certain order. By default,
+   * results are returned in alphanumerical order based on the resource name.
+   *
+   * You can also sort results in descending order based on the creation timestamp
+   * using orderBy="creationTimestamp desc". This sorts results based on the
+   * creationTimestamp field in reverse chronological order (newest result first).
+   * Use this to sort resources like operations so that the newest operation is
+   * returned first.
+   *
+   * Currently, only sorting by name or creationTimestamp desc is supported.
+   * @opt_param string pageToken Specifies a page token to use. Set pageToken to
+   * the nextPageToken returned by a previous list request to get the next page of
+   * results.
+   * @return Google_Service_Compute_UsableSubnetworksAggregatedList
+   */
+  public function listUsable($project, $optParams = array())
+  {
+    $params = array('project' => $project);
+    $params = array_merge($params, $optParams);
+    return $this->call('listUsable', array($params), "Google_Service_Compute_UsableSubnetworksAggregatedList");
+  }
+  /**
    * Patches the specified subnetwork with the data included in the request. Only
-   * the following fields within the subnetwork resource can be specified in the
-   * request: secondary_ip_range, allow_subnet_cidr_routes_overlap and role. It is
-   * also mandatory to specify the current fingeprint of the subnetwork resource
-   * being patched. (subnetworks.patch)
+   * certain fields can up updated with a patch request as indicated in the field
+   * descriptions. You must specify the current fingeprint of the subnetwork
+   * resource being patched. (== suppress_warning http-rest-shadowed ==)
+   * (subnetworks.patch)
    *
    * @param string $project Project ID for this request.
    * @param string $region Name of the region scoping this request.
@@ -247,6 +321,14 @@ class Google_Service_Compute_Resource_Subnetworks extends Google_Service_Resourc
    * @param Google_Service_Compute_Subnetwork $postBody
    * @param array $optParams Optional parameters.
    *
+   * @opt_param int drainTimeoutSeconds The drain timeout specifies the upper
+   * bound in seconds on the amount of time allowed to drain connections from the
+   * current ACTIVE subnetwork to the current BACKUP subnetwork. The drain timeout
+   * is only applicable when the following conditions are true: - the subnetwork
+   * being patched has purpose = INTERNAL_HTTPS_LOAD_BALANCER - the subnetwork
+   * being patched has role = BACKUP - the patch request is setting the role to
+   * ACTIVE. Note that after this patch operation the roles of the ACTIVE and
+   * BACKUP subnetworks will be swapped.
    * @opt_param string requestId An optional request ID to identify requests.
    * Specify a unique request ID so that if you must retry your request, the
    * server will know to ignore the request if it has already been completed.
@@ -268,9 +350,27 @@ class Google_Service_Compute_Resource_Subnetworks extends Google_Service_Resourc
     return $this->call('patch', array($params), "Google_Service_Compute_Operation");
   }
   /**
+   * Sets the access control policy on the specified resource. Replaces any
+   * existing policy. (== suppress_warning http-rest-shadowed ==)
+   * (subnetworks.setIamPolicy)
+   *
+   * @param string $project Project ID for this request.
+   * @param string $region The name of the region for this request.
+   * @param string $resource Name or id of the resource for this request.
+   * @param Google_Service_Compute_RegionSetPolicyRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return Google_Service_Compute_Policy
+   */
+  public function setIamPolicy($project, $region, $resource, Google_Service_Compute_RegionSetPolicyRequest $postBody, $optParams = array())
+  {
+    $params = array('project' => $project, 'region' => $region, 'resource' => $resource, 'postBody' => $postBody);
+    $params = array_merge($params, $optParams);
+    return $this->call('setIamPolicy', array($params), "Google_Service_Compute_Policy");
+  }
+  /**
    * Set whether VMs in this subnet can access Google services without assigning
-   * external IP addresses through Private Google Access.
-   * (subnetworks.setPrivateIpGoogleAccess)
+   * external IP addresses through Private Google Access. (== suppress_warning
+   * http-rest-shadowed ==) (subnetworks.setPrivateIpGoogleAccess)
    *
    * @param string $project Project ID for this request.
    * @param string $region Name of the region scoping this request.
@@ -297,5 +397,22 @@ class Google_Service_Compute_Resource_Subnetworks extends Google_Service_Resourc
     $params = array('project' => $project, 'region' => $region, 'subnetwork' => $subnetwork, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
     return $this->call('setPrivateIpGoogleAccess', array($params), "Google_Service_Compute_Operation");
+  }
+  /**
+   * Returns permissions that a caller has on the specified resource. (==
+   * suppress_warning http-rest-shadowed ==) (subnetworks.testIamPermissions)
+   *
+   * @param string $project Project ID for this request.
+   * @param string $region The name of the region for this request.
+   * @param string $resource Name or id of the resource for this request.
+   * @param Google_Service_Compute_TestPermissionsRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return Google_Service_Compute_TestPermissionsResponse
+   */
+  public function testIamPermissions($project, $region, $resource, Google_Service_Compute_TestPermissionsRequest $postBody, $optParams = array())
+  {
+    $params = array('project' => $project, 'region' => $region, 'resource' => $resource, 'postBody' => $postBody);
+    $params = array_merge($params, $optParams);
+    return $this->call('testIamPermissions', array($params), "Google_Service_Compute_TestPermissionsResponse");
   }
 }

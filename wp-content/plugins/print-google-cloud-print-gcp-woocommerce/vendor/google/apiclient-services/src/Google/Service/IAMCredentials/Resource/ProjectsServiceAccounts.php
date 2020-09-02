@@ -31,8 +31,8 @@ class Google_Service_IAMCredentials_Resource_ProjectsServiceAccounts extends Goo
    *
    * @param string $name The resource name of the service account for which the
    * credentials are requested, in the following format:
-   * `projects/-/serviceAccounts/{ACCOUNT_EMAIL_OR_UNIQUEID}`. Using `-` as a
-   * wildcard for the project will infer the project from the account.
+   * `projects/-/serviceAccounts/{ACCOUNT_EMAIL_OR_UNIQUEID}`. The `-` wildcard
+   * character is required; replacing it with a project ID is invalid.
    * @param Google_Service_IAMCredentials_GenerateAccessTokenRequest $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_IAMCredentials_GenerateAccessTokenResponse
@@ -49,8 +49,8 @@ class Google_Service_IAMCredentials_Resource_ProjectsServiceAccounts extends Goo
    *
    * @param string $name The resource name of the service account for which the
    * credentials are requested, in the following format:
-   * `projects/-/serviceAccounts/{ACCOUNT_EMAIL_OR_UNIQUEID}`. Using `-` as a
-   * wildcard for the project will infer the project from the account.
+   * `projects/-/serviceAccounts/{ACCOUNT_EMAIL_OR_UNIQUEID}`. The `-` wildcard
+   * character is required; replacing it with a project ID is invalid.
    * @param Google_Service_IAMCredentials_GenerateIdTokenRequest $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_IAMCredentials_GenerateIdTokenResponse
@@ -67,8 +67,8 @@ class Google_Service_IAMCredentials_Resource_ProjectsServiceAccounts extends Goo
    *
    * @param string $name The resource name of the service account for which the
    * credentials are requested, in the following format:
-   * `projects/-/serviceAccounts/{ACCOUNT_EMAIL_OR_UNIQUEID}`. Using `-` as a
-   * wildcard for the project will infer the project from the account.
+   * `projects/-/serviceAccounts/{ACCOUNT_EMAIL_OR_UNIQUEID}`. The `-` wildcard
+   * character is required; replacing it with a project ID is invalid.
    * @param Google_Service_IAMCredentials_SignBlobRequest $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_IAMCredentials_SignBlobResponse
@@ -85,8 +85,8 @@ class Google_Service_IAMCredentials_Resource_ProjectsServiceAccounts extends Goo
    *
    * @param string $name The resource name of the service account for which the
    * credentials are requested, in the following format:
-   * `projects/-/serviceAccounts/{ACCOUNT_EMAIL_OR_UNIQUEID}`. Using `-` as a
-   * wildcard for the project will infer the project from the account.
+   * `projects/-/serviceAccounts/{ACCOUNT_EMAIL_OR_UNIQUEID}`. The `-` wildcard
+   * character is required; replacing it with a project ID is invalid.
    * @param Google_Service_IAMCredentials_SignJwtRequest $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_IAMCredentials_SignJwtResponse

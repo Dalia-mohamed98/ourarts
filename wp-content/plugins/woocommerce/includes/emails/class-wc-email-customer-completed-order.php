@@ -52,6 +52,32 @@ if ( ! class_exists( 'WC_Email_Customer_Completed_Order', false ) ) :
 		 * @param WC_Order|false $order Order object.
 		 */
 		public function trigger( $order_id, $order = false ) {
+			 //send completed msg after five days
+			$curl = curl_init();
+			$completed = urlencode("شكرا لطلبكم من أور آرتس،
+	ساعدنا بإبداء رأيك في تقييم خدماتنا من خلال اللينك : https://our-arts.com/survey
+	سيتم إرسال بروموكود خصم بعد إبداء رأيك
+	فريق أور آرتس");
+			$date = date('Y-m-d'); // The Current Date
+			$time = date('Y-m-d', strtotime($date. ' + 2 days')).'-19-00';
+			// echo $time;
+			$url = "https://smsmisr.com/api/webapi/?username=Kucqb6oA&password=0CeG8jZ0R2&language=2&sender=Our%20Arts&mobile=".wc_get_order( $order_id )->get_billing_phone()."&message=".$completed."&DelayUntil=".$time;
+			
+			curl_setopt_array($curl, array(
+				CURLOPT_URL => $url,
+				CURLOPT_RETURNTRANSFER => true,
+				CURLOPT_ENCODING => "",
+				CURLOPT_MAXREDIRS => 10,
+				CURLOPT_TIMEOUT => 0,
+				CURLOPT_FOLLOWLOCATION => true,
+				CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
+				CURLOPT_CUSTOMREQUEST => "POST",
+				CURLOPT_HTTPHEADER => array('Content-Length: 0'),
+			));
+			$response = curl_exec($curl);
+
+			curl_close($curl);
+			
 			$this->setup_locale();
 
 			if ( $order_id && ! is_a( $order, 'WC_Order' ) ) {

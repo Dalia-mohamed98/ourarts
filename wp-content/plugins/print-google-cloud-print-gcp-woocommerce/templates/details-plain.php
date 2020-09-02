@@ -6,6 +6,9 @@
 <?= Document::centerLine(__('Order Receipt', 'Print-Google-Cloud-Print-GCP-WooCommerce')); ?>
 <?= Document::centerLine(__('Order Number', 'Print-Google-Cloud-Print-GCP-WooCommerce') . ': ' . $order->get_id()); ?>
 <?= Document::centerLine(__('Date', 'Print-Google-Cloud-Print-GCP-WooCommerce') . ': ' . date_i18n(\get_option('date_format', 'm/d/Y'), $order->get_date_created())); ?>
+<?php if ($location_data['shipping']['delivery_pickup_type']) { ?>
+		<?= Document::centerLine(get_shipping_details($order)); ?>
+<?php } ?>
 <?= Document::emptyLine(); ?>
 <?php foreach ($order->get_items() as $item) {
 	/* @var $item \WC_Order_item */
@@ -20,6 +23,9 @@
 	}, $meta, array_keys($meta));
 	echo implode('', $meta);
 	?>
+<?php } ?>
+<?php foreach ($order->get_fees() as $fee) { ?>
+		<?= Document::symbolsAlign($fee->get_name(), wc_price($fee->get_total(), array('currency' => $order->get_currency()))); ?>
 <?php } ?>
 <?= Document::emptyLine(); ?>
 <?php if ($location_data['total']['cost']) { ?>

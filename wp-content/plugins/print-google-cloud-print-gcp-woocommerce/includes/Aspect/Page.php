@@ -111,6 +111,7 @@ class Page extends Base
         $admin_page = parse_url($this->getUrl($withTab));
         $current = parse_url($current_url);
 
+        if($current === false || $admin_page === false) return false;
 
         $diff = array_diff($admin_page, $current);
 

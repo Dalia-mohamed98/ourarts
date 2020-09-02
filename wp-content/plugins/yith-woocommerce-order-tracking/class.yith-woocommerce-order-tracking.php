@@ -1,4 +1,6 @@
 <?php
+session_start();
+
 if ( ! defined ( 'ABSPATH' ) ) {
 	exit; // Exit if accessed directly
 }
@@ -238,6 +240,7 @@ if ( ! class_exists ( 'YITH_WooCommerce_Order_Tracking' ) ) {
 			$order_carrier_name  = isset( $data['ywot_carrier_name'][0] ) ? $data['ywot_carrier_name'][0] : '';
 			$order_pick_up_date  = isset( $data['ywot_pick_up_date'][0] ) ? $data['ywot_pick_up_date'][0] : '';
 			
+			
 			$message = str_replace (
 				array( "[carrier_name]", "[pickup_date]", "[track_code]" ),
 				array(
@@ -432,12 +435,13 @@ if ( ! class_exists ( 'YITH_WooCommerce_Order_Tracking' ) ) {
 			if ( defined ( 'YITH_YWOT_PREMIUM' ) ) {
 				$admin_tabs['carriers'] = __ ( 'Carriers', 'yith-woocommerce-order-tracking' );
 			} else {
-				$admin_tabs['premium-landing'] = __ ( 'Premium Version', 'yith-woocommerce-order-tracking' );
+				$admin_tabs['premium'] = __ ( 'Premium Version', 'yith-woocommerce-order-tracking' );
 			}
 			
 			$args = array(
 				'create_menu_page' => true,
 				'parent_slug'      => '',
+				'plugin_slug'      => YITH_YWOT_SLUG,
 				'page_title'       => 'Order Tracking',
 				'menu_title'       => 'Order Tracking',
 				'capability'       => 'manage_options',
@@ -446,6 +450,7 @@ if ( ! class_exists ( 'YITH_WooCommerce_Order_Tracking' ) ) {
 				'page'             => $this->_panel_page,
 				'admin-tabs'       => $admin_tabs,
 				'options-path'     => YITH_YWOT_DIR . '/plugin-options',
+                'class'            => yith_set_wrapper_class(),
 			);
 			
 			/* === Fixed: not updated theme  === */
@@ -525,6 +530,7 @@ if ( ! class_exists ( 'YITH_WooCommerce_Order_Tracking' ) ) {
 			$order_pick_up_date  = isset( $data['ywot_pick_up_date'][0] ) ? $data['ywot_pick_up_date'][0] : '';
 			$order_picked_up     = isset( $data['ywot_picked_up'][0] ) && ( '' !== $data['ywot_picked_up'][0] ) ? 'checked = "checked"' : '';
 			
+			$_SESSION['order_tracking_code'] = $order_tracking_code;
 			?>
 			<div class="track-information">
 				<p>
@@ -535,7 +541,17 @@ if ( ! class_exists ( 'YITH_WooCommerce_Order_Tracking' ) ) {
 					       placeholder="<?php _e ( 'Enter tracking code', 'yith-woocommerce-order-tracking' ); ?>"
 					       value="<?php echo $order_tracking_code; ?>" />
 				</p>
-				
+				<?php
+					if($order_tracking_code != ''){
+						?>
+						<div style='text-align: center;'>
+							<!-- insert your custom barcode setting your data in the GET parameter "data" -->
+							<img alt='Barcode Generator TEC-IT' style='width:50%'
+								 src='https://barcode.tec-it.com/barcode.ashx?data=<?php echo $order_tracking_code;?>&code=&multiplebarcodes=false&translate-esc=false&unit=Fit&dpi=96&imagetype=Gif&rotation=0&color=%23000000&bgcolor=%23ffffff&codepage=&qunit=Mm&quiet=0'/>
+						</div>
+				<?php
+					}
+				?>
 				<p>
 					<label
 						for="ywot_carrier_name"> <?php _e ( 'Carrier name:', 'yith-woocommerce-order-tracking' ); ?></label>
@@ -562,6 +578,21 @@ if ( ! class_exists ( 'YITH_WooCommerce_Order_Tracking' ) ) {
 					</label>
 				</p>
 			</div>
+
+			<script>
+			jQuery(document).ready(function ($) {
+				
+				//console.log(localStorage.getItem('order_tracking_code'));
+				$('#ywot_tracking_code').on('change',(function(e){
+					console.log("tracking..........");
+					var track = $(this).val();
+					localStorage.setItem('order_tracking_code', track);
+					console.log(localStorage.getItem('order_tracking_code'));
+					
+					
+				}));
+			});
+			</script>
 			<?php
 			
 		}

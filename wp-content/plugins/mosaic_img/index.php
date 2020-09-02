@@ -38,27 +38,34 @@ function colorDiff($rgb1,$rgb2)
 
  $result='';
 	function Upload_img(){
-      
-        $result.= '<form action="" method="post" enctype="multipart/form-data">
-                        <h1 class="uploadOuter">احسب وجهز خاماتك</h1>
-                        <h4 class="rightUpload">برجاء رفع التصميم المناسب مع مراعاة :</h4>
-                        <p class="rightUpload">*تحميل التصميم بمقاسات التنفيذ الحقيقية </p>
-                        <p class="rightUpload">*وعدم تحميل التصميم المصور بالموبايل وانما</p>
+        // <link rel="stylesheet" href="http://localhost/ourarts/wp-content/plugins/mosaic_img/css/font-awesome.min.css">
+        // <link rel="stylesheet" href="http://localhost/ourarts/wp-content/plugins/mosaic_img/css/animate.css">
+        
+        $result.= '
+                    <link rel="stylesheet" href="http://localhost/ourarts/wp-content/plugins/mosaic_img/css/bootstrap.min.css">
+                    <link rel="stylesheet" href="http://localhost/ourarts/wp-content/plugins/mosaic_img/css/style.css">
+        
+        
+                    <form id="upload-form" style="margin-bottom:0px" action="" method="post" enctype="multipart/form-data">
+                        <h1 class="uploadOuter" style="font-size: 5vw;">احسب وجهز خاماتك</h1>
+                        <h4 class="rightUpload" style="font-size: 14px;">برجاء رفع التصميم المناسب مع مراعاة :</h4>
+                        <p class="rightUpload" style="font-size: 12px;">*تحميل التصميم بمقاسات التنفيذ الحقيقية. مثال : التصميم مقاساته الحقيقية ٥٠×٧٠سم  </p>
+                        <p class="rightUpload" style="font-size: 12px;">*وعدم تحميل التصميم المصور بالموبايل للحصول علي دقة في الالوان</p>
                        
-                        <div class="uploadOuter row">
-                            <div class="col-lg-3 col-sm-12">
-                                <label for="uploadFile" class="btn">UPLOAD IMAGE</label>
-                                <strong>OR</strong>
+                        <div class="uploadOuter row" style="max-width: 700px; margin: auto;">
+                            <div class="col-lg-4 col-sm-12" style="padding-top: 8%;">
+                                <label for="uploadFile" class="btn">اختر التصميم</label>
+                                <strong>أو</strong>
                             </div> 
-                            <div class="col-lg-4 col-sm-12">
+                            <div class="col-lg-8 col-sm-12">
                                 <span class="dragBox" >
-                                    Darg and Drop image here
+                                اسحب التصميم هنا
                                     <input type="file" name="fileToUpload" onChange="dragNdrop(event)"  ondragover="drag()" ondrop="drop()" id="uploadFile"  />
                                 </span>
                             </div>
                         </div>
                         <div id="preview"></div>
-                        <div class="row">
+                        <div class="row" style="max-width: 730px; margin: auto;">
                             <div class="process col">
                                 <input type="submit" onclick="processImg()" class="btn processbtn" value="تحميل التصميم" name="upload_mosaic_img">
                                 <p id="wait"></p>
@@ -66,6 +73,40 @@ function colorDiff($rgb1,$rgb2)
                         </div>
                         
                     </form>';
+
+
+
+// $result.= '
+//     <ul class="products">';
+//     // <?php
+//         $args = array( 'post_type' => 'product', 'posts_per_page' => 10000, 'product_cat' => 'زجاج-معشق', 'orderby' => 'rand' );
+//         $loop = new WP_Query( $args );
+//         while ( $loop->have_posts() ) : $loop->the_post(); global $product; 
+//             $result.= '
+//             <h2>Shoes</h2>
+
+//                 <li class="product">    
+
+//                     <a href="'. get_permalink( $loop->post->ID ) .'" title="'. esc_attr($loop->post->post_title ? $loop->post->post_title : $loop->post->ID) .'">';
+
+//                          woocommerce_show_product_sale_flash( $post, $product ); 
+
+//                         if (has_post_thumbnail( $loop->post->ID )) echo get_the_post_thumbnail($loop->post->ID, 'shop_catalog'); else echo '<img src="'.woocommerce_placeholder_img_src().'" alt="Placeholder" width="30px" height="30px" />';
+
+//                         $result.= '<h3>'. the_title().'</h3>
+
+//                         <span class="price">'.  $product->get_price_html().'</span>                    
+
+//                     </a>';
+
+//                      woocommerce_template_loop_add_to_cart( $loop->post, $product );
+//                 $result .='
+//                 </li>';
+
+//     endwhile;
+//      wp_reset_query(); 
+
+// $result.= '</ul>';
                    
 //=============================backend==============================================
            
@@ -149,7 +190,7 @@ function colorDiff($rgb1,$rgb2)
                             
                             $sheet_area = 30*30;//cm
                             $no_sheets = ($area_cm)/($sheet_area);
-                            $no_sheets = number_format($no_sheets, 1, ',', ' ');
+                            $no_sheets = number_format($no_sheets, 1, '.', ' ');
                             
                             $no_tile = $area_cm/0.25; //area_px
                         
@@ -158,7 +199,6 @@ function colorDiff($rgb1,$rgb2)
                             $h_new_px = $no_tile/$w_new_px;
                             
                         //end calculate area and materials
-                            
 //start resize img==========================================================================================
                             $newImg = imagecreatetruecolor(round($w_new_px),round($h_new_px));
                             imagecopyresized($newImg,$imgCreate,0,0,0,0,round($w_new_px),round($h_new_px),$width,$height);
@@ -174,282 +214,137 @@ function colorDiff($rgb1,$rgb2)
                             $png = ob_get_clean();
                             $uri = "data:image/png;base64," . base64_encode($png);
                             
-                            // $result.= '
-                            // <h4 class="rightUpload" style="margin-bottom:20px">هذا هو الشكل النهائي لتصميمك</h4>
-                            // <div style="width: 55%;margin: auto;" >
-                            //     <img src="'.$uri.'" style="width:100%;" >
-                            // </div>
-                            // <h4 class="rightUpload" style="margin-top:20px">انت تحتاج حوالي '.$no_sheets.' شيت من الخامات لتنفيذ تصميمك</h4>';
+                            $result.= '
+                            <h6 class="rightUpload" style="font-size: 14px; text-align: center;color: #28a745;font-weight: 800;" >انت تحتاج حوالي '.$no_sheets.' شيت من الخامات لتنفيذ تصميمك</h4>';
 //end show pixeled img==========================================================================================
                 
 //start find products==========================================================================================
-            
-                            
                             $prv=[];$prv_r = [];$prv_g = [];$prv_b = [];
                             $close_color=[];
                             $nearest_col = 35;
-                            
                             // $palette=[];
-                           
-                        
 //get all products from db==========================================================================================
                             global $wpdb;
-                            $queryout = $wpdb->get_results( 
-                                    "SELECT product_id, sku FROM 3bb_wc_product_meta_lookup WHERE stock_status = 'instock' and sku LIKE '%#%' "
-                                     );
-                            
+                            $mosaicArg = array( 'post_type' => 'product', 'posts_per_page' => 10000, 'product_cat' => 'موزاييك', 'orderby' => 'name');
+                            $mosaic = new WP_Query( $mosaicArg );
+                            $stoneArg = array( 'post_type' => 'product', 'posts_per_page' => 10000, 'product_cat' => 'احجار-طبيعية-stones', 'orderby' => 'name' );
+                            $stone = new WP_Query( $stoneArg );
+                            $glassArg = array( 'post_type' => 'product', 'posts_per_page' => 10000, 'product_cat' => 'زجاج-معشق', 'orderby' => 'name');
+                            $glass = new WP_Query( $glassArg );
+                                        
+                            // $glass = $wpdb->get_results( 
+                            // "SELECT product_id, sku FROM 3bb_wc_product_meta_lookup WHERE stock_status = 'instock' and sku LIKE '%#%' "
+                            //     );
 //end get all products from db==========================================================================================
-                            
-                          
-                                    
-                            $prv_products=[];
-                            $prv_cols=[];
-                            
-                            // imagetruecolortopalette($newImg2, false, 255);
-                            
-                            $largestDiff = 8;
-                            $closestProduct= [];
-                            
-                          //loop on image
-                            for($x=0;$x<$w_new_px;$x++)
-                            {
-                                for($y=0;$y<$h_new_px;$y++)
-                                {   
-                                    
-                                    $rgb = imagecolorat($newImg, $x, $y);
-                                    $r = ($rgb >> 16) & 0xFF;
-                                    $g = ($rgb >> 8) & 0xFF;
-                                    $b = $rgb & 0xFF;
-                                    // array_push($palette,[$r,$g,$b]);
-                                    
-                                    $hexC = hexColor([$r,$g,$b]);
-                                    
-                                    //get diff between col of img and each product
-                                    
-                                    foreach( $queryout as $qps):
-                                        $valid= true;
-                                        
-                                        $pid = $qps->product_id;
-                                        $sku = $qps->sku;
-                                        $col = substr($sku, -7); 
-                                        if (colorDiff($col,$hexC) < $largestDiff)
-                                        {
-                                            // $largestDiff = colorDiff($rgbColor,$rgb);
-                                            foreach($closestProduct as $prd):
-                                                if($pid == $prd):
-                                                    $valid = false;
-                                                    break;
-                                                endif;
-                                            endforeach;
-                                            if($valid):
-                                                array_push($closestProduct,$pid);
-                                            endif;
-                                            
-                                        }
-                                    
-                                    endforeach;
-                                
-                                }
-                            }
-                                
-//show products===========================================================================================
-
-
-        $result.= '
-
-
-        <div class="packages">
-        <div class="row category- " style="overflow: auto;margin-top:10px;">
-            <div class="col-sm-3 mt-3">
-                <div >
-                    <img src="'.$uri.'" style="width:100%;" >
-                </div>
-            </div>
-            <div class="col-1 ml-5 mt-4">
-                <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-                    <a class="nav-link active" id="v-pills-mosaic-tab" data-toggle="pill" href="#v-pills-mosaic" role="tab" aria-controls="v-pills-mosaic" aria-selected="true">موزاييك</a>
-                    <a class="nav-link" id="v-pills-stones-tab" data-toggle="pill" href="#v-pills-stones" role="tab" aria-controls="v-pills-stones" aria-selected="false">أحجار</a>
-                    <a class="nav-link" id="v-pills-glass-tab" data-toggle="pill" href="#v-pills-glass" role="tab" aria-controls="v-pills-glass" aria-selected="false">زجاج</a>
-                </div>
-            </div>
-            <div class="col-7 mt-3 ">
-                <div class="tab-content" id="v-pills-tabContent">
-
-                    <table class="tab-pane fade show active shop_table shop_table_responsive cart woocommerce-cart-form__contents" id="v-pills-mosaic" role="tabpanel" aria-labelledby="v-pills-mosaic-tab" cellspacing="0">
-                    <tbody class="prodcuts-checkbox">
-
-            ';
-                        
-            foreach($closestProduct as $prd):
-                
-                $_productQ = wc_get_product( $prd );
-                if($_productQ):
-                    $cartId = WC()->cart->generate_cart_id( $_productQ->product_id);
-                    $cartItemKey = WC()->cart->find_product_in_cart( $cartId );
-                    
-                    $thumb = apply_filters( 'woocommerce_cart_item_thumbnail', $_productQ->get_image() );
-
-                    $result.= '
-                            <tr class="TB-'.$prd.'">
-                                <form class="cart" action="'. esc_url( apply_filters( 'woocommerce_add_to_cart_form_action', $_productQ->get_permalink() ) ).'" method="post" enctype="multipart/form-data">
-                                
-                                <td class="product-thumbnail">
-                                    
-                                    <a href="'.get_permalink( $prd).'">'.$thumb.'</a>
-                                
-                                    
-                                </td>
-                                
-                                <td class="product-name" >';
-                                    
-                                    $result.= wp_kses_post( apply_filters( 'woocommerce_cart_item_name', sprintf( '<a href="%s">%s</a>', esc_url( get_permalink($prd) ), $_productQ->get_name() ) ) );
-                                    
-                                $result.='</td>
-                                    
-                                <td class="product-price price-'.$prd.'" >'.
-                                        
-                                    apply_filters( "woocommerce_cart_item_price",$_productQ->get_price()." جنيه" ).'
-                                        
-                                </td>';
-                                
-                
-                                $result.= 
-                                '<td>
-                                    <div class="quantity qty buttons_added">
-                                        <input type="button" value="-" class="minus button is-form">		
-                                        <label class="screen-reader-text" for="quantity_'. $prd.'">الكمية</label>
-                                        <input type="number" id="quantity_'. $prd.'" class="input-text text qty quantity-box quantity-box'. $prd.'" step="1" min="1" max="9999" name="quantity" value="1" title="الكمية" size="4" inputmode="numeric">
-                                        <input type="button" value="+" class="plus button is-form">	
-                                        <input type="hidden" name="product_id" value="'. $prd.'">
-                                        <div class="clear"></div>
-                                        
-                                    </div>
-
-                                    <input type="checkbox" id="product-checkbox-'. $prd.'" name="product['. $prd.']" value="'. $prd.'" style="display:none;" />
-                                    <span class="checkmark">أضف</span>
-                                    
-                                </td>';
-                
-                            //     <button  type="submit" class="single_add_to_cart_button button alt" > 
-                            //     اضف
-                            //  </button>
-                            //  <input type="hidden" name="add-to-cart" value="'. $prd.'">
-                            //  <input type="hidden" name="product_id" value="'. $prd.'">
-
-                                $result.= 
-                                '
-                            </form>
-                        </tr>
-                            ';
+                            $map_id_arr = [];
+                            $mosaicProducts= []; //mosaic products
+                            while ( $mosaic->have_posts() ) : $mosaic->the_post(); global $product; 
+                                $pidM = $mosaic->post->ID;
+                                // $mapId = get_post_meta( $pidM, '_has_multi_vendor', true );
+                                $skuM = $product->get_sku();
+                                // $descp = $product->get_short_description();
+                                if(!in_array($product->get_name(), $map_id_arr)):
+                                    array_push($map_id_arr,$product->get_name());
+                                    $mosaicProducts = getColor($newImg,$w_new_px,$h_new_px,$pidM,$skuM,$mosaicProducts);
                                 endif;
-                            endforeach;
-                    $result.='
-                        </tbody>
-                        </table>
-                    
+                                    // print_r($mosaicProducts);
+                            endwhile;
 
-                        
+                            $stoneProducts= []; //stone products
+                            while ( $stone->have_posts() ) : $stone->the_post(); global $product; 
+                                $pidS = $stone->post->ID;
+                                $mapId = get_post_meta( $pidS, '_has_multi_vendor', true );
+                                $skuS = $product->get_sku();
+                                if(!in_array($mapId, $map_id_arr)):
+                                    array_push($map_id_arr,$mapId);
+                                    $stoneProducts = getColor($newImg,$w_new_px,$h_new_px,$pidS,$skuS,$stoneProducts);
+                                endif;
+                                    // print_r($stoneProducts);
+                            endwhile;
 
+                            $glassProducts= []; //glass products
+                            while ( $glass->have_posts() ) : $glass->the_post(); global $product; 
+                                $pidG = $glass->post->ID;
+                                $mapId = get_post_meta( $pidG, '_has_multi_vendor', true );
+                                $skuG = $product->get_sku();
+                                if(!in_array($mapId, $map_id_arr)):
+                                    array_push($map_id_arr,$mapId);
+                                    $glassProducts = getColor($newImg,$w_new_px,$h_new_px,$pidG,$skuG,$glassProducts);
+                                endif;
+                                    // print_r($mosaicProducts);
+                            endwhile;
+                            // print_r( $map_id_arr);
+//show products===========================================================================================
+            // <span style="border-left: 1px solid gray; padding-right:5px;margin-top: 20px; height: 300px;"></span>
 
+            $result.= '
 
-                        <table class="tab-pane fade show activ shop_table shop_table_responsive cart woocommerce-cart-form__contents" id="v-pills-stones" role="tabpanel" aria-labelledby="v-pills-stones-tab" cellspacing="0">
-                        <tbody class="prodcuts-checkbox">
-                ';
-                foreach($closestProduct as $prd):
-                    
-                    $_productQ = wc_get_product( $prd );
-                    if($_productQ):
-                        $cartId = WC()->cart->generate_cart_id( $_productQ->product_id);
-                        $cartItemKey = WC()->cart->find_product_in_cart( $cartId );
-                        
-                        $thumb = apply_filters( 'woocommerce_cart_item_thumbnail', $_productQ->get_image() );
-    
-                        $result.= '
-                                <tr class="TB-'.$prd.'">
-                                    <form class="cart" action="'. esc_url( apply_filters( 'woocommerce_add_to_cart_form_action', $_productQ->get_permalink() ) ).'" method="post" enctype="multipart/form-data">
-                                    
-                                    <td class="product-thumbnail">
-                                        
-                                        <a href="'.get_permalink( $prd).'">'.$thumb.'</a>
-                                    
-                                        
-                                    </td>
-                                    
-                                    <td class="product-name" >';
-                                        
-                                        $result.= wp_kses_post( apply_filters( 'woocommerce_cart_item_name', sprintf( '<a href="%s">%s</a>', esc_url( get_permalink($prd) ), $_productQ->get_name() ) ) );
-                                        
-                                    $result.='</td>
-                                        
-                                    <td class="product-price price-'.$prd.'" >'.
-                                            
-                                        apply_filters( "woocommerce_cart_item_price",$_productQ->get_price()." جنيه" ).'
-                                            
-                                    </td>';
-                                    
-                    
-                                    $result.= 
-                                    '<td>
-                                        <div class="quantity qty buttons_added">
-                                            <input type="button" value="-" class="minus button is-form">		
-                                            <label class="screen-reader-text" for="quantity_'. $prd.'">الكمية</label>
-                                            <input type="number" id="quantity_'. $prd.'" class="input-text text qty quantity-box quantity-box'. $prd.'" step="1" min="1" max="9999" name="quantity" value="1" title="الكمية" size="4" inputmode="numeric">
-                                            <input type="button" value="+" class="plus button is-form">	
-                                            <input type="hidden" name="product_id" value="'. $prd.'">
-                                            <div class="clear"></div>
-                                            
-                                        </div>
-    
-                                        <input type="checkbox" id="product-checkbox-'. $prd.'" name="product['. $prd.']" value="'. $prd.'" style="display:none;" />
-                                        <span class="checkmark">أضف</span>
-                                        
-                                    </td>';
-                    
-                                    
-                                //     <button  type="submit" class="single_add_to_cart_button button alt" > 
-                                //     اضف
-                                //  </button>
-                                //  <input type="hidden" name="add-to-cart" value="'. $prd.'">
-                                //  <input type="hidden" name="product_id" value="'. $prd.'">
-    
-                                    $result.= 
-                                    '
-                                    
-                                </form>
-                            </tr>
-                        
-                                ';
-                                    
-                                    endif;
-                                endforeach;
-                            
-                        $result.='
-                            </tbody>
-                            </table>
+            <div class="packages">
+                <div class="row category- " style="overflow: auto;margin-top:10px;">
+                    <div class="col-sm-3" id="sticky-img" style="background-color: white;">
+                        <div style="text-align: center;">
+                            <img src="'.$uri.'" style="max-height:250px;" >
+                        </div>
                     </div>
-
-
-
-
-                </div>
-                <div class="text-center purchase-block fixed" >
-                    <button class="btn btn-md btn-success cart-btn" data-loading-text="جاري تأكيد الشراء">أكمل الشراء <span class="sum-price">0.00 جنيه</span></button>
-                    <br>
-                    <strong><span style="font-size:10px" class="" color="#000">تأكيد كوبونات الخصم و سعر التوصيل تكون فى الخطوة القادمة</span></strong>
-                    <a class="contact-link" href="https://our-arts.com/contact" target="_blank"><strong><span style="font-size:10px" class="m-0" color="#FF0000">اذا واجهتك اى مشكلة اتصل بنا </span></strong></a>
-                </div>
-            
-            </div>   
-            <div>';
-                           
-                    }
-                    else 
-                         $result.= '<div> Sorry, there was an error uploading your file.</div>';
-                }
                     
+                        
+                    
+                    <div class="col-sm-8 nav-cat-col">
+                        <div class="nav nav-pills nav-cat nav-fill" id="nav-cat" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                            <a class="nav-link catg active" id="v-pills-mosaic-tab" data-toggle="pill" href="#v-pills-mosaic" role="tab" aria-controls="v-pills-mosaic" aria-selected="true">موزاييك</a>
+                            <a class="nav-link catg" id="v-pills-stones-tab" data-toggle="pill" href="#v-pills-stones" role="tab" aria-controls="v-pills-stones" aria-selected="false">أحجار</a>
+                            <a class="nav-link catg" id="v-pills-glass-tab" data-toggle="pill" href="#v-pills-glass" role="tab" aria-controls="v-pills-glass" aria-selected="false">زجاج</a>
+                        </div>
+                        <div class="tab-content content" id="v-pills-tabContent">
+
+                            <table class="tab-pane fade show active shop_table shop_table_responsive cart woocommerce-cart-form__contents" id="v-pills-mosaic" role="tabpanel" aria-labelledby="v-pills-mosaic-tab" cellspacing="0">
+                                <tbody class="prodcuts-checkbox">
+                                ';
+                                $result= showProducts($mosaicProducts,$result);
+                                $result.='
+                                </tbody>
+                            </table>
+                        
+
+                            <table class="tab-pane fade show activ shop_table shop_table_responsive cart woocommerce-cart-form__contents" id="v-pills-stones" role="tabpanel" aria-labelledby="v-pills-stones-tab" cellspacing="0">
+                                <tbody class="prodcuts-checkbox">
+                                ';
+                                $result= showProducts($stoneProducts,$result);       
+                                $result.='
+                                </tbody>
+                            </table>
+
+
+                            <table class="tab-pane fade show activ shop_table shop_table_responsive cart woocommerce-cart-form__contents" id="v-pills-glass" role="tabpanel" aria-labelledby="v-pills-glass-tab" cellspacing="0">
+                                <tbody class="prodcuts-checkbox">
+                                ';
+                                $result= showProducts($glassProducts,$result);
+                                $result.='
+                                </tbody>
+                            </table>
+                                
+                        </div>
+
+                        </div>
+                        <div class="text-center purchase-block fixed" >
+                            <!--<strong><div style="font-size:11px; color:red" class="all-sheets" > أكملت حوالي <span class="sum-sheets">0.00% من احتياجك </span></div></strong>-->
+                            <button class="btn btn-sm btn-success cart-btn" data-loading-text="جاري تأكيد الشراء">أكمل الشراء <span class="sum-price">0.00 جنيه</span></button>
+                            <br>
+                            <strong><span style="font-size:10px" class="" color="#000"> كوبونات الخصم و سعر التوصيل فى الخطوة القادمة</span></strong>
+                            <a class="contact-link" href="https://our-arts.com/contact" target="_blank"><strong><span style="font-size:10px" class="m-0" color="#FF0000">اذا واجهتك اى مشكلة اتصل بنا </span></strong></a>
+                        </div>
+                    
+                    </div>   
+                </div>
+            </div>';
+                        
+                }
+                else 
+                        $result.= '<div> Sorry, there was an error uploading your file.</div>';
             }
-        
-        
+                
+        }
+
         }
         $result.= '
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
@@ -459,11 +354,8 @@ function colorDiff($rgb1,$rgb2)
 
 
         <script>
-       
 
-        
-
-
+           
 
             var change_check = false;
             var cart = {};
@@ -518,13 +410,26 @@ function colorDiff($rgb1,$rgb2)
 
             $(\'input[name^="product["], input.quantity-box\').on(\'change\', function(){
                 var sum = 0;
+                var sheets = 0;
                 $(\'input[name^="product["]:checked\').each(function(){
                   var product_id = $(this).val();
                   var price = $(\'.price-\'+product_id).html().replace(/[^0-9.]/g,\'\');
                   var quantity = $(\'.quantity-box\'+product_id).val();
                   sum += (price * quantity);
+                  var need = quantity*100;
+                  need/= '. ceil($no_sheets).';
+                  sheets += need;
+                  
                 });
                 $(\'span.sum-price\').html(sum.toFixed(2) + \' جنيه\');
+                if(sheets >= 100){
+                    $(\'div.all-sheets\').css({color:\'green\'});
+                }
+                else{
+                    $(\'div.all-sheets\').css({color:\'red\'});
+                }
+                $(\'span.sum-sheets\').html(sheets.toFixed(2) + \'% من احتياجك\');
+
             });
               
             $(\'input[name^="product["]\').trigger(\'change\');
@@ -648,6 +553,111 @@ function colorDiff($rgb1,$rgb2)
 //   return '#'.dechex(($color[0]<<16)|($color[1]<<8)|$color[2]);
 }
   
+function showProducts($products,$result){
+   
+    foreach($products as $prd):
+        
+        $_productQ = wc_get_product( $prd );
+        if($_productQ):
+            $cartId = WC()->cart->generate_cart_id( $_productQ->product_id);
+            $cartItemKey = WC()->cart->find_product_in_cart( $cartId );
+            
+            $thumb = apply_filters( 'woocommerce_cart_item_thumbnail', $_productQ->get_image() );
+
+            $result.= '
+                    <tr class="TB-'.$prd.'">
+                        <form class="cart" action="'. esc_url( apply_filters( 'woocommerce_add_to_cart_form_action', $_productQ->get_permalink() ) ).'" method="post" enctype="multipart/form-data">
+                        <td class="product-thumbnail">  
+                            <a href="'.get_permalink( $prd).'">'.$thumb.'</a>
+                        </td>
+                        
+                        <td class="product-name" >';
+                            
+                            $result.= wp_kses_post( apply_filters( 'woocommerce_cart_item_name', sprintf( '<a href="%s">%s</a>', esc_url( get_permalink($prd) ), $_productQ->get_name() ) ) );
+                            
+                        $result.='</td>
+                            
+                        <td class="product-price price-'.$prd.'" >'.
+                                
+                            apply_filters( "woocommerce_cart_item_price",$_productQ->get_price()." جنيه" ).'
+                                
+                        </td>';
+                        
+                        $result.= 
+                        '<td>
+                            <div class="quantity qty buttons_added">
+                                <input type="button" value="-" class="minus button is-form">		
+                                <label class="screen-reader-text" for="quantity_'. $prd.'">الكمية</label>
+                                <input type="number" id="quantity_'. $prd.'" class="input-text text qty quantity-box quantity-box'. $prd.'" step="1" min="1" max="9999" name="quantity" value="1" title="الكمية" size="4" inputmode="numeric">
+                                <input type="button" value="+" class="plus button is-form">	
+                                <input type="hidden" name="product_id" value="'. $prd.'">
+                                <div class="clear"></div>
+                                
+                            </div>
+
+                            <input type="checkbox" id="product-checkbox-'. $prd.'" name="product['. $prd.']" value="'. $prd.'" style="display:none;" />
+                            <span class="checkmark">أضف</span>
+                            
+                        </td>';
+                        $result.= 
+                        '
+                    </form>
+                </tr> ';            
+        endif;
+    endforeach;
+                
+    
+    return $result;
+
+}
+
+function  getColor($Img,$w_new_px,$h_new_px,$pid,$sku,$closestProduct){
+    $prv_products=[];
+    $prv_cols=[];
+    // imagetruecolortopalette($newImg2, false, 255);
+    $largestDiff = 8;
+    
+  //loop on image
+    for($x=0;$x<$w_new_px;$x++)
+    {
+        for($y=0;$y<$h_new_px;$y++)
+        {   
+            
+            $rgb = imagecolorat($Img, $x, $y);
+            $r = ($rgb >> 16) & 0xFF;
+            $g = ($rgb >> 8) & 0xFF;
+            $b = $rgb & 0xFF;
+            // array_push($palette,[$r,$g,$b]);
+            
+            $hexC = hexColor([$r,$g,$b]);
+            
+            //get diff between col of img and each product
+            $valid= true;
+            $col = substr($sku, -7); 
+            // print($col);
+            if(substr( $col, 0, 1 ) === "#")
+            {   //print($col);
+                if (colorDiff($col,$hexC) < $largestDiff)
+                {
+                    // $largestDiff = colorDiff($rgbColor,$rgb);
+                    //foreach($closestProduct as $prd):
+                        if(in_array($pid, $closestProduct)):
+                            $valid = false;
+                            // print("break");
+                            break;
+                        endif;
+                    // endforeach;
+                    if($valid):
+                        array_push($closestProduct,$pid);
+                        // print("pushed");
+                    endif;
+                }
+            }       
+        }
+    }
+    // wp_reset_query(); 
+    return $closestProduct;
+}
    
     add_shortcode('mosaic_view','Upload_img');
 ?>

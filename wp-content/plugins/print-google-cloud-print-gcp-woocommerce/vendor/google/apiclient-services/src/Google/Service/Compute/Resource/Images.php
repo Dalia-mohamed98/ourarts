@@ -26,7 +26,8 @@
 class Google_Service_Compute_Resource_Images extends Google_Service_Resource
 {
   /**
-   * Deletes the specified image. (images.delete)
+   * Deletes the specified image. (== suppress_warning http-rest-shadowed ==)
+   * (images.delete)
    *
    * @param string $project Project ID for this request.
    * @param string $image Name of the image resource to delete.
@@ -55,8 +56,8 @@ class Google_Service_Compute_Resource_Images extends Google_Service_Resource
   /**
    * Sets the deprecation status of an image.
    *
-   * If an empty request body is given, clears the deprecation status instead.
-   * (images.deprecate)
+   * If an empty request body is given, clears the deprecation status instead. (==
+   * suppress_warning http-rest-shadowed ==) (images.deprecate)
    *
    * @param string $project Project ID for this request.
    * @param string $image Image name.
@@ -85,7 +86,7 @@ class Google_Service_Compute_Resource_Images extends Google_Service_Resource
   }
   /**
    * Returns the specified image. Gets a list of available images by making a
-   * list() request. (images.get)
+   * list() request. (== suppress_warning http-rest-shadowed ==) (images.get)
    *
    * @param string $project Project ID for this request.
    * @param string $image Name of the image resource to return.
@@ -100,7 +101,8 @@ class Google_Service_Compute_Resource_Images extends Google_Service_Resource
   }
   /**
    * Returns the latest image that is part of an image family and is not
-   * deprecated. (images.getFromFamily)
+   * deprecated. (== suppress_warning http-rest-shadowed ==)
+   * (images.getFromFamily)
    *
    * @param string $project Project ID for this request.
    * @param string $family Name of the image family to search for.
@@ -114,8 +116,24 @@ class Google_Service_Compute_Resource_Images extends Google_Service_Resource
     return $this->call('getFromFamily', array($params), "Google_Service_Compute_Image");
   }
   /**
+   * Gets the access control policy for a resource. May be empty if no such policy
+   * or resource exists. (== suppress_warning http-rest-shadowed ==)
+   * (images.getIamPolicy)
+   *
+   * @param string $project Project ID for this request.
+   * @param string $resource Name or id of the resource for this request.
+   * @param array $optParams Optional parameters.
+   * @return Google_Service_Compute_Policy
+   */
+  public function getIamPolicy($project, $resource, $optParams = array())
+  {
+    $params = array('project' => $project, 'resource' => $resource);
+    $params = array_merge($params, $optParams);
+    return $this->call('getIamPolicy', array($params), "Google_Service_Compute_Policy");
+  }
+  /**
    * Creates an image in the specified project using the data included in the
-   * request. (images.insert)
+   * request. (== suppress_warning http-rest-shadowed ==) (images.insert)
    *
    * @param string $project Project ID for this request.
    * @param Google_Service_Compute_Image $postBody
@@ -148,7 +166,8 @@ class Google_Service_Compute_Resource_Images extends Google_Service_Resource
    * does not get any images that belong to other projects, including publicly-
    * available images, like Debian 8. If you want to get a list of publicly-
    * available images, use this method to make a request to the respective image
-   * project, such as debian-cloud or windows-cloud. (images.listImages)
+   * project, such as debian-cloud or windows-cloud. (== suppress_warning http-
+   * rest-shadowed ==) (images.listImages)
    *
    * @param string $project Project ID for this request.
    * @param array $optParams Optional parameters.
@@ -200,11 +219,29 @@ class Google_Service_Compute_Resource_Images extends Google_Service_Resource
     return $this->call('list', array($params), "Google_Service_Compute_ImageList");
   }
   /**
-   * Sets the labels on an image. To learn more about labels, read the Labeling
-   * Resources documentation. (images.setLabels)
+   * Sets the access control policy on the specified resource. Replaces any
+   * existing policy. (== suppress_warning http-rest-shadowed ==)
+   * (images.setIamPolicy)
    *
    * @param string $project Project ID for this request.
-   * @param string $resource Name of the resource for this request.
+   * @param string $resource Name or id of the resource for this request.
+   * @param Google_Service_Compute_GlobalSetPolicyRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return Google_Service_Compute_Policy
+   */
+  public function setIamPolicy($project, $resource, Google_Service_Compute_GlobalSetPolicyRequest $postBody, $optParams = array())
+  {
+    $params = array('project' => $project, 'resource' => $resource, 'postBody' => $postBody);
+    $params = array_merge($params, $optParams);
+    return $this->call('setIamPolicy', array($params), "Google_Service_Compute_Policy");
+  }
+  /**
+   * Sets the labels on an image. To learn more about labels, read the Labeling
+   * Resources documentation. (== suppress_warning http-rest-shadowed ==)
+   * (images.setLabels)
+   *
+   * @param string $project Project ID for this request.
+   * @param string $resource Name or id of the resource for this request.
    * @param Google_Service_Compute_GlobalSetLabelsRequest $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_Compute_Operation
@@ -214,5 +251,21 @@ class Google_Service_Compute_Resource_Images extends Google_Service_Resource
     $params = array('project' => $project, 'resource' => $resource, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
     return $this->call('setLabels', array($params), "Google_Service_Compute_Operation");
+  }
+  /**
+   * Returns permissions that a caller has on the specified resource. (==
+   * suppress_warning http-rest-shadowed ==) (images.testIamPermissions)
+   *
+   * @param string $project Project ID for this request.
+   * @param string $resource Name or id of the resource for this request.
+   * @param Google_Service_Compute_TestPermissionsRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return Google_Service_Compute_TestPermissionsResponse
+   */
+  public function testIamPermissions($project, $resource, Google_Service_Compute_TestPermissionsRequest $postBody, $optParams = array())
+  {
+    $params = array('project' => $project, 'resource' => $resource, 'postBody' => $postBody);
+    $params = array_merge($params, $optParams);
+    return $this->call('testIamPermissions', array($params), "Google_Service_Compute_TestPermissionsResponse");
   }
 }

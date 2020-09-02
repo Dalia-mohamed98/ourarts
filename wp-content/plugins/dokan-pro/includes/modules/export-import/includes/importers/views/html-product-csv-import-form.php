@@ -6,10 +6,10 @@ if ( !defined( 'ABSPATH' ) ) {
     exit;
 }
 ?>
-<form class="wc-progress-form-content woocommerce-importer" enctype="multipart/form-data" method="post">
+<form class="wc-progress-form-content woocommerce-importer" enctype="multipart/form-data" method="post" style="text-align: right;">
     <header>
-        <h2><?php esc_html_e( 'Import products from a CSV file', 'dokan' ); ?></h2>
-        <p><?php esc_html_e( 'This tool allows you to import (or merge) product data to your store from a CSV file.', 'dokan' ); ?></p>
+        <h2><?php esc_html_e( 'تحميل المنتجات من ملف CSV', 'dokan' ); ?></h2>
+        <p><?php esc_html_e( 'تسمح لك هذه الأداة بتحميل (أو دمج) بيانات المنتج إلى متجرك من ملف CSV.', 'dokan' ); ?></p>
     </header>
     <section>
         <table class="form-table woocommerce-importer-options">
@@ -17,25 +17,25 @@ if ( !defined( 'ABSPATH' ) ) {
                 <tr>
                     <th scope="row">
                         <label for="upload">
-                            <?php _e( 'Choose a CSV file from your computer:', 'dokan' ); ?>
+                            <?php _e( 'اختر ملف CSV من جهازك:', 'dokan' ); ?>
                         </label>
                     </th>
                     <td>
                         <?php
                         if ( !empty( $upload_dir['error'] ) ) {
                             ?><div class="inline error">
-                                <p><?php esc_html_e( 'Before you can upload your import file, you will need to fix the following error:', 'dokan' ); ?></p>
+                                <p><?php esc_html_e( 'قبل أن تتمكن من تحميل ملف الاستيراد الخاص بك ، ستحتاج إلى إصلاح الخطأ التالي:', 'dokan' ); ?></p>
                                 <p><strong><?php echo esc_html( $upload_dir['error'] ); ?></strong></p>
                             </div><?php
                         } else {
                             ?>
-                            <input type="file" id="upload" name="import" size="25" />
+                            <input type="file" id="upload" name="import" size="25"/>
                             <input type="hidden" name="action" value="save" />
                             <input type="hidden" name="max_file_size" value="<?php echo esc_attr( $bytes ); ?>" />
                             <br><small><?php
                                 /* translators: %s: maximum upload size */
                                 printf(
-                                __( 'Maximum size: %s', 'dokan' ), $size
+                                __( 'أقصى حجم: %s', 'dokan' ), $size
                                 );
                                 ?></small>
                                 <?php
@@ -44,11 +44,11 @@ if ( !defined( 'ABSPATH' ) ) {
                     </td>
                 </tr>
 				<tr>
-                    <th><label for="woocommerce-importer-update-existing"><?php _e( 'Update existing products', 'dokan' ); ?></label><br/></th>
+                    <th><label for="woocommerce-importer-update-existing"><?php _e( 'تحديث المنتجات الموجودة', 'dokan' ); ?></label><br/></th>
                     <td>
                         <input type="hidden" name="update_existing" value="0" />
                         <input type="checkbox" id="woocommerce-importer-update-existing" name="update_existing" value="1" />
-                        <label for="woocommerce-importer-update-existing"><?php esc_html_e( 'Existing products that match by ID or SKU will be updated. Products that do not exist will be skipped.', 'dokan' ); ?></label>
+                        <label for="woocommerce-importer-update-existing"><?php esc_html_e( 'سيتم تحديث المنتجات الحالية التي تتطابق مع ID أو SKU. وتخطي المنتجات غير الموجودة.', 'dokan' ); ?></label>
                     </td>
                 </tr>
 <!-- 				<tr class="woocommerce-importer-advanced hidden">
@@ -85,7 +85,7 @@ if ( !defined( 'ABSPATH' ) ) {
     </script>
     <div class="wc-actions">
             <!--<a href="#" class="woocommerce-importer-toggle-advanced-options" data-hidetext="<?php esc_html_e( 'Hide advanced options', 'dokan' ); ?>" data-showtext="<?php esc_html_e( 'Hide advanced options', 'dokan' ); ?>"><?php esc_html_e( 'Show advanced options', 'dokan' ); ?></a>-->
-        <input type="submit" class="button button-primary button-next" value="<?php esc_attr_e( 'Continue', 'dokan' ); ?>" name="save_step" />
+        <input type="submit" class="button button-primary button-next" value="<?php esc_attr_e( 'استمرار', 'dokan' ); ?>" name="save_step" />
         <?php wp_nonce_field( 'woocommerce-csv-importer' ); ?>
     </div>
 </form>

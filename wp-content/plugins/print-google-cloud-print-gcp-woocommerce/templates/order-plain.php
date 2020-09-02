@@ -7,6 +7,9 @@
 <?= Document::symbolsAlign(__('Order Number', 'Print-Google-Cloud-Print-GCP-WooCommerce'), $order->get_id()); ?>
 <?= Document::symbolsAlign(__('Date', 'Print-Google-Cloud-Print-GCP-WooCommerce'), date_i18n(\get_option('date_format', 'm/d/Y'), $order->get_date_created())); ?>
 <?= Document::symbolsAlign(__('Time Ordered', 'Print-Google-Cloud-Print-GCP-WooCommerce'), date_i18n(\get_option('time_format', 'H:i'), $order->get_date_created())); ?>
+<?php if ($location_data['shipping']['delivery_pickup_type']) { ?>
+		<?= Document::centerLine(get_shipping_details($order)); ?>
+<?php } ?>
 <?= Document::emptyLine(); ?>
 <?php foreach ($order->get_items() as $item) {
 	/* @var $item \WC_Order_item */
@@ -21,6 +24,9 @@
 	}, $meta, array_keys($meta));
 	echo implode('', $meta);
 	?>
+<?php } ?>
+<?php foreach ($order->get_fees() as $fee) { ?>
+		<?= Document::line($fee->get_name()); ?>
 <?php } ?>
 <?= Document::emptyLine(); ?>
 <?php if ($location_data['shipping']['billing_shipping_details']) { ?>

@@ -1,4 +1,5 @@
 <?php
+include 'arabicdate.php';
 
 add_filter('woocommerce_thankyou_order_received_text', 'ash2osh_faw_woo_change_order_received_text', 10, 2);
 
@@ -19,7 +20,78 @@ function ash2osh_faw_woo_change_order_received_text($str, $order) {
 
 //continue 
     } else {//other payment methods or already paid
-		header( "refresh:5; url=http://our-arts.com" );
+        
+        $date = date('Y-m-d'); // The Current Date
+        $check_off_days= date('D', strtotime($date));
+        $two_days = '';
+        $four_days = '';
+
+        if($check_off_days == "Thu"){
+            $two_days = date('Y-m-d', strtotime($date. ' + 5 days'));
+            $four_days = date('Y-m-d', strtotime($date. ' + 6 days'));
+
+        }
+        else if($check_off_days == "Fri"){
+            $two_days = date('Y-m-d', strtotime($date. ' + 4 days'));
+            $four_days = date('Y-m-d', strtotime($date. ' + 5 days'));
+            
+        }
+        else{
+            $two_days = date('Y-m-d', strtotime($date. ' + 3 days'));
+            $four_days = date('Y-m-d', strtotime($date. ' + 4 days'));
+
+        }
+        // echo ArabicDate($two_days).'          '.ArabicDate($four_days);
+
+        // $curl = curl_init();
+        // $message = urlencode('شكرا لقد تم استلام طلبك رقم '. $order->get_id() . '، وسيصلك خلال '.ArabicDate($two_days).' الى '.ArabicDate($four_days).'.');
+        // $url = "https://smsmisr.com/api/webapi/?username=Kucqb6oA&password=0CeG8jZ0R2&language=2&sender=Our%20Arts&mobile=".$order->get_billing_phone()."&message=".$message;
+        
+        // curl_setopt_array($curl, array(
+        //     CURLOPT_URL => $url,
+        //     CURLOPT_RETURNTRANSFER => true,
+        //     CURLOPT_ENCODING => "",
+        //     CURLOPT_MAXREDIRS => 10,
+        //     CURLOPT_TIMEOUT => 0,
+        //     CURLOPT_FOLLOWLOCATION => true,
+        //     CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
+        //     CURLOPT_CUSTOMREQUEST => "POST",
+        //     CURLOPT_HTTPHEADER => array('Content-Length: 0'),
+        // ));
+        // $response = curl_exec($curl);
+
+        // curl_close($curl);
+
+       //send completed msg after five days
+// 		$curl = curl_init();
+//         $completed = urlencode("شكرا لطلبكم من أور آرتس،
+// ساعدنا بإبداء رأيك في تقييم خدماتنا من خلال اللينك : https://our-arts.com/survey
+// سيتم إرسال بروموكود خصم بعد إبداء رأيك
+// فريق أور آرتس");
+//         $time = date('Y-m-d', strtotime($four_days. ' + 1 days')).'-19-00';
+// // 		$time= "2020-06-15-17-53";
+//         // echo $time;
+//         $url = "https://smsmisr.com/api/webapi/?username=Kucqb6oA&password=0CeG8jZ0R2&language=2&sender=Our%20Arts&mobile=".$order->get_billing_phone()."&message=".$completed."&DelayUntil=".$time;
+        
+//         curl_setopt_array($curl, array(
+//             CURLOPT_URL => $url,
+//             CURLOPT_RETURNTRANSFER => true,
+//             CURLOPT_ENCODING => "",
+//             CURLOPT_MAXREDIRS => 10,
+//             CURLOPT_TIMEOUT => 0,
+//             CURLOPT_FOLLOWLOCATION => true,
+//             CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
+//             CURLOPT_CUSTOMREQUEST => "POST",
+//             CURLOPT_HTTPHEADER => array('Content-Length: 0'),
+//         ));
+//         $response = curl_exec($curl);
+
+//         curl_close($curl);
+
+        // echo $response;
+
+        $str.= " وجاري تحضيره ليصلك خلال ".ArabicDate($two_days). " الى ".ArabicDate($four_days).".";
+		// header( "refresh:5; url=http://our-arts.com" );
         return $str;
     }
     $new_str = __('<h2>Please Pay for the order using the below Button</h2>', 'ash2osh_faw');

@@ -12,9 +12,9 @@ if ( ! defined( 'ABSPATH' ) ) {
 ?>
 <tr class="item <?php echo apply_filters( 'woocommerce_admin_html_order_item_class', ( ! empty( $class ) ? $class : '' ), $item ); ?>" data-order_item_id="<?php echo $item_id; ?>">
 	<!-- <td class="check-column"><input type="checkbox" /></td> -->
-	<td class="thumb">
+	<td class="thumb" width="15%" >
 		<?php if ( $_product ) : ?>
-			<a href="<?php echo esc_url( admin_url( 'post.php?post=' . absint( dokan_get_prop( $_product, 'id' ) ) . '&action=edit' ) ); ?>" class="tips" data-tip="<?php
+			<a href="https://our-arts.com/dashboard/products/?product_id=<?php echo absint( dokan_get_prop( $_product, 'id' )). '&action=edit'; //echo esc_url( admin_url( 'post.php?post=' . absint( dokan_get_prop( $_product, 'id' ) ) . '&action=edit' ) ); ?>" class="tips" data-tip="<?php
 
 				echo '<strong>' . __( 'Product ID:', 'dokan' ) . '</strong> ' . absint( $item['product_id'] );
 
@@ -42,7 +42,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 		<?php echo ( $_product && $_product->get_sku() ) ? esc_html( $_product->get_sku() ) . ' &ndash; ' : ''; ?>
 
 		<?php if ( $_product ) : ?>
-			<a target="_blank" href="<?php echo esc_url( dokan_edit_product_url( absint( dokan_get_prop( $_product, 'id' ) ) ) ); ?>">
+			<a target="_blank" href="https://our-arts.com/dashboard/products/?product_id=<?php echo absint( dokan_get_prop( $_product, 'id' )). '&action=edit'; //echo esc_url( dokan_edit_product_url( absint( dokan_get_prop( $_product, 'id' ) ) ) ); ?>">
 				<?php echo esc_html( $item['name'] ); ?>
 			</a>
 		<?php else : ?>

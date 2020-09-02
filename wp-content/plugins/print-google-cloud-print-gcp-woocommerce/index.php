@@ -1,13 +1,13 @@
 <?php
 /**
- * Plugin Name: Print Google Cloud Print GCP WooCommerce
+ * Plugin Name: Order Receipt Print for WooCommerce Google Cloud Print
  * Plugin URI: http://www.bizswoop.com/wp/print
  * Description: Easily Add Support for Printing WooCommerce Orders with Google Cloud Print
- * Version: 3.0.6
+ * Version: 3.0.12
  * Text Domain: Print-Google-Cloud-Print-GCP-WooCommerce
  * Domain Path: /lang
  * WC requires at least: 2.4.0
- * WC tested up to: 3.7.0
+ * WC tested up to: 4.0.1
  * Author: BizSwoop a CPF Concepts, LLC Brand
  * Author URI: http://www.bizswoop.com
  */
@@ -17,7 +17,7 @@ namespace Zprint;
 const ACTIVE = true;
 const PLUGIN_ROOT = __DIR__;
 const PLUGIN_ROOT_FILE = __FILE__;
-const PLUGIN_VERSION = '3.0.6';
+const PLUGIN_VERSION = '3.0.12';
 const ASPECT_PREFIX = 'zp';
 defined('ABSPATH') or die('No script kiddies please!');
 require_once __DIR__ . '/vendor/autoload.php';

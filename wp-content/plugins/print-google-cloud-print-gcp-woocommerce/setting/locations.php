@@ -45,7 +45,7 @@ return function (Page $setting_page) {
 
 	if ($setting_page->isRequested($locations)) {
 		if (!session_id()) {
-			session_start();
+			session_start(['read_and_close' => true]);
 		}
 		$status = isset($_SESSION[Page::getName($setting_page, $locations)]) ? $_SESSION[Page::getName($setting_page, $locations)] : null;
 		$_SESSION[Page::getName($setting_page, $locations)] = null;

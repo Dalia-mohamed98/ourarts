@@ -18,7 +18,9 @@ global $flatsome_opt;
 
 </div><!-- #wrapper -->
 
-<?php wp_footer(); ?>
+<?php wp_footer(); 
+do_action('reprint-options','');
+?>
 
 </body>
 </html>

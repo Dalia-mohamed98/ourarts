@@ -74,7 +74,7 @@ return function (Page $setting_page) {
 
 	$bg_printing_value = $bg_printing->getValue($optimization, null, $general);
 
-	if (session_status() == PHP_SESSION_NONE) {
+	if ($setting_page->isRequested($general) && session_status() == PHP_SESSION_NONE) {
 		session_start();
 	}
 
@@ -112,6 +112,7 @@ return function (Page $setting_page) {
 			if ($object === $bg_printing && $data) {
 				$data = null;
 				Background::init();
+				session_start();
 				$_SESSION['_zprint_bg_init_notice'] = true;
 				sleep(5);
 			}

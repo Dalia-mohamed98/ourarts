@@ -71,6 +71,7 @@ class Printer
 	public static function printOrder($order, $arguments)
 	{
 		register_shutdown_function(function ($order, $arguments) {
+			session_start();
 			do_action('Zprint\printOrder', $order, $arguments);
 			$order_id = ($order instanceof \WC_Order) ? $order->get_id() : $order;
 			Log::info(Log::PRINTING, ["#$order_id", 'init print']);
@@ -89,7 +90,8 @@ class Printer
 				$post['_zprint_print'] = $check;
 				$post['order'] = $order_id;
 				$post['arguments'] = $arguments;
-
+				$post['track'] = $_SESSION['order_tracking_code'];
+				
 				$client->requestAsync('POST', '/', [
 					'form_params' => $post,
 					'synchronous' => false
@@ -102,10 +104,11 @@ class Printer
 		}, $order, $arguments);
 	}
 
-	public static function rawPrintOrder($order, $arguments)
+	public static function rawPrintOrder($order, $arguments,$track)
 	{
 		$order_id = ($order instanceof \WC_Order) ? $order->get_id() : $order;
 		Log::info(Log::PRINTING, ["#$order_id", 'raw print']);
+
 		if (!$order instanceof \WC_Order) {
 			$order = new \WC_Order($order);
 		}
@@ -126,15 +129,15 @@ class Printer
 
 		$templates_data = static::getTemplates($filter, $order);
 
-		return static::printTemplates($templates_data, $order);
+		return static::printTemplates($templates_data, $order , $track);
 	}
 
-	public static function printTemplates($templates_data, $order)
+	public static function printTemplates($templates_data, $order , $track)
 	{
+		$_SESSION['order_tracking_code']=$track;
 		$result = array_map(function ($template_data) use ($order) {
-			return static::printDocument('Order ' . $order->id, $order, $template_data);
+			return static::printDocument('Order ' . $order->id , $order, $template_data , $track);
 		}, $templates_data);
-
 		$codes = ['status', 'error'];
 
 		$result = array_map(function ($code) use ($result) {
@@ -151,7 +154,7 @@ class Printer
 		return array_combine($codes, $result);
 	}
 
-	public static function printDocument($title, $order, $template_data)
+	public static function printDocument($title, $order, $template_data , $track)
 	{
 		$httpClient = Client::getClientHTTP();
 		$printers = $template_data['printers'];
@@ -164,7 +167,7 @@ class Printer
 			],
 			[
 				'name' => 'content',
-				'contents' => Document::generatePrint($order, $template_data)
+				'contents' => Document::generatePrint($order, $template_data , $_SESSION['order_tracking_code'])
 			],
 			[
 				'name' => 'contentType',

@@ -35,10 +35,10 @@ $review_ratings_enabled = fl_woocommerce_version_check( '3.6.0' ) ? wc_review_ra
 			$count = $product->get_review_count();
 			if ( $count && $review_ratings_enabled ) {
 				/* translators: 1: reviews count 2: product name */
-				$reviews_title = sprintf( esc_html( _n( '%1$s review for %2$s', '%1$s reviews for %2$s', $count, 'woocommerce' ) ), esc_html( $count ), '<span>' . get_the_title() . '</span>' );
+				$reviews_title = sprintf( esc_html( _n( '%1$s تقييم ل%2$s', '%1$s تقييمات ل%2$s', $count, 'woocommerce' ) ), esc_html( $count ), '<span>' . get_the_title() . '</span>' );
 				echo apply_filters( 'woocommerce_reviews_title', $reviews_title, $count, $product ); // WPCS: XSS ok.
 			} else {
-				esc_html_e( 'Reviews', 'woocommerce' );
+				esc_html_e( 'التقييمات', 'woocommerce' );
 			}
 			?>
 		</h3>
@@ -55,8 +55,8 @@ $review_ratings_enabled = fl_woocommerce_version_check( '3.6.0' ) ? wc_review_ra
 					apply_filters(
 						'woocommerce_comment_pagination_args',
 						array(
-							'prev_text' => '&larr;',
-							'next_text' => '&rarr;',
+							'prev_text' => '←',
+							'next_text' => '→',
 							'type'      => 'list',
 							'echo'      => false,
 						)
@@ -69,7 +69,7 @@ $review_ratings_enabled = fl_woocommerce_version_check( '3.6.0' ) ? wc_review_ra
 			endif;
 			?>
 		<?php else : ?>
-			<p class="woocommerce-noreviews"><?php esc_html_e( 'There are no reviews yet.', 'woocommerce' ); ?></p>
+			<p class="woocommerce-noreviews"><?php esc_html_e( 'لا توجد تقييمات بعد.', 'woocommerce' ); ?></p>
 		<?php endif; ?>
 	</div>
 
@@ -83,7 +83,7 @@ $review_ratings_enabled = fl_woocommerce_version_check( '3.6.0' ) ? wc_review_ra
 
 				$comment_form = array(
 					/* translators: %s is product title */
-					'title_reply'          => have_comments() ? __( 'Add a review', 'woocommerce' ) : sprintf( __( 'Be the first to review &ldquo;%s&rdquo;', 'woocommerce' ), get_the_title() ),
+					'title_reply'          => have_comments() ? __( 'إضافة تقييم', 'woocommerce' ) : sprintf( __( 'كن أول من يقييم  “%s”', 'woocommerce' ), get_the_title() ),
 					/* translators: %s is product title */
 					'title_reply_to'       => __( 'Leave a Reply to %s', 'woocommerce' ),
 					'title_reply_before'   => '<h3 id="reply-title" class="comment-reply-title">',
@@ -91,24 +91,25 @@ $review_ratings_enabled = fl_woocommerce_version_check( '3.6.0' ) ? wc_review_ra
 					'comment_notes_before' => '',
 					'comment_notes_after'  => '',
 					'fields'               => array(
-						'author' => '<p class="comment-form-author"><label for="author">' . esc_html__( 'Name', 'woocommerce' ) . '&nbsp;<span class="required">*</span></label> ' .
+						'author' => '<p class="comment-form-author"><label for="author">' . esc_html__( 'Name', 'woocommerce' ) . ' <span class="required">*</span></label> ' .
 									'<input id="author" name="author" type="text" value="' . esc_attr( $commenter['comment_author'] ) . '" size="30" required /></p>',
-						'email'  => '<p class="comment-form-email"><label for="email">' . esc_html__( 'Email', 'woocommerce' ) . '&nbsp;<span class="required">*</span></label> ' .
+						'email'  => '<p class="comment-form-email"><label for="email">' . esc_html__( 'Email', 'woocommerce' ) . ' <span class="required">*</span></label> ' .
 									'<input id="email" name="email" type="email" value="' . esc_attr( $commenter['comment_author_email'] ) . '" size="30" required /></p>',
 					),
 					'label_submit'         => __( 'Submit', 'woocommerce' ),
 					'logged_in_as'         => '',
 					'comment_field'        => '',
 				);
+
 				$account_page_url = wc_get_page_permalink( 'myaccount' );
 				if ( $account_page_url ) {
 					/* translators: %s opening and closing link tags respectively */
-					$comment_form['must_log_in'] = '<p class="must-log-in">' . sprintf( esc_html__( 'You must be %1$slogged in%2$s to post a review.', 'woocommerce' ), '<a href="' . esc_url( $account_page_url ) . '">', '</a>' ) . '</p>';
+					$comment_form['must_log_in'] = '<p class="must-log-in">' . sprintf( esc_html__( 'You must be %slogged in%S to post a review.', 'woocommerce' ), '<a href="' . esc_url( $account_page_url ) . '">', '</a>' ) . '</p>';
 				}
 
 				if ( $review_ratings_enabled ) {
 					$comment_form['comment_field'] = '<div class="comment-form-rating"><label for="rating">' . esc_html__( 'Your rating', 'woocommerce' ) . '</label><select name="rating" id="rating" required>
-						<option value="">' . esc_html__( 'Rate&hellip;', 'woocommerce' ) . '</option>
+						<option value="">' . esc_html__( 'Rate…', 'woocommerce' ) . '</option>
 						<option value="5">' . esc_html__( 'Perfect', 'woocommerce' ) . '</option>
 						<option value="4">' . esc_html__( 'Good', 'woocommerce' ) . '</option>
 						<option value="3">' . esc_html__( 'Average', 'woocommerce' ) . '</option>
@@ -117,7 +118,7 @@ $review_ratings_enabled = fl_woocommerce_version_check( '3.6.0' ) ? wc_review_ra
 					</select></div>';
 				}
 
-				$comment_form['comment_field'] .= '<p class="comment-form-comment"><label for="comment">' . esc_html__( 'Your review', 'woocommerce' ) . '&nbsp;<span class="required">*</span></label><textarea id="comment" name="comment" cols="45" rows="8" required></textarea></p>';
+				$comment_form['comment_field'] .= '<p class="comment-form-comment"><label for="comment">' . esc_html__( 'تعليقك', 'woocommerce' ) . ' <span class="required">*</span></label><textarea id="comment" name="comment" cols="45" rows="8" required></textarea></p>';
 
 				comment_form( apply_filters( 'woocommerce_product_review_comment_form_args', $comment_form ) );
 				?>

@@ -18,7 +18,7 @@ $hide_customer_info = dokan_get_option( 'hide_customer_info', 'dokan_selling', '
         <div class="dokan-clearfix">
             <div class="" style="width:100%">
                 <div class="dokan-panel dokan-panel-default">
-                    <div class="dokan-panel-heading"><strong><?php printf( esc_html__('الطلب', 'dokan-lite' ) . '#%d', esc_attr( dokan_get_prop( $order, 'id' ) ) ); ?></strong> &rarr; <?php esc_html_e( 'Order Items', 'dokan-lite' ); ?></div>
+                    <div class="dokan-panel-heading"><strong><?php printf( esc_html__('الطلب', 'dokan-lite' ) . '#%d', esc_attr( dokan_get_prop( $order, 'id' ) ) ); ?></strong> → <?php esc_html_e( 'عناصر الطلب', 'dokan-lite' ); ?></div>
                     <div class="dokan-panel-body" id="woocommerce-order-items">
 
                         <?php
@@ -29,13 +29,13 @@ $hide_customer_info = dokan_get_option( 'hide_customer_info', 'dokan_selling', '
                                 <table cellpadding="0" cellspacing="0" class="dokan-table order-items">
                                     <thead>
                                         <tr>
-                                            <th class="item" colspan="2"><?php esc_html_e( 'Item', 'dokan-lite' ); ?></th>
+                                            <th class="item" colspan="2"><?php esc_html_e( 'العنصر', 'dokan-lite' ); ?></th>
 
                                             <?php do_action( 'woocommerce_admin_order_item_headers' ); ?>
 
-                                            <th class="quantity"><?php esc_html_e( 'Qty', 'dokan-lite' ); ?></th>
+                                            <th class="quantity"><?php esc_html_e( 'الكمية', 'dokan-lite' ); ?></th>
 
-                                            <th class="line_cost"><?php esc_html_e( 'Totals', 'dokan-lite' ); ?></th>
+                                            <th class="line_cost"><?php esc_html_e( 'الاجمالي', 'dokan-lite' ); ?></th>
                                         </tr>
                                     </thead>
                                     <tbody id="order_items_list">
@@ -122,13 +122,13 @@ $hide_customer_info = dokan_get_option( 'hide_customer_info', 'dokan_selling', '
 
             <div class="dokan-left dokan-order-billing-address">
                 <div class="dokan-panel dokan-panel-default">
-                    <div class="dokan-panel-heading"><strong><?php esc_html_e( 'Billing Address', 'dokan-lite' ); ?></strong></div>
+                    <div class="dokan-panel-heading"><strong><?php esc_html_e( 'عنوان الفاتورة', 'dokan-lite' ); ?></strong></div>
                     <div class="dokan-panel-body">
                         <?php
                             if ( $order->get_formatted_billing_address() ) {
                                 echo wp_kses_post( $order->get_formatted_billing_address() );
                             } else {
-                                _e( 'No billing address set.', 'dokan-lite' );
+                                _e( 'لم يتم تعيين عنوان الفاتورة.', 'dokan-lite' );
                             }
                         ?>
                     </div>
@@ -137,13 +137,13 @@ $hide_customer_info = dokan_get_option( 'hide_customer_info', 'dokan_selling', '
 
             <div class="dokan-left dokan-order-shipping-address">
                 <div class="dokan-panel dokan-panel-default">
-                    <div class="dokan-panel-heading"><strong><?php esc_html_e( 'Shipping Address', 'dokan-lite' ); ?></strong></div>
+                    <div class="dokan-panel-heading"><strong><?php esc_html_e( 'عنوان الشحن', 'dokan-lite' ); ?></strong></div>
                     <div class="dokan-panel-body">
                         <?php
                             if ( $order->get_formatted_shipping_address() ) {
                                 echo wp_kses_post( $order->get_formatted_shipping_address() );
                             } else {
-                                _e( 'No shipping address set.', 'dokan-lite' );
+                                _e( 'لم يتم تعيين عنوان الشحن.', 'dokan-lite' );
                             }
                         ?>
                     </div>
@@ -152,16 +152,16 @@ $hide_customer_info = dokan_get_option( 'hide_customer_info', 'dokan_selling', '
 
             <div class="clear"></div>
 
-            <div class="" style="width: 100%">
+<!--             <div class="" style="width: 100%">
                 <div class="dokan-panel dokan-panel-default">
-                    <div class="dokan-panel-heading"><strong><?php esc_html_e( 'Downloadable Product Permission', 'dokan-lite' ); ?></strong></div>
+                    <div class="dokan-panel-heading"><strong><?php //esc_html_e( 'Downloadable Product Permission', 'dokan-lite' ); ?></strong></div>
                     <div class="dokan-panel-body">
                         <?php
-                            dokan_get_template_part( 'orders/downloadable', '', array( 'order'=> $order ) );
+                            //dokan_get_template_part( 'orders/downloadable', '', array( 'order'=> $order ) );
                         ?>
                     </div>
                 </div>
-            </div>
+            </div> -->
         </div>
     </div>
 
@@ -169,7 +169,7 @@ $hide_customer_info = dokan_get_option( 'hide_customer_info', 'dokan_selling', '
         <div class="dokan-clearfix">
             <div class="" style="width:100%">
                 <div class="dokan-panel dokan-panel-default">
-                    <div class="dokan-panel-heading"><strong><?php esc_html_e( 'General Details', 'dokan-lite' ); ?></strong></div>
+                    <div class="dokan-panel-heading"><strong><?php esc_html_e( 'تفاصيل الطلب', 'dokan-lite' ); ?></strong></div>
                     <div class="dokan-panel-body general-details">
                         <ul class="list-unstyled order-status">
                             <li>
@@ -177,7 +177,7 @@ $hide_customer_info = dokan_get_option( 'hide_customer_info', 'dokan_selling', '
                                 <label class="dokan-label dokan-label-<?php echo esc_attr( dokan_get_order_status_class( dokan_get_prop( $order, 'status' ) ) ); ?>"><?php echo esc_html( dokan_get_order_status_translated( dokan_get_prop( $order, 'status' ) ) ); ?></label>
 
                                 <?php if ( current_user_can( 'dokan_manage_order' ) && dokan_get_option( 'order_status_change', 'dokan_selling', 'on' ) == 'on' && $order->get_status() !== 'cancelled' && $order->get_status() !== 'refunded' ) {?>
-                                    <a href="#" class="dokan-edit-status"><small><?php esc_html_e( '&nbsp; Edit', 'dokan-lite' ); ?></small></a>
+                                    <a href="#" class="dokan-edit-status"><small><?php esc_html_e( '  تعديل', 'dokan-lite' ); ?></small></a>
                                 <?php } ?>
                             </li>
                             <?php if ( current_user_can( 'dokan_manage_order' ) ): ?>
@@ -203,9 +203,14 @@ $hide_customer_info = dokan_get_option( 'hide_customer_info', 'dokan_selling', '
                             <?php endif ?>
 
                             <li>
-                                <span><?php esc_html_e( 'تاريخ الطاب:', 'dokan-lite' ); ?></span>
+                                <span><?php esc_html_e( 'تاريخ الطلب:', 'dokan-lite' ); ?></span>
                                 <?php echo esc_html( dokan_get_date_created( $order ) ); ?>
                             </li>
+
+							<?php do_action( 'woocommerce_order_actions_start', $order_id ); 
+							
+							?>
+							
                         </ul>
                         <?php if ( 'off' === $hide_customer_info && ( $order->get_formatted_billing_address() || $order->get_formatted_shipping_address() ) ) : ?>
                         <ul class="list-unstyled customer-details">
@@ -318,8 +323,7 @@ $hide_customer_info = dokan_get_option( 'hide_customer_info', 'dokan_selling', '
                                 </form>
                             <?php endif; ?>
 
-                            <div class="clearfix dokan-form-group" style="margin-top: 10px;">
-                                <!-- Trigger the modal with a button -->
+                             <div class="clearfix dokan-form-group" style="margin-top: 10px;">
                                 <input type="button" id="dokan-add-tracking-number" name="add_tracking_number" class="dokan-btn dokan-btn-success" value="<?php esc_attr_e( 'رقم التعقب', 'dokan-lite' ); ?>">
 
                                 <form id="add-shipping-tracking-form" method="post" class="dokan-hide" style="margin-top: 10px;">
@@ -339,7 +343,7 @@ $hide_customer_info = dokan_get_option( 'hide_customer_info', 'dokan_selling', '
                                     </div>
 
                                     <input type="hidden" name="security" id="security" value="<?php echo esc_attr( wp_create_nonce('add-shipping-tracking-info' ) ); ?>">
-                                    <?php wp_nonce_field( 'dokan_security_action', 'dokan_security_nonce' ); ?>
+                                    <?php //wp_nonce_field( 'dokan_security_action', 'dokan_security_nonce' ); ?>
                                     <input type="hidden" name="post_id" id="post-id" value="<?php echo esc_attr( dokan_get_prop( $order, 'id' ) ); ?>">
                                     <input type="hidden" name="action" id="action" value="dokan_add_shipping_tracking_info">
 
@@ -348,7 +352,7 @@ $hide_customer_info = dokan_get_option( 'hide_customer_info', 'dokan_selling', '
                                         <button type="button" class="btn btn-default" id="dokan-cancel-tracking-note"><?php esc_html_e( 'إغلاق', 'dokan-lite' );?></button>
                                     </div>
                                 </form>
-                            </div>
+                            </div> 
                         </div> <!-- .add_note -->
                     </div> <!-- .dokan-panel-body -->
                 </div> <!-- .dokan-panel -->
@@ -356,3 +360,5 @@ $hide_customer_info = dokan_get_option( 'hide_customer_info', 'dokan_selling', '
         </div> <!-- .row -->
     </div> <!-- .col-md-4 -->
 </div>
+
+

@@ -25,6 +25,7 @@ class Customer extends Basic implements Index, TemplateSettings
 				'cost' => true,
 				'customer_details' => true,
 				'method' => true,
+				'delivery_pickup_type' => defined('\ZZHoursDelivery\ACTIVE')
 			],
 			'total' => [
 				'cost' => true

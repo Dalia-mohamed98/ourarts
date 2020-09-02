@@ -191,6 +191,13 @@ return function (Location $location, $page, Page $setting_page) {
 									 value="1" <?= $location->shipping['method'] ? 'checked' : ''; ?>>
 					</label>
 				</p>
+				<p class="templateSetting" data-group="shipping" data-label="delivery_pickup_type">
+					<label>
+						<?php _e('Include Pickup or Delivery Type', 'Print-Google-Cloud-Print-GCP-WooCommerce'); ?>
+						<input type="checkbox" name="zpl_shipping[delivery_pickup_type]"
+									 value="1" <?= $location->shipping['delivery_pickup_type'] ? 'checked' : ''; ?>>
+					</label>
+				</p>
 				<p class="text-centered">
 					<a href="https://www.bizswoop.com/wp/print/developer">
 						<?php _e('Developer Documentation', 'Print-Google-Cloud-Print-GCP-WooCommerce'); ?>

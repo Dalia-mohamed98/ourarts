@@ -7,7 +7,6 @@
  * @package dokan
  */
 ?>
-
 <h2><?php esc_html_e( 'معلومات التاجر', 'dokan-lite' ); ?></h2>
 
 <ul class="list-unstyled">

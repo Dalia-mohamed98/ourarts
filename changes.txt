@@ -1,0 +1,32 @@
+mnat2		D:\ourarts\woocommerce-dalia\woocommerce\includes\wc-template-functions.php
+multi vendor	wp-content/themes/flatsome/woocommerce/cart/cart.php
+passStrength	wp-content/plugins/woocommerce/assets/js/frontend/password-strength-meter.min.js
+vendor info	wp-content/plugins/dokan-old/includes/wc-template.php	dokan_seller_product_tab
+emails.cust.info wp-content\themes\flatsome\woocommerce\emails\admin-new-customer.php
+vendors		wp-content\plugins\woocommerce\templates\order\order-details-item.php		46-50
+		wp-content\plugins\woocommerce\templates\checkout\review-order.php		40
+		wp-content\themes\flatsome\woocommerce\cart\cart-shipping.php			32
+		wp-content\themes\flatsome\woocommerce\cart\cart.php				308
+dokan reprint	wp-content/plugins/dokan-old/templates/orders/details.php			210
+reprint 	wp-content/ plugins/print-google-cloud-print-gcp-woocommerce/includes/Admin.php	130
+reprint-options	wp-content\themes\flatsome\footer.php						22
+reprint admin	wp-admin/admin-footer.php							79
+dokan dashboard wp-content/plugins/dokan-pro/includes/modules/export-import/includes/importers/views/html-csv-import-mapping.php
+				wp-content/plugins/dokan-pro/includes/modules/export-import/includes/importers/views/html-csv-import-done.php
+				wp-content/plugins/dokan-pro/includes/modules/export-import/includes/importers/views/html-product-csv-import-form.php
+				wp-content/plugins/dokan-pro/includes/modules/export-import/includes/importers/views/html-csv-import-progress.php
+				wp-content/plugins/dokan-pro/includes/modules/export-import/includes/importers/views/html-csv-import-header.php
+				wp-content/plugins/dokan-pro/includes/modules/export-import/includes/importers/class-wc-product-csv-importer-controller.php
+				wp-content/plugins/dokan-pro/includes/modules/export-import/templates/export-import/template_importer_new.php	
+				wp-content / plugins / dokan-pro / templates / orders / views / html-order-item.php	45
+				wp-content/plugins/dokan-old/templates/products/products-listing-row.php		35,42
+
+tracking code			wp-content\plugins\print-google-cloud-print-gcp-woocommerce\includes\DocumentBase.php 70 72  
+				wp-content/plugins/yith-woocommerce-order-tracking/class.yith-woocommerce-order-tracking.php 533 544 572
+				wp-content / plugins / print-google-cloud-print-gcp-woocommerce / templates / details-html.php	4 20-25
+				wp-content / plugins / print-google-cloud-print-gcp-woocommerce / includes / Printer.php 74 93 107 132 135 137 139 157 170 
+				wp-content / plugins / print-google-cloud-print-gcp-woocommerce / includes / Background.php 89 101
+
+translate reviews		wp-content/themes/flatsome/woocommerce/single-product-reviews.php 38 41 72 86 121
+				wp-content/plugins/woocommerce/includes/wc-template-functions.php 1755
+translate shipping tab		wp-content/plugins/dokan-pro/classes/shipping.php 312

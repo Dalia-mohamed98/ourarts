@@ -11,13 +11,15 @@
 
 .uploadOuter {
   text-align: center;
-  padding: 20px;
+  padding: 15px;
   padding-top: 0;
   
 }
 .uploadOuter strong {
     padding: 0 10px
   }
+
+
 .uploadOuter .btn, .uploadOuter .btn:hover {
     background-color: black;
     color :white;
@@ -25,8 +27,8 @@
 }
 
 .process {
-    width: 600px;
-    margin:10px auto;
+    /* width: 600px;
+    margin:10px auto; */
 }
 input[type="submit"].processbtn , input[type="submit"].processbtn:hover {
     border-radius:.25rem;;
@@ -38,7 +40,7 @@ input[type="submit"].processbtn , input[type="submit"].processbtn:hover {
     font-size:1rem;
 }
 .dragBox {
-  min-width: 80%;
+  min-width: 96%;
   height: 150px;
   margin: 0 auto;
   position: relative;
@@ -67,7 +69,7 @@ input[type="submit"].processbtn , input[type="submit"].processbtn:hover {
 
 #preview {
   text-align: center;
-  
+  padding-bottom: 5px;
 }
 
 #preview img {
@@ -80,7 +82,15 @@ input[type="submit"].processbtn , input[type="submit"].processbtn:hover {
   }
 
 .nav-pills .nav-link.active, .show>.nav-pills .nav-link{
-    background-color: #000;
+  background-color: #28a745;
+  padding: 8px 18px;
+  border-radius: 10px;
+}
+
+.nav-pills .nav-link{
+  background-color: black;
+  text-align: center;
+  color: white;
 }
 
 /* .prodcuts-checkbox input[type=checkbox] {
@@ -155,4 +165,48 @@ tr.checked-block{
 }
 .prodcuts-checkbox tr:last-child{
   border-bottom: 0;
+}
+
+.woocommerce-Reviews {
+  display: none;
+}
+
+a.catg {
+  padding: 3px 9px;
+  min-width: 70px;
+  margin: 5px 0;
+  background-color: lightgray;
+}
+
+.nav-cat {
+  /* padding: 10px 16px; */
+  overflow: hidden;
+  background: #ebebeb;
+  color: #f1f1f1;
+}
+
+/* Page content */
+.content {
+  padding-top: 16px;
+}
+
+/* The sticky class is added to the header with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 3;
+}
+
+.sticky-desktop {
+  top: 0px;
+  position: fixed;
+  z-index: 3;
+  /* padding:0px; */
+  /* right: 0px; */
+  /* width: 22%; */
+}
+/* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+  /* padding-top: 60px; */
 }

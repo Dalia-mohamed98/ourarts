@@ -51,13 +51,13 @@ if ( wc_tax_enabled() ) {
         <thead>
             <tr>
                 <!-- <th><input type="checkbox" class="check-column" /></th> -->
-                <th class="item sortable" colspan="2" data-sort="string-ins"><?php _e( 'Item', 'dokan' ); ?></th>
+                <th class="item sortable" colspan="2" data-sort="string-ins"><?php _e( 'المنتج', 'dokan' ); ?></th>
 
                 <?php do_action( 'woocommerce_admin_order_item_headers' ); ?>
 
-                <th class="item_cost sortable" data-sort="float"><?php _e( 'Cost', 'dokan' ); ?></th>
-                <th class="quantity sortable" data-sort="int"><?php _e( 'Qty', 'dokan' ); ?></th>
-                <th class="line_cost sortable" data-sort="float"><?php _e( 'Total', 'dokan' ); ?></th>
+                <th class="item_cost sortable" data-sort="float"><?php _e( 'السعر', 'dokan' ); ?></th>
+                <th class="quantity sortable" data-sort="int"><?php _e( 'الكمية', 'dokan' ); ?></th>
+                <th class="line_cost sortable" data-sort="float"><?php _e( 'الإجمالي', 'dokan' ); ?></th>
 
                 <?php
                     if ( empty( $legacy_order ) && ! empty( $order_taxes ) ) :

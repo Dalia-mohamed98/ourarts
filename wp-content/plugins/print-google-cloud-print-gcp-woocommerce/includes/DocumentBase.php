@@ -1,10 +1,11 @@
 <?php
-
 namespace Zprint;
 
 use \Zprint\Aspect\InstanceStorage;
 use \Zprint\Aspect\Page;
 use \Zprint\Aspect\Box;
+
+session_start();
 
 abstract class DocumentBase
 {
@@ -66,11 +67,12 @@ abstract class DocumentBase
 		return $ticket;
 	}
 
-	public static function generatePrint($order, $location_data)
+	public static function generatePrint($order, $location_data , $track)
 	{
+		$_SESSION['order_tracking_code']=$track;
 		global $zprint_appearance, $zprint_location_id;
 		$zprint_location_id = $location_data['id'];
-
+		//Log::info(Log::PRINTING, ["track", 'generatePrint'.$track]);
 		if (!$order instanceof \WC_Order) {
 			$order = wc_get_order($order);
 		}
@@ -106,7 +108,7 @@ abstract class DocumentBase
 		ob_start();
 		include $templatePath;
 		$content = ob_get_contents();
-		$content .= static::brandingMessage($format);
+		$content .= static::brandingMessage($format , $track);
 		switch ($format) {
 			case 'plain':
 				$content = str_replace("\t", '', $content);
@@ -124,13 +126,19 @@ abstract class DocumentBase
 		return $content;
 	}
 
-	public static function brandingMessage($format)
+	public static function brandingMessage($format , $track)
 	{
 		ob_start();
+		
+		global $the_order;	
+		$data = get_post_custom ( yit_get_prop ( $the_order, 'id' ) );
+		$order_tracking_code = isset( $data['ywot_tracking_code'][0] ) ? $data['ywot_tracking_code'][0] : '';
+		
 		switch ($format) {
 			case 'plain':
 				{
 					echo Document::emptyLine();
+                    echo Document::centerLine('Tracking Code is [track_code]'); 
 					echo Document::centerLine('Powered by BizSwoop');
 					echo Document::centerLine('www.bizswoop.com/print');
 					break;
@@ -139,6 +147,11 @@ abstract class DocumentBase
 			default:
 				{
 					?>
+					<br/>
+                     <!--<div id="trackcode" style="text-align: center; font-size: 12px;">Tracking Code is <?php //echo $track;?></div> -->
+
+					<!--<div style="text-align: center; font-size: 12px;">Powered by BizSwoop</div>
+					<div style="text-align: center; font-size: 11px;">www.bizswoop.com/print</div>-->
 					<?php
 					break;
 				}

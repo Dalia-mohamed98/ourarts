@@ -1,11 +1,11 @@
-=== Print Google Cloud Print GCP WooCommerce ===	
+=== Order Receipt Print for WooCommerce Google Cloud Print ===	
 	
 Contributors: bizswoop
-Tags: print, google cloud print, woocommerce, woocommerce print, order print, google cloud print order, automatic print, printing, automatic printing, cloud print, cloud printing, print locations, multiple printers 
+Tags: print, google cloud print, woocommerce, woocommerce print, order print, google cloud print order, automatic print, printing, automatic printing, cloud print, cloud printing, print locations, multiple printers, pos, restaurant print, restaurants print, restaurant printing, restaurants printing, take-out, take-out printing, take-out order printing, delivery, delivery printing, pickup order printing, pos, point of sale
 Requires at least: 4.4
 Requires PHP: 5.6
-Tested up to: 5.2
-Stable tag: 3.0.6
+Tested up to: 5.4.1
+Stable tag: 3.0.12
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -25,17 +25,18 @@ Simple To set up WordPress to have access to Google Cloud Print, you will need t
 *   Supports a Customer Receipt Template & Order Receipt Template hiding Pricing and Customer Details 
 *   [Compatible with Point of Sale POS WooCommerce](https://bizswoop.com/wp/pos)
 
-== Demo Environment ==
-[Try Demo](https://bizswooptech.com/) - Click Launch Demo on top bar for demo sandbox 
-Note: Demo sessions last 30 minutes.
+= Custom Templates=
 
-= NEW: Custom Templates=
+*   The Plugin supports Custom Print Templates [Learn More](https://www.bizswoop.com/product/templates/)
 
-*   Now the Plugin supports Custom Print Templates [Learn More](https://www.bizswoop.com/product/templates/)
+= Product Mapping Add-on=
 
-= NEW: Product Mapping Add-on=
+*   The Plugin supports Product And Category Mapping to Print Locations [Learn More](https://www.bizswoop.com/product/product-mapping/)
 
-*   Now the Plugin supports Product And Category Mapping to Print Locations [Learn More](https://www.bizswoop.com/product/product-mapping/)
+= NEW: Compatibility Plugin Support for PRO Plugins=
+
+*   Now the Plugin supports Pick-up|Take-Out|Curbside and Delivery fields for Location, Time and Date on Print Template [Learn More](https://www.bizswoop.com/wp/orderhours/delivery/)
+*   Now the Plugin supports Cart and Checkout Add-ons fields on Print Template [Learn More](https://www.bizswoop.com/wp/productaddons/checkout/)
 
 
 == Installation ==
@@ -74,11 +75,18 @@ Note: Demo sessions last 30 minutes.
 
 == Changelog ==
 
-	= 3.0.6 =
-	* Update - WC tested up to 3.7
-	* Update - WordPress tested up to 5.2
-
-        = 3.0.5 =
+	= 3.0.12 =
+	* Print template modifications for Take-Out and Delivery
+	* Performance improvements
+	* Bug fixes
+	
+	= 3.0.11 =
+	* Support for Checkout Add-ons plugin
+        * Support for Take-Out and Delivery plugin
+        * Performance improvements
+	* Bug fixes
+	
+	= 3.0.5 =
 	* Change default print templates to use general settings for Local Timezone for time ordered value
 	* Bug fixes
 	
