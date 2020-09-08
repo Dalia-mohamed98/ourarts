@@ -217,25 +217,28 @@ function wc_cart_totals_shipping_html() {
 			$product_names = apply_filters( 'woocommerce_shipping_package_details_array', $product_names, $package );
 		}
 
-		wc_get_template(
-			'cart/cart-shipping.php',
-			array(
-				'package'                  => $package,
-				'available_methods'        => $package['rates'],
-				'show_package_details'     => count( $packages ) > 1,
-				'show_shipping_calculator' => is_cart() && apply_filters( 'woocommerce_shipping_show_shipping_calculator', $first, $i, $package ),
-				'package_details'          => implode( ', ', $product_names ),
-				/* translators: %d: shipping package number */
-				'package_name'             => apply_filters( 'woocommerce_shipping_package_name', ( ( $i + 1 ) > 1 ) ? sprintf( _x( 'Shipping %d', 'shipping packages', 'woocommerce' ), ( $i + 1 ) ) : _x( 'Shipping', 'shipping packages', 'woocommerce' ), $i, $package ),
-				'index'                    => $i,
-				'chosen_method'            => $chosen_method,
-				'formatted_destination'    => WC()->countries->get_formatted_address( $package['destination'], ', ' ),
-				'has_calculated_shipping'  => WC()->customer->has_calculated_shipping(),
-			)
-		);
+		
 
 		$first = false;
 	}
+
+	wc_get_template(
+		'cart/cart-shipping.php',
+		array(
+			'package'                  => $package,
+			'available_methods'        => $package['rates'],
+			'show_package_details'     => false,
+			'show_shipping_calculator' => is_cart() && apply_filters( 'woocommerce_shipping_show_shipping_calculator', $first, $i, $package ),
+			'package_details'          => implode( ', ', $product_names ),
+			/* translators: %d: shipping package number */
+			'package_name'             => apply_filters( 'woocommerce_shipping_package_name', ( ( $i + 1 ) > 1 ) ? sprintf( _x( 'Shipping %d', 'shipping packages', 'woocommerce' ), ( $i + 1 ) ) : _x( 'Shipping', 'shipping packages', 'woocommerce' ), $i, $package ),
+			'index'                    => $i,
+			'chosen_method'            => $chosen_method,
+			'formatted_destination'    => WC()->countries->get_formatted_address( $package['destination'], ', ' ),
+			'has_calculated_shipping'  => WC()->customer->has_calculated_shipping(),
+			'count_package'			   => count( $packages ),
+			)
+	);
 }
 
 /**
@@ -297,7 +300,22 @@ function wc_cart_totals_coupon_html( $coupon ) {
  * Get order total html including inc tax if needed.
  */
 function wc_cart_totals_order_total_html() {
-	$value = '<strong>' . WC()->cart->get_total() . '</strong> ';
+	$package = WC()->shipping()->get_packages();
+	$v = 0;
+	if(count($package)==1){
+		$v = WC()->cart->get_total;
+	}
+	else if(count($package)==2){
+		$v = floatval(WC()->cart->cart_contents_total) + (floatval(WC()->cart->shipping_total) )* 0.7;
+	}
+	else if(count($package)>=3){
+		$v = floatval(WC()->cart->cart_contents_total) + (floatval(WC()->cart->shipping_total)/count($package))*2;
+	}
+
+	$value = '<span class="amount">' .  number_format($v, 2, '.', '') . ' </span>
+<span class="woocommerce-Price-currencySymbol amount">جنيه</span>';
+
+	// $value = '<strong>' . WC()->cart->get_total() . '</strong> ';
 
 	// If prices are tax inclusive, show taxes here.
 	if ( wc_tax_enabled() && WC()->cart->display_prices_including_tax() ) {
@@ -341,7 +359,7 @@ function wc_cart_totals_fee_html( $fee ) {
  * @param  WC_Shipping_Rate $method Shipping method rate data.
  * @return string
  */
-function wc_cart_totals_shipping_method_label( $method ) {
+function wc_cart_totals_shipping_method_label( $method ,$count_package) {
 	$label     = $method->get_label();
 	$has_cost  = 0 < $method->cost;
 	$hide_cost = ! $has_cost && in_array( $method->get_method_id(), array( 'free_shipping', 'local_pickup' ), true );
@@ -353,7 +371,17 @@ function wc_cart_totals_shipping_method_label( $method ) {
 				$label .= ' <small class="tax_label">' . WC()->countries->inc_tax_or_vat() . '</small>';
 			}
 		} else {
-			$label .= ': ' . wc_price( $method->cost );
+			if($count_package == 1){
+				$label .= ': ' . wc_price( $method->cost );
+			}
+			else if($count_package == 2){
+				$label .= ': ' . wc_price( ($method->cost * 2) * 0.7);
+			}
+			else if($count_package >= 3){
+				$label .= ': ' . wc_price( $method->cost * 2);
+			}
+			
+			// $label .= ': ' . wc_price( $method->cost );
 			if ( $method->get_shipping_tax() > 0 && wc_prices_include_tax() ) {
 				$label .= ' <small class="tax_label">' . WC()->countries->ex_tax_or_vat() . '</small>';
 			}
