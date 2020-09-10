@@ -1,0 +1,94 @@
+2020-09-10T08:52:59+00:00 CRITICAL Maximum execution time of 30 seconds exceeded في D:\xampp\htdocs\ourarts\wp-admin\includes\plugin.php في السطر 304
+
+2020-09-10T08:53:14+00:00 CRITICAL Uncaught TypeError: Argument 2 passed to WPSEO_Link_Watcher::save_post() must be an instance of WP_Post, null given, called in D:\xampp\htdocs\ourarts\wp-includes\class-wp-hook.php on line 290 and defined in D:\xampp\htdocs\ourarts\wp-content\plugins\wordpress-seo\admin\links\class-link-watcher.php:47
+Stack trace:
+#0 D:\xampp\htdocs\ourarts\wp-includes\class-wp-hook.php(290): WPSEO_Link_Watcher->save_post(36014, NULL)
+#1 D:\xampp\htdocs\ourarts\wp-includes\class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 D:\xampp\htdocs\ourarts\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 D:\xampp\htdocs\ourarts\wp-includes\post.php(4120): do_action('save_post', 36014, NULL, true)
+#4 D:\xampp\htdocs\ourarts\wp-includes\post.php(4197): wp_insert_post(Array, false)
+#5 D:\xampp\htdocs\ourarts\wp-content\plugins\woocommerce-smart-coupons\includes\libraries\action-scheduler\classes\data-stores\ActionScheduler_wpPostStore.php(797): wp_update_post(Array)
+#6 D:\xampp\htdocs\ourarts\wp-content\plugins\woocom في D:\xampp\htdocs\ourarts\wp-content\plugins\wordpress-seo\admin\links\class-link-watcher.php في السطر 47
+
+2020-09-10T08:53:35+00:00 CRITICAL Maximum execution time of 30 seconds exceeded في D:\xampp\htdocs\ourarts\wp-content\plugins\dokan-pro\includes\modules\moip\includes\libs\vendor\rmccue\requests\library\Requests\Transport\cURL.php في السطر 441
+
+2020-09-10T08:54:40+00:00 CRITICAL Maximum execution time of 30 seconds exceeded في D:\xampp\htdocs\ourarts\wp-content\plugins\media-library-plus\maxgalleria-media-library.php في السطر 3127
+
+2020-09-10T08:56:01+00:00 CRITICAL Maximum execution time of 30 seconds exceeded في D:\xampp\htdocs\ourarts\wp-content\plugins\media-library-plus\maxgalleria-media-library.php في السطر 3127
+
+2020-09-10T08:56:04+00:00 CRITICAL Uncaught TypeError: Argument 2 passed to WPSEO_Link_Watcher::save_post() must be an instance of WP_Post, null given, called in D:\xampp\htdocs\ourarts\wp-includes\class-wp-hook.php on line 290 and defined in D:\xampp\htdocs\ourarts\wp-content\plugins\wordpress-seo\admin\links\class-link-watcher.php:47
+Stack trace:
+#0 D:\xampp\htdocs\ourarts\wp-includes\class-wp-hook.php(290): WPSEO_Link_Watcher->save_post(36112, NULL)
+#1 D:\xampp\htdocs\ourarts\wp-includes\class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 D:\xampp\htdocs\ourarts\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 D:\xampp\htdocs\ourarts\wp-includes\post.php(4120): do_action('save_post', 36112, NULL, true)
+#4 D:\xampp\htdocs\ourarts\wp-includes\post.php(4197): wp_insert_post(Array, false)
+#5 D:\xampp\htdocs\ourarts\wp-content\plugins\woocommerce-smart-coupons\includes\libraries\action-scheduler\classes\data-stores\ActionScheduler_wpPostStore.php(797): wp_update_post(Array)
+#6 D:\xampp\htdocs\ourarts\wp-content\plugins\woocom in D:\xampp\htdocs\ourarts\wp-content\plugins\wordpress-seo\admin\links\class-link-watcher.php on line 47
+
+2020-09-10T08:56:50+00:00 CRITICAL Uncaught TypeError: Argument 2 passed to WPSEO_Link_Watcher::save_post() must be an instance of WP_Post, null given, called in D:\xampp\htdocs\ourarts\wp-includes\class-wp-hook.php on line 290 and defined in D:\xampp\htdocs\ourarts\wp-content\plugins\wordpress-seo\admin\links\class-link-watcher.php:47
+Stack trace:
+#0 D:\xampp\htdocs\ourarts\wp-includes\class-wp-hook.php(290): WPSEO_Link_Watcher->save_post(35571, NULL)
+#1 D:\xampp\htdocs\ourarts\wp-includes\class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 D:\xampp\htdocs\ourarts\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 D:\xampp\htdocs\ourarts\wp-includes\post.php(4120): do_action('save_post', 35571, NULL, true)
+#4 D:\xampp\htdocs\ourarts\wp-includes\post.php(4197): wp_insert_post(Array, false)
+#5 D:\xampp\htdocs\ourarts\wp-content\plugins\woocommerce-smart-coupons\includes\libraries\action-scheduler\classes\data-stores\ActionScheduler_wpPostStore.php(797): wp_update_post(Array)
+#6 D:\xampp\htdocs\ourarts\wp-content\plugins\woocom في D:\xampp\htdocs\ourarts\wp-content\plugins\wordpress-seo\admin\links\class-link-watcher.php في السطر 47
+
+2020-09-10T08:57:56+00:00 CRITICAL Uncaught TypeError: Argument 2 passed to WPSEO_Link_Watcher::save_post() must be an instance of WP_Post, null given, called in D:\xampp\htdocs\ourarts\wp-includes\class-wp-hook.php on line 290 and defined in D:\xampp\htdocs\ourarts\wp-content\plugins\wordpress-seo\admin\links\class-link-watcher.php:47
+Stack trace:
+#0 D:\xampp\htdocs\ourarts\wp-includes\class-wp-hook.php(290): WPSEO_Link_Watcher->save_post(36208, NULL)
+#1 D:\xampp\htdocs\ourarts\wp-includes\class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 D:\xampp\htdocs\ourarts\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 D:\xampp\htdocs\ourarts\wp-includes\post.php(4120): do_action('save_post', 36208, NULL, true)
+#4 D:\xampp\htdocs\ourarts\wp-includes\post.php(4197): wp_insert_post(Array, false)
+#5 D:\xampp\htdocs\ourarts\wp-content\plugins\woocommerce-smart-coupons\includes\libraries\action-scheduler\classes\data-stores\ActionScheduler_wpPostStore.php(797): wp_update_post(Array)
+#6 D:\xampp\htdocs\ourarts\wp-content\plugins\woocom في D:\xampp\htdocs\ourarts\wp-content\plugins\wordpress-seo\admin\links\class-link-watcher.php في السطر 47
+
+2020-09-10T08:58:01+00:00 CRITICAL Uncaught TypeError: Argument 2 passed to WPSEO_Link_Watcher::save_post() must be an instance of WP_Post, null given, called in D:\xampp\htdocs\ourarts\wp-includes\class-wp-hook.php on line 290 and defined in D:\xampp\htdocs\ourarts\wp-content\plugins\wordpress-seo\admin\links\class-link-watcher.php:47
+Stack trace:
+#0 D:\xampp\htdocs\ourarts\wp-includes\class-wp-hook.php(290): WPSEO_Link_Watcher->save_post(36217, NULL)
+#1 D:\xampp\htdocs\ourarts\wp-includes\class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 D:\xampp\htdocs\ourarts\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 D:\xampp\htdocs\ourarts\wp-includes\post.php(4120): do_action('save_post', 36217, NULL, true)
+#4 D:\xampp\htdocs\ourarts\wp-includes\post.php(4197): wp_insert_post(Array, false)
+#5 D:\xampp\htdocs\ourarts\wp-content\plugins\woocommerce-smart-coupons\includes\libraries\action-scheduler\classes\data-stores\ActionScheduler_wpPostStore.php(797): wp_update_post(Array)
+#6 D:\xampp\htdocs\ourarts\wp-content\plugins\woocom in D:\xampp\htdocs\ourarts\wp-content\plugins\wordpress-seo\admin\links\class-link-watcher.php on line 47
+
+2020-09-10T08:58:25+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in D:\xampp\htdocs\ourarts\wp-includes\wp-db.php on line 2030
+
+2020-09-10T08:59:59+00:00 CRITICAL Uncaught TypeError: Argument 2 passed to WPSEO_Link_Watcher::save_post() must be an instance of WP_Post, null given, called in D:\xampp\htdocs\ourarts\wp-includes\class-wp-hook.php on line 290 and defined in D:\xampp\htdocs\ourarts\wp-content\plugins\wordpress-seo\admin\links\class-link-watcher.php:47
+Stack trace:
+#0 D:\xampp\htdocs\ourarts\wp-includes\class-wp-hook.php(290): WPSEO_Link_Watcher->save_post(36282, NULL)
+#1 D:\xampp\htdocs\ourarts\wp-includes\class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 D:\xampp\htdocs\ourarts\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 D:\xampp\htdocs\ourarts\wp-includes\post.php(4120): do_action('save_post', 36282, NULL, true)
+#4 D:\xampp\htdocs\ourarts\wp-includes\post.php(4197): wp_insert_post(Array, false)
+#5 D:\xampp\htdocs\ourarts\wp-content\plugins\woocommerce-smart-coupons\includes\libraries\action-scheduler\classes\data-stores\ActionScheduler_wpPostStore.php(797): wp_update_post(Array)
+#6 D:\xampp\htdocs\ourarts\wp-content\plugins\woocom في D:\xampp\htdocs\ourarts\wp-content\plugins\wordpress-seo\admin\links\class-link-watcher.php في السطر 47
+
+2020-09-10T09:01:05+00:00 CRITICAL Uncaught TypeError: Argument 2 passed to WPSEO_Link_Watcher::save_post() must be an instance of WP_Post, null given, called in D:\xampp\htdocs\ourarts\wp-includes\class-wp-hook.php on line 290 and defined in D:\xampp\htdocs\ourarts\wp-content\plugins\wordpress-seo\admin\links\class-link-watcher.php:47
+Stack trace:
+#0 D:\xampp\htdocs\ourarts\wp-includes\class-wp-hook.php(290): WPSEO_Link_Watcher->save_post(36346, NULL)
+#1 D:\xampp\htdocs\ourarts\wp-includes\class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 D:\xampp\htdocs\ourarts\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 D:\xampp\htdocs\ourarts\wp-includes\post.php(4120): do_action('save_post', 36346, NULL, true)
+#4 D:\xampp\htdocs\ourarts\wp-includes\post.php(4197): wp_insert_post(Array, false)
+#5 D:\xampp\htdocs\ourarts\wp-content\plugins\woocommerce-smart-coupons\includes\libraries\action-scheduler\classes\data-stores\ActionScheduler_wpPostStore.php(797): wp_update_post(Array)
+#6 D:\xampp\htdocs\ourarts\wp-content\plugins\woocom في D:\xampp\htdocs\ourarts\wp-content\plugins\wordpress-seo\admin\links\class-link-watcher.php في السطر 47
+
+2020-09-10T09:01:16+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in D:\xampp\htdocs\ourarts\wp-includes\wp-db.php on line 2030
+
+2020-09-10T09:01:33+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in D:\xampp\htdocs\ourarts\wp-includes\wp-db.php on line 2030
+
+2020-09-10T09:04:04+00:00 CRITICAL Uncaught TypeError: Argument 2 passed to WPSEO_Link_Watcher::save_post() must be an instance of WP_Post, null given, called in D:\xampp\htdocs\ourarts\wp-includes\class-wp-hook.php on line 290 and defined in D:\xampp\htdocs\ourarts\wp-content\plugins\wordpress-seo\admin\links\class-link-watcher.php:47
+Stack trace:
+#0 D:\xampp\htdocs\ourarts\wp-includes\class-wp-hook.php(290): WPSEO_Link_Watcher->save_post(36373, NULL)
+#1 D:\xampp\htdocs\ourarts\wp-includes\class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 D:\xampp\htdocs\ourarts\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 D:\xampp\htdocs\ourarts\wp-includes\post.php(4120): do_action('save_post', 36373, NULL, true)
+#4 D:\xampp\htdocs\ourarts\wp-includes\post.php(4197): wp_insert_post(Array, false)
+#5 D:\xampp\htdocs\ourarts\wp-content\plugins\woocommerce-smart-coupons\includes\libraries\action-scheduler\classes\data-stores\ActionScheduler_wpPostStore.php(797): wp_update_post(Array)
+#6 D:\xampp\htdocs\ourarts\wp-content\plugins\woocom في D:\xampp\htdocs\ourarts\wp-content\plugins\wordpress-seo\admin\links\class-link-watcher.php في السطر 47
+
