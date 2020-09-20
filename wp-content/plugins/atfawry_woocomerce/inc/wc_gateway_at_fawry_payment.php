@@ -6,11 +6,11 @@ class wc_gateway_at_fawry_payment extends WC_Payment_Gateway {
         global $woocommerce;
         $this->id = ASH2OSH_FAW_PAYMENT_METHOD;
         //  $this->method_title =__( '@Fawry','ash2osh_faw');
-        $this->title = __('@Fawry', 'ash2osh_faw');
-        $this->method_description = __('@Fawry Payment Method', 'ash2osh_faw');
-
+        $this->title = __('الدفع بفوري او فيزا', 'ash2osh_faw');
+        $this->description = __('الدفع بأي بطاقة ائتمان أو من خلال أجهزة فوري ', 'ash2osh_faw');
         // $this->load_plugin_textdomain();
-        $this->icon = ASH2OSH_FAW_URL . '/images/logo_small.png';
+        $this->icon = 'https://our-arts.com/wp-content/uploads/2020/09/fawry-visa.png';
+
         $this->has_fields = FALSE;
         if (is_admin()) {
             $this->has_fields = true;
@@ -27,6 +27,7 @@ class wc_gateway_at_fawry_payment extends WC_Payment_Gateway {
         //callback handle
         add_action('woocommerce_api_' . strtolower(get_class($this)), array($this, 'callback_handler'));
     }
+
 
     /**
      * Initialise Gateway Settings Form Fields
