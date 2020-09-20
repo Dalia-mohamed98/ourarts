@@ -46,8 +46,8 @@ $order_status = isset( $_GET['order_status'] ) ? sanitize_key( $_GET['order_stat
             <?php
                 wp_nonce_field( 'dokan_vendor_order_export_action', 'dokan_vendor_order_export_nonce' );
             ?>
-            <input type="submit" name="dokan_order_export_all"  class="dokan-btn dokan-btn-sm dokan-btn-danger dokan-btn-theme" value="<?php esc_attr_e( 'استخراج الكل', 'dokan-lite' ); ?>">
-            <input type="submit" name="dokan_order_export_filtered"  class="dokan-btn dokan-btn-sm dokan-btn-danger dokan-btn-theme" value="<?php esc_attr_e( 'استخراج المنتقي', 'dokan-lite' ); ?>">
+           <!-- <input type="submit" name="dokan_order_export_all"  class="dokan-btn dokan-btn-sm dokan-btn-danger dokan-btn-theme" value="<?php esc_attr_e( 'استخراج الكل', 'dokan-lite' ); ?>">-->
+           <!-- <input type="submit" name="dokan_order_export_filtered"  class="dokan-btn dokan-btn-sm dokan-btn-danger dokan-btn-theme" value="<?php esc_attr_e( 'استخراج المنتقي', 'dokan-lite' ); ?>">-->
             <input type="hidden" name="order_date" value="<?php echo esc_attr( $filter_date ); ?>">
             <input type="hidden" name="order_status" value="<?php echo esc_attr( $order_status ); ?>">
         </div>
