@@ -258,15 +258,15 @@ class Dokan_Product_Importer {
 
             if ( $installed_version >= '2.4' ) {
                 $urls['tools'] = array(
-                    'title' => __( 'Tools', 'dokan' ),
-                    'icon'  => '<i class="fa fa-wrench"></i>',
+                    'title' => __( 'استيراد المنتجات', 'dokan' ),
+                    'icon'  => '<i class="fa fa-upload"></i>',
                     'url'   => dokan_get_navigation_url( 'tools' ),
                     'pos'   => 182
                 );
             } else {
                 $urls['tools'] = array(
-                    'title' => __( 'Tools', 'dokan' ),
-                    'icon'  => '<i class="fa fa-wrench"></i>',
+                    'title' => __( 'استيراد المنتجات', 'dokan' ),
+                    'icon'  => '<i class="fa fa-upload"></i>',
                     'url'   => dokan_get_navigation_url( 'tools' )
                 );
             }

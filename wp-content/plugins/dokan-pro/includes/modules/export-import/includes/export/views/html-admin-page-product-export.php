@@ -49,34 +49,34 @@ $total_rows      = $product_count->publish + $product_count->private + $variatio
                 <form class="woocommerce-exporter">
                     <header>
                         <span class="spinner is-active"></span>
-                        <h2><?php esc_html_e( 'Export products to a CSV file', 'dokan' ); ?></h2>
-                        <p><?php esc_html_e( 'This tool allows you to generate and download a CSV file containing a list of all products.', 'dokan' ); ?></p>
+                        <h2><?php esc_html_e( 'تصدير المنتجات إلى ملف CSV', 'dokan' ); ?></h2>
+                        <p><?php esc_html_e( 'تتيح لك هذه الأداة إنشاء وتنزيل ملف CSV يحتوي على قائمة بجميع المنتجات.', 'dokan' ); ?></p>
                     </header>
                     <section>
                         <table class="form-table woocommerce-exporter-options">
                             <tbody>
                                 <tr>
                                     <th scope="row">
-                                        <label for="woocommerce-exporter-columns"><?php esc_html_e( 'Which columns should be exported?', 'dokan' ); ?></label>
+                                        <label for="woocommerce-exporter-columns"><?php esc_html_e( 'ما هي الأعمدة التي يجب تصديرها؟', 'dokan' ); ?></label>
                                     </th>
                                     <td>
-                                        <select id="woocommerce-exporter-columns" class="woocommerce-exporter-columns dokan-select2" style="width:100%;" multiple data-placeholder="<?php esc_attr_e( 'Export all columns', 'dokan' ); ?>">
+                                        <select id="woocommerce-exporter-columns" class="woocommerce-exporter-columns dokan-select2" style="width:100%;" multiple data-placeholder="<?php esc_attr_e( 'تصدير كل الأعمدة', 'dokan' ); ?>">
                                             <?php
                                             foreach ( $exporter->get_default_column_names() as $column_id => $column_name ) {
                                                 echo '<option value="' . esc_attr( $column_id ) . '">' . esc_html( $column_name ) . '</option>';
                                             }
                                             ?>
-                                            <option value="downloads"><?php esc_html_e( 'Downloads', 'dokan' ); ?></option>
-                                            <option value="attributes"><?php esc_html_e( 'Attributes', 'dokan' ); ?></option>
+                                            <!-- <option value="downloads"><?php //esc_html_e( 'Downloads', 'dokan' ); ?></option>
+                                            <option value="attributes"><?php //esc_html_e( 'Attributes', 'dokan' ); ?></option> -->
                                         </select>
                                     </td>
                                 </tr>
                                 <tr>
                                     <th scope="row">
-                                        <label for="woocommerce-exporter-types"><?php esc_html_e( 'Which product types should be exported?', 'dokan' ); ?></label>
+                                        <label for="woocommerce-exporter-types"><?php esc_html_e( 'ما أنواع المنتجات التي ينبغي تصديرها؟', 'dokan' ); ?></label>
                                     </th>
                                     <td>
-                                        <select id="woocommerce-exporter-types" class="woocommerce-exporter-types dokan-select2" style="width:100%;" multiple data-placeholder="<?php esc_attr_e( 'Export all products', 'dokan' ); ?>">
+                                        <select id="woocommerce-exporter-types" class="woocommerce-exporter-types dokan-select2" style="width:100%;" multiple data-placeholder="<?php esc_attr_e( 'تصدير كل المنتجات', 'dokan' ); ?>">
                                             <?php
                                             foreach ( wc_get_product_types() as $value => $label ) {
                                                 echo '<option value="' . esc_attr( $value ) . '">' . esc_html( $label ) . '</option>';
@@ -86,21 +86,21 @@ $total_rows      = $product_count->publish + $product_count->private + $variatio
                                         </select>
                                     </td>
                                 </tr>
-                                <tr>
+                                <!-- <tr>
                                     <th scope="row">
-                                        <label for="woocommerce-exporter-meta"><?php esc_html_e( 'Export custom meta?', 'dokan' ); ?></label>
+                                        <label for="woocommerce-exporter-meta"><?php //esc_html_e( 'Export custom meta?', 'dokan' ); ?></label>
                                     </th>
                                     <td>
                                         <input type="checkbox" id="woocommerce-exporter-meta" value="1" />
-                                        <label for="woocommerce-exporter-meta"><?php esc_html_e( 'Yes, export all custom meta', 'dokan' ); ?></label>
+                                        <label for="woocommerce-exporter-meta"><?php //esc_html_e( 'Yes, export all custom meta', 'dokan' ); ?></label>
                                     </td>
-                                </tr>
+                                </tr> -->
                             </tbody>
                         </table>
                         <progress class="woocommerce-exporter-progress" max="100" value="0"></progress>
                     </section>
                     <div class="wc-actions">
-                        <input type="submit" class="woocommerce-exporter-button button button-primary" value="<?php esc_attr_e( 'Generate CSV', 'dokan' ); ?>" />
+                        <input type="submit" class="woocommerce-exporter-button button button-primary" value="<?php esc_attr_e( 'انشاء CSV', 'dokan' ); ?>" />
                     </div>
                 </form>
             </div>

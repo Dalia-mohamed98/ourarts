@@ -78,44 +78,44 @@ class WC_Product_CSV_Exporter extends WC_CSV_Batch_Exporter {
      */
     public function get_default_column_names() {
         return apply_filters( "woocommerce_product_export_{$this->export_type}_default_columns", array(
-            'id'                 => __( 'ID', 'dokan' ),
+            // 'id'                 => __( 'ID', 'dokan' ),
             'type'               => __( 'Type', 'dokan' ),
             'sku'                => __( 'SKU', 'dokan' ),
             'name'               => __( 'Name', 'dokan' ),
             'published'          => __( 'Published', 'dokan' ),
-            'featured'           => __( 'Is featured?', 'dokan' ),
-            'catalog_visibility' => __( 'Visibility in catalog', 'dokan' ),
+            // 'featured'           => __( 'Is featured?', 'dokan' ),
+            // 'catalog_visibility' => __( 'Visibility in catalog', 'dokan' ),
             'short_description'  => __( 'Short description', 'dokan' ),
             'description'        => __( 'Description', 'dokan' ),
             'date_on_sale_from'  => __( 'Date sale price starts', 'dokan' ),
             'date_on_sale_to'    => __( 'Date sale price ends', 'dokan' ),
-            'tax_status'         => __( 'Tax status', 'dokan' ),
-            'tax_class'          => __( 'Tax class', 'dokan' ),
+            // 'tax_status'         => __( 'Tax status', 'dokan' ),
+            // 'tax_class'          => __( 'Tax class', 'dokan' ),
             'stock_status'       => __( 'In stock?', 'dokan' ),
             'stock'              => __( 'Stock', 'dokan' ),
-            'backorders'         => __( 'Backorders allowed?', 'dokan' ),
-            'sold_individually'  => __( 'Sold individually?', 'dokan' ),
+            // 'backorders'         => __( 'Backorders allowed?', 'dokan' ),
+            // 'sold_individually'  => __( 'Sold individually?', 'dokan' ),
             'weight'             => sprintf( __( 'Weight (%s)', 'dokan' ), get_option( 'woocommerce_weight_unit' ) ),
             'length'             => sprintf( __( 'Length (%s)', 'dokan' ), get_option( 'woocommerce_dimension_unit' ) ),
             'width'              => sprintf( __( 'Width (%s)', 'dokan' ), get_option( 'woocommerce_dimension_unit' ) ),
             'height'             => sprintf( __( 'Height (%s)', 'dokan' ), get_option( 'woocommerce_dimension_unit' ) ),
-            'reviews_allowed'    => __( 'Allow customer reviews?', 'dokan' ),
-            'purchase_note'      => __( 'Purchase note', 'dokan' ),
+            // 'reviews_allowed'    => __( 'Allow customer reviews?', 'dokan' ),
+            // 'purchase_note'      => __( 'Purchase note', 'dokan' ),
             'sale_price'         => __( 'Sale price', 'dokan' ),
             'regular_price'      => __( 'Regular price', 'dokan' ),
-            'category_ids'       => __( 'Categories', 'dokan' ),
-            'tag_ids'            => __( 'Tags', 'dokan' ),
-            'shipping_class_id'  => __( 'Shipping class', 'dokan' ),
-            'images'             => __( 'Images', 'dokan' ),
-            'download_limit'     => __( 'Download limit', 'dokan' ),
-            'download_expiry'    => __( 'Download expiry days', 'dokan' ),
-            'parent_id'          => __( 'Parent', 'dokan' ),
-            'grouped_products'   => __( 'Grouped products', 'dokan' ),
-            'upsell_ids'         => __( 'Upsells', 'dokan' ),
-            'cross_sell_ids'     => __( 'Cross-sells', 'dokan' ),
-            'product_url'        => __( 'External URL', 'dokan' ),
-            'button_text'        => __( 'Button text', 'dokan' ),
-            'menu_order'         => __( 'Position', 'dokan' ),
+            // 'category_ids'       => __( 'Categories', 'dokan' ),
+            // 'tag_ids'            => __( 'Tags', 'dokan' ),
+            // 'shipping_class_id'  => __( 'Shipping class', 'dokan' ),
+            // 'images'             => __( 'Images', 'dokan' ),
+            // 'download_limit'     => __( 'Download limit', 'dokan' ),
+            // 'download_expiry'    => __( 'Download expiry days', 'dokan' ),
+            // 'parent_id'          => __( 'Parent', 'dokan' ),
+            // 'grouped_products'   => __( 'Grouped products', 'dokan' ),
+            // 'upsell_ids'         => __( 'Upsells', 'dokan' ),
+            // 'cross_sell_ids'     => __( 'Cross-sells', 'dokan' ),
+            // 'product_url'        => __( 'External URL', 'dokan' ),
+            // 'button_text'        => __( 'Button text', 'dokan' ),
+            // 'menu_order'         => __( 'Position', 'dokan' ),
         ) );
     }
 
@@ -142,7 +142,7 @@ class WC_Product_CSV_Exporter extends WC_CSV_Batch_Exporter {
 
         $this->total_rows = $products->total;
         $this->row_data   = array();
-
+        
         foreach ( $products->products as $product ) {
             $row = array();
             foreach ( $columns as $column_id => $column_name ) {
@@ -168,6 +168,7 @@ class WC_Product_CSV_Exporter extends WC_CSV_Batch_Exporter {
                 }
 
                 $row[$column_id] = $value;
+               
             }
 
             $this->prepare_downloads_for_export( $product, $row );

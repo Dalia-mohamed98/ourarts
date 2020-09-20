@@ -1,0 +1,11 @@
+2020-09-13T19:51:18+00:00 DEBUG طلب جديد #36922 انشأ. Init sub order.
+2020-09-13T19:51:18+00:00 DEBUG Got 2 vendors, starting sub order.
+2020-09-13T19:51:18+00:00 DEBUG Creating sub order for vendor: #23
+2020-09-13T19:51:19+00:00 DEBUG #36923 - Creating Shipping.
+2020-09-13T19:51:19+00:00 DEBUG #36923 - Adding shipping item.
+2020-09-13T19:51:19+00:00 DEBUG Created sub order : #36923
+2020-09-13T19:51:20+00:00 DEBUG Creating sub order for vendor: #32
+2020-09-13T19:51:20+00:00 DEBUG #36924 - Creating Shipping.
+2020-09-13T19:51:20+00:00 DEBUG #36924 - Adding shipping item.
+2020-09-13T19:51:20+00:00 DEBUG Created sub order : #36924
+2020-09-13T19:51:20+00:00 DEBUG Completed sub order for #36922.
