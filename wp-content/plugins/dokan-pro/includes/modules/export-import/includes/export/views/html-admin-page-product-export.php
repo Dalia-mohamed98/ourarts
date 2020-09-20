@@ -82,7 +82,7 @@ $total_rows      = $product_count->publish + $product_count->private + $variatio
                                                 echo '<option value="' . esc_attr( $value ) . '">' . esc_html( $label ) . '</option>';
                                             }
                                             ?>
-                                            <option value="variation"><?php esc_html_e( 'Product variations', 'dokan' ); ?></option>
+                                            <option value="variation"><?php esc_html_e( 'اختلافات المنتج', 'dokan' ); ?></option>
                                         </select>
                                     </td>
                                 </tr>
