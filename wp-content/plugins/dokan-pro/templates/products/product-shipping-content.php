@@ -14,8 +14,8 @@ $dokan_shipping_option  = get_option( 'woocommerce_dokan_product_shipping_settin
 $dokan_shipping_enabled = ( isset( $dokan_shipping_option['enabled'] ) ) ? $dokan_shipping_option['enabled'] : 'yes';
 $dokan_shipping_enabled = $dokan_shipping_enabled == 'yes' ? true : false;
 $store_shipping_enabled = get_user_meta( get_current_user_id(), '_dps_shipping_enable', true ) == 'yes' ? true : false;
-$wc_shipping_enabled    = get_option( 'woocommerce_calc_shipping' ) == 'yes' ? true : false;
-$wc_tax_enabled         = get_option( 'woocommerce_calc_taxes' ) == 'yes' ? true : false;
+$wc_shipping_enabled    = false;//get_option( 'woocommerce_calc_shipping' ) == 'yes' ? true : false;
+$wc_tax_enabled         = false;//get_option( 'woocommerce_calc_taxes' ) == 'yes' ? true : false;
 ?>
 <?php if ( $wc_shipping_enabled || $wc_tax_enabled ) : ?>
 <div class="dokan-product-shipping-tax hide_if_grouped dokan-edit-row dokan-clearfix dokan-border-top <?php echo ! $wc_shipping_enabled ? 'woocommerce-no-shipping' : '' ?> <?php echo ! $wc_tax_enabled ? 'woocommerce-no-tax' : '' ?>">
