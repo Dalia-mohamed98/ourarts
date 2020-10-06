@@ -16,6 +16,19 @@ if ( !defined( 'ABSPATH' ) ) {
             <tbody>
                 <tr>
                     <th scope="row">
+                        <label for="download">
+                            <?php _e( 'تنزيل نموذج المنتجات ملف CSV قبل التحميل :', 'dokan' ); ?>
+                        </label>
+                    </th>
+                    <td>
+                        <div>
+                            <button class="success" style="border-radius:5px"><a style="color:white; " href="../../../../../../../uploads/2020/10/products template.csv" download="products-template.csv">تنزيل الملف</a></button>
+                        </div>
+                    </td>
+                </tr>
+
+                <tr>
+                    <th scope="row">
                         <label for="upload">
                             <?php _e( 'اختر ملف CSV من جهازك:', 'dokan' ); ?>
                         </label>
