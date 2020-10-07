@@ -22,7 +22,7 @@ if ( !defined( 'ABSPATH' ) ) {
                     </th>
                     <td>
                         <div>
-                            <button class="success" style="border-radius:5px"><a style="color:white; " href="../../../../../../../uploads/2020/10/products template.csv" download="products-template.csv">تنزيل الملف</a></button>
+                            <button class="success" style="border-radius:5px"><a style="color:white; " href="../../../../../../../uploads/products-template.xlsx" download="products-template.xlsx">تنزيل الملف</a></button>
                         </div>
                     </td>
                 </tr>
