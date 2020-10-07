@@ -17,7 +17,7 @@ if ( !defined( 'ABSPATH' ) ) {
                 <tr>
                     <th scope="row">
                         <label for="download">
-                            <?php _e( 'تنزيل نموذج المنتجات ملف CSV قبل التحميل :', 'dokan' ); ?>
+                            <?php _e( 'تنزيل ملف نموذج المنتجات قبل التحميل :', 'dokan' ); ?>
                         </label>
                     </th>
                     <td>
