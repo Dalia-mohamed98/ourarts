@@ -14,7 +14,7 @@ function dokan_product_seller_info( $item_data, $cart_item ) {
     }
 
     $item_data[] = array(
-        'name'  => __( 'Vendor', 'dokan-lite' ),
+        'name'  => __( 'البائع', 'dokan-lite' ),
         'value' => $vendor->get_shop_name(),
     );
 
@@ -289,7 +289,7 @@ function dokan_attach_vendor_name( $item_id, $order ) {
         return;
     }
 
-    printf( '<br>%s: <a href="%s">%s</a>', esc_html__( 'Vendor', 'dokan-lite' ), esc_url( $vendor->get_shop_url() ), esc_html__( $vendor->get_shop_name() ) );
+    printf( '<br>%s: <a href="%s">%s</a>', esc_html__( 'البائع', 'dokan-lite' ), esc_url( $vendor->get_shop_url() ), esc_html__( $vendor->get_shop_name() ) );
 }
 
 add_action( 'woocommerce_order_item_meta_start', 'dokan_attach_vendor_name', 10, 2 );

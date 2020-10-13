@@ -391,8 +391,8 @@ do_action( 'woocommerce_before_cart' ); ?>
 
 						do_action( 'woocommerce_after_cart_item_name', $cart_item, $cart_item_key );
 
-						// Meta data.
-						// echo wc_get_formatted_cart_item_data( $cart_item ); // PHPCS: XSS ok.
+						// Meta data.z
+						echo wc_get_formatted_cart_item_data( $cart_item ); // PHPCS: XSS ok.
 
 						// Backorder notification.
 						if ( $_product->backorders_require_notification() && $_product->is_on_backorder( $cart_item['quantity'] ) ) {
