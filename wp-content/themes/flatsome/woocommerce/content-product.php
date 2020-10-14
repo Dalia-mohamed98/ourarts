@@ -33,7 +33,71 @@ $classes[] = 'product-small';
 $classes[] = 'col';
 $classes[] = 'has-hover';
 
-if ( $out_of_stock ) $classes[] = 'out-of-stock';
+$has_multivendor = get_post_meta( $post->ID, '_has_multi_vendor', true );
+
+//check if duplicate products exist
+if ( !empty( $has_multivendor ) ) {
+	$sql     = "SELECT product_id FROM {$wpdb->prefix}dokan_product_map WHERE map_id= $has_multivendor AND is_trash = 0";
+	$results = $wpdb->get_results( $sql );
+	// var_dump($results);
+	$multi_products = array();
+	foreach ($results as $key => $result){
+		 array_push($multi_products, wc_get_product($result->product_id));
+	}
+	// var_dump($multi_products);
+	$in_stock_multi = 0;
+	foreach ($multi_products as $multi_product){
+		if($multi_product->is_in_stock())
+			$in_stock_multi +=1 ;
+	}
+	//if more than one product in stock or all out of stock, then select least price
+	if(($in_stock_multi > 1 && $product->is_in_stock()) || $in_stock_multi == 0){
+		$min_price = $product->get_price();
+		$least_product = $product;
+		foreach($multi_products as $multi_product)
+		{
+			if($min_price > $multi_product->get_price())
+				{
+					$min_price = $multi_product->get_price();
+					$least_product = $multi_product;
+				}
+		}
+		// hide product from shop if not selected 
+		if($post->ID != $least_product->get_ID())
+			{
+				$terms = array( 'exclude-from-catalog' ); 
+				wp_set_post_terms( $post->ID, $terms, 'product_visibility', false );
+
+				if(!$least_product->is_visible()){
+					$product->set_props(
+						array(
+							'featured'           => array(),
+							'catalog_visibility' => 'visible',
+						)
+					);
+				}
+				return;
+			}
+		else{
+			$terms = array( 'exclude-from-catalog' ); 
+			wp_set_post_terms( $least_product->get_ID(), $terms, 'product_visibility', false );
+
+		}
+	}
+	//if only one in stock but not this product, hide
+	else if(!$product->is_in_stock()){
+		$terms = array( 'exclude-from-catalog' ); 
+		wp_set_post_terms( $post->ID, $terms, 'product_visibility', false );
+		return;
+
+	}
+
+}
+
+//check out of stock
+if ( $out_of_stock ) 
+	$classes[] = 'out-of-stock';
+
 
 ?>
 
