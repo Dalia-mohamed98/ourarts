@@ -65,29 +65,29 @@ if ( !empty( $has_multivendor ) ) {
 		// hide product from shop if not selected 
 		if($post->ID != $least_product->get_ID())
 			{
-				$terms = array( 'exclude-from-catalog' ); 
-				wp_set_post_terms( $post->ID, $terms, 'product_visibility', false );
+				// $terms = array( 'exclude-from-catalog' ); 
+				// wp_set_post_terms( $post->ID, $terms, 'product_visibility', false );
 
-				if(!$least_product->is_visible()){
-					$product->set_props(
-						array(
-							'featured'           => array(),
-							'catalog_visibility' => 'visible',
-						)
-					);
-				}
+				// if(!$least_product->is_visible()){
+				// 	$product->set_props(
+				// 		array(
+				// 			'featured'           => array(),
+				// 			'catalog_visibility' => 'visible',
+				// 		)
+				// 	);
+				// }
 				return;
 			}
 		else{
-			$terms = array( 'exclude-from-catalog' ); 
-			wp_set_post_terms( $least_product->get_ID(), $terms, 'product_visibility', false );
+			// $terms = array( 'exclude-from-catalog' ); 
+			// wp_set_post_terms( $least_product->get_ID(), $terms, 'product_visibility', false );
 
 		}
 	}
 	//if only one in stock but not this product, hide
 	else if(!$product->is_in_stock()){
-		$terms = array( 'exclude-from-catalog' ); 
-		wp_set_post_terms( $post->ID, $terms, 'product_visibility', false );
+		// $terms = array( 'exclude-from-catalog' ); 
+		// wp_set_post_terms( $post->ID, $terms, 'product_visibility', false );
 		return;
 
 	}
