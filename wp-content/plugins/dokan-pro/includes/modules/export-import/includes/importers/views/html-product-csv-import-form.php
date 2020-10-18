@@ -22,8 +22,18 @@ if ( !defined( 'ABSPATH' ) ) {
                     </th>
                     <td>
                         <div>
-                            <button class="success" style="border-radius:5px"><a style="color:white; " href="../../../../../../../uploads/products-template.xlsx" download="products-template.xlsx">تنزيل الملف</a></button>
+                            <button class="success " style="border-radius:5px"><a class="csv-link" style="color:white; " href="# ">تنزيل الملف</a></button>
                         </div>
+						<script>
+                            jQuery(document).ready(function ($) {
+                                $('a.csv-link').click(function(e) {
+                                    e.preventDefault();
+                                    window.open('https://our-arts.com/wp-content/uploads/csv/نموذج-المنتجات.csv');
+                                    window.open('https://our-arts.com/wp-content/uploads/csv/نموذج-الفئات.csv');
+                                    
+                                });
+                            });
+						</script>
                     </td>
                 </tr>
 
