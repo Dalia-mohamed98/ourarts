@@ -29,7 +29,7 @@ $tab_style              = get_theme_mod( 'product_display' );
 $review_ratings_enabled = fl_woocommerce_version_check( '3.6.0' ) ? wc_review_ratings_enabled() : get_option( 'woocommerce_enable_review_rating' ) === 'yes';
 ?>
 <div id="reviews" class="woocommerce-Reviews row">
-	<div id="comments" class="col large-<?php if ( get_comment_pages_count() == 0 || $tab_style == 'sections' || $tab_style == 'tabs_vertical' ) { echo '12'; } else { echo '7'; } ?>">
+	<div id="comments" class="col large-<?php if ( get_comment_pages_count() == 0 || $tab_style == 'sections' || $tab_style == 'tabs_vertical' ) { echo '7'; } else { echo '7'; } ?>">
 		<h3 class="woocommerce-Reviews-title normal">
 			<?php
 			$count = $product->get_review_count();
@@ -75,7 +75,7 @@ $review_ratings_enabled = fl_woocommerce_version_check( '3.6.0' ) ? wc_review_ra
 
 	<?php if ( get_option( 'woocommerce_review_rating_verification_required' ) === 'no' || wc_customer_bought_product( '', get_current_user_id(), $product->get_id() ) ) : ?>
 
-		<div id="review_form_wrapper" class="large-<?php if ( get_comment_pages_count() == 0 || $tab_style == 'sections' || $tab_style == 'tabs_vertical' ) { echo '12'; } else { echo '5'; } ?> col">
+		<div id="review_form_wrapper" class="large-<?php if ( get_comment_pages_count() == 0 || $tab_style == 'sections' || $tab_style == 'tabs_vertical' ) { echo '5'; } else { echo '5'; } ?> col">
 			<div id="review_form" class="col-inner">
 				<div class="review-form-inner has-border">
 				<?php

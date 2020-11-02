@@ -20,7 +20,7 @@ class Dokan_Pro_Shipping {
 
         add_action( 'init', array( $this, 'include_shipping' ), 5 );
         add_action( 'woocommerce_shipping_methods', array( $this, 'register_shipping' ) );
-        add_action( 'woocommerce_product_tabs', array( $this, 'register_product_tab' ) );
+        // add_action( 'woocommerce_product_tabs', array( $this, 'register_product_tab' ) );
         add_action( 'woocommerce_after_checkout_validation', array( $this, 'validate_country' ) );
         add_action( 'template_redirect', array( $this, 'handle_shipping' ) );
     }
