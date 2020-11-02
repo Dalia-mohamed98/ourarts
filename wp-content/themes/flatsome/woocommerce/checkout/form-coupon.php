@@ -22,20 +22,20 @@ if ( ! wc_coupons_enabled() ) { // @codingStandardsIgnoreLine.
 }
 
 ?>
-<div class="woocommerce-form-coupon-toggle">
-	<?php wc_print_notice( apply_filters( 'woocommerce_checkout_coupon_message', __( 'هل لديك كوبون خصم؟', 'woocommerce' ) . ' <a href="#" class="showcoupon">' . __( 'اضغط هنا لإدخال رمز كوبون الخصم', 'woocommerce' ) . '</a>' ), 'notice' ); ?>
-</div>
+<!-- <div class="woocommerce-form-coupon-toggle">
+	<?php //wc_print_notice( apply_filters( 'woocommerce_checkout_coupon_message', __( 'هل لديك كوبون خصم؟', 'woocommerce' ) ), 'notice' ); ?>
+</div> -->
 
-<form class="checkout_coupon woocommerce-form-coupon has-border is-dashed" method="post" style="display:none">
+<form class="checkout_coupon woocommerce-form-coupon" method="post">
 
-	<p><?php esc_html_e( 'اذا كان لديك رمز الكوبون, فيرجى استخدامه ادناه. ', 'woocommerce' ); ?></p>
+	<!-- <p><?php //esc_html_e( 'اذا كان لديك رمز الكوبون, فيرجى استخدامه ادناه. ', 'woocommerce' ); ?></p> -->
 	<div class="coupon">
-		<div class="flex-row medium-flex-wrap">
+		<div class="flex-row">
 			<div class="flex-col flex-grow">
-				<input type="text" name="coupon_code" class="input-text" placeholder="<?php esc_attr_e( 'رمز الكوبون', 'woocommerce' ); ?>" id="coupon_code" value="" />			
+				<input type="text" name="coupon_code" class="input-text" placeholder="<?php esc_attr_e( ' ادخل كوبون خصم', 'woocommerce' ); ?>" id="coupon_code" value="" />			
 			</div>
 			<div class="flex-col">
-				<button type="submit" class="button expand" name="apply_coupon" value="<?php esc_attr_e( 'Apply coupon', 'woocommerce' ); ?>"><?php esc_html_e( 'استخدام الكوبون', 'woocommerce' ); ?></button>			
+				<button type="submit" class="button expand" name="apply_coupon" value="<?php esc_attr_e( 'Apply coupon', 'woocommerce' ); ?>"><?php esc_html_e( ' اضف', 'woocommerce' ); ?></button>			
 			</div>
 		</div><!-- row -->
 	</div><!-- coupon -->
