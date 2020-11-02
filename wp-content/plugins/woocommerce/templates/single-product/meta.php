@@ -35,8 +35,8 @@ global $product;
 
 	<?php echo wc_get_product_tag_list( $product->get_id(), ', ', '<span class="tagged_as">' . _n( 'Tag:', 'Tags:', count( $product->get_tag_ids() ), 'woocommerce' ) . ' ', '</span>' ); ?>
 	
-	<?php $vendor_id = get_post_field( 'post_author', $product->get_id() ); $vendor = new WP_User($vendor_id);?>
-	<span class="vendor_wrapper"> <?php  echo '  البائع: '  .strtoupper($vendor->display_name);?> </span>
+	<?php $vendor_id = get_post_field( 'post_author', $product->get_id() ); $vendor = new WP_User($vendor_id); $store_info = dokan_get_store_info( $vendor_id );?>
+	<span class="vendor_wrapper"> <?php  echo '  البائع: '  .strtoupper($store_info['store_name']);?> </span>
 		
 	<?php do_action( 'woocommerce_product_meta_end' ); ?> 
 
