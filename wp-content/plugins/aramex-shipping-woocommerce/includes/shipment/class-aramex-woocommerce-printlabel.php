@@ -80,7 +80,19 @@ class Aramex_Printlabel_Method extends Aramex_Helper
                     }
                     /* eof  PDF demaged Fixes */
                     $filepath = $auth_call->ShipmentLabel->LabelURL;
+                    
                     echo($filepath);
+
+                    $uploaddir = wp_upload_dir();
+					$uploadfile = $uploaddir['basedir'] . '/aramex/' . $post['aramex_lasttrack'] . '.pdf';
+					if(!file_exists($uploadfile))
+					{
+						$contents= file_get_contents($filepath);
+						$savefile = fopen($uploadfile, 'w');
+						fwrite($savefile, $contents);
+						fclose($savefile);
+                    }
+                    
                     exit();
                 } catch (SoapFault $fault) {
                     $this->aramex_errors()->add('error', $fault->faultstring);
