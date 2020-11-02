@@ -255,7 +255,7 @@ class WC_Shipping {
 
 		// Calculate costs for passed packages.
 		foreach ( $packages as $package_key => $package ) {
-			$this->packages[ $package_key ] = $this->calculate_shipping_for_package( $package, $package_key );
+			$this->packages[ $package_key ] = $this->calculate_shipping_for_package( $package, $package_key , count($packages));
 		}
 
 		/**
@@ -303,7 +303,7 @@ class WC_Shipping {
 	 *
 	 * @return array|bool
 	 */
-	public function calculate_shipping_for_package( $package = array(), $package_key = 0 ) {
+	public function calculate_shipping_for_package( $package = array(), $package_key = 0 , $count_packages = 0) {
 		// If shipping is disabled or the package is invalid, return false.
 		if ( ! $this->enabled || empty( $package ) ) {
 			return false;
@@ -331,7 +331,7 @@ class WC_Shipping {
 			if ( ! is_array( $stored_rates ) || $package_hash !== $stored_rates['package_hash'] || 'yes' === get_option( 'woocommerce_shipping_debug_mode', 'no' ) ) {
 				foreach ( $this->load_shipping_methods( $package ) as $shipping_method ) {
 					if ( ! $shipping_method->supports( 'shipping-zones' ) || $shipping_method->get_instance_id() ) {
-						$package['rates'] = $package['rates'] + $shipping_method->get_rates_for_package( $package ); // + instead of array_merge maintains numeric keys
+						$package['rates'] = $package['rates'] + $shipping_method->get_rates_for_package( $package , $count_packages); // + instead of array_merge maintains numeric keys
 					}
 				}
 

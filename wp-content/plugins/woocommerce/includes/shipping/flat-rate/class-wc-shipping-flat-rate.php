@@ -138,7 +138,7 @@ class WC_Shipping_Flat_Rate extends WC_Shipping_Method {
 	 *
 	 * @param array $package Package of items from cart.
 	 */
-	public function calculate_shipping( $package = array() ) {
+	public function calculate_shipping( $package = array() , $count_packages) {
 		$rate = array(
 			'id'      => $this->get_rate_id(),
 			'label'   => $this->title,
@@ -148,6 +148,15 @@ class WC_Shipping_Flat_Rate extends WC_Shipping_Method {
 
 		// Calculate the costs.
 		$has_costs = false; // True when a cost is set. False if all costs are blank strings.
+		// if($count_packages == 1){
+		// 	$cost      = $this->get_option( 'cost' );
+		// }
+		// else if($count_packages == 2){
+		// 	$cost      = floatval($this->get_option( 'cost' ))*0.7;
+		// }
+		// else if($count_packages >= 3){
+		// 	$cost      = (floatval($this->get_option( 'cost' ))/$count_packages)*2;
+		// }
 		$cost      = $this->get_option( 'cost' );
 
 		if ( '' !== $cost ) {

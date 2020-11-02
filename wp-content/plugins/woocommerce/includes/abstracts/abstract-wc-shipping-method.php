@@ -227,10 +227,10 @@ abstract class WC_Shipping_Method extends WC_Settings_API {
 	 * @param array $package Package array.
 	 * @return array
 	 */
-	public function get_rates_for_package( $package ) {
+	public function get_rates_for_package( $package , $count_packages) {
 		$this->rates = array();
 		if ( $this->is_available( $package ) && ( empty( $package['ship_via'] ) || in_array( $this->id, $package['ship_via'] ) ) ) {
-			$this->calculate_shipping( $package );
+			$this->calculate_shipping( $package , $count_packages);
 		}
 		return $this->rates;
 	}
