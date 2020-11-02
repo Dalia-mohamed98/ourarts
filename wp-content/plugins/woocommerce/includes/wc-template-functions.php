@@ -1753,7 +1753,7 @@ if ( ! function_exists( 'woocommerce_default_product_tabs' ) ) {
 			$tabs['reviews'] = array(
 				/* translators: %s: reviews count */
 				'title'    => sprintf( __( 'التقييمات (%d)', 'woocommerce' ), $product->get_review_count() ),
-				'priority' => 30,
+				'priority' => 100,
 				'callback' => 'comments_template',
 			);
 		}
@@ -2834,6 +2834,10 @@ if ( ! function_exists( 'woocommerce_form_field' ) ) {
 					</script>';
 				}
 				
+				else if(esc_attr( $key ) == "billing_postcode" || esc_attr( $key ) == "shipping_postcode"){
+
+					$field .= '<input style="display:none;" type="' . esc_attr( $args['type'] ) . '" class="input-text ' . esc_attr( implode( ' ', $args['input_class'] ) ) . '" name="' . esc_attr( $key ) . '" id="' . esc_attr( $args['id'] ) . '" placeholder="' . esc_attr( $args['placeholder'] ) . '"  value="' . esc_attr( $value ) . '" ' . implode( ' ', $custom_attributes ) . ' />';
+				}
 				else{
 				    $field .= '<input type="' . esc_attr( $args['type'] ) . '" class="input-text ' . esc_attr( implode( ' ', $args['input_class'] ) ) . '" name="' . esc_attr( $key ) . '" id="' . esc_attr( $args['id'] ) . '" placeholder="' . esc_attr( $args['placeholder'] ) . '"  value="' . esc_attr( $value ) . '" ' . implode( ' ', $custom_attributes ) . ' />';
 		        }
@@ -2878,7 +2882,10 @@ if ( ! function_exists( 'woocommerce_form_field' ) ) {
 			$field_html = '';
 
 			if ( $args['label'] && 'checkbox' !== $args['type'] ) {
-				$field_html .= '<label for="' . esc_attr( $label_id ) . '" class="' . esc_attr( implode( ' ', $args['label_class'] ) ) . '">' . $args['label'] . $required . '</label>';
+				if(esc_attr( $key ) == "billing_postcode" || esc_attr( $key ) == "shipping_postcode")
+					$field_html .= '<label style="display:none;" for="' . esc_attr( $label_id ) . '" class="' . esc_attr( implode( ' ', $args['label_class'] ) ) . '">' . $args['label'] . $required . '</label>';
+				else
+					$field_html .= '<label for="' . esc_attr( $label_id ) . '" class="' . esc_attr( implode( ' ', $args['label_class'] ) ) . '">' . $args['label'] . $required . '</label>';
 			}
 
 			$field_html .= '<span class="woocommerce-input-wrapper">' . $field;
